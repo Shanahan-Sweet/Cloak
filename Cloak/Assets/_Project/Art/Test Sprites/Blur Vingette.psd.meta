@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blur Vingette_0: 2042692091572762063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
