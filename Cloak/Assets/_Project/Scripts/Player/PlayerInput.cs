@@ -15,8 +15,11 @@ public class PlayerInput : MonoBehaviour
 
     //check for ground
     [SerializeField] LayerMask groundMask;
-    bool isGrounded, roof;
+    bool isGrounded;//, roof;
     public bool IsGrounded { get { return isGrounded; } }
+
+    //Ground stabilization
+    [SerializeField] PhysicsMaterial2D moveMat, idleMat;
 
     //Components
     PlayerMovement moveScript;
@@ -68,10 +71,15 @@ public class PlayerInput : MonoBehaviour
         {
             isMoving = false;
             moveAxis = Vector2.zero;
+
+            rigidBody.sharedMaterial = idleMat;//stop sliding
             return;
         }
         isMoving = true;
         moveAxis = rawMoveAxis;
+
+        rigidBody.sharedMaterial = moveMat;//no friction
+
         if (moveAxis.magnitude > 1) moveAxis.Normalize();
 
         //if (Mathf.Abs(rawMoveAxis.x) > .15f) lastDir = (int)Mathf.Sign(rawMoveAxis.x);//get last look direction
