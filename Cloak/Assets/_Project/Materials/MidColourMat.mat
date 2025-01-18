@@ -70,9 +70,9 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkCol: {r: 0.076972686, g: 0.03470986, b: 0.11320745, a: 1}
-    - _LightCol: {r: 0.54901963, g: 0.5254902, b: 1, a: 1}
-    - _MidColour: {r: 0.4056604, g: 0, b: 0.06565322, a: 1}
+    - _DarkCol: {r: 0.067122236, g: 0.035294123, b: 0.11372549, a: 1}
+    - _LightCol: {r: 1, g: 0.7409289, b: 0.43867922, a: 1}
+    - _MidColour: {r: 0.4811321, g: 0, b: 0.18264602, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
