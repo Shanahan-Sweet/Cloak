@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MidBackground
-  m_Shader: {fileID: -6465566751694194690, guid: 381dbc59f55caa541a090ae406d65cc3, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: a830e5f3441158a49b9bad14d2f8c043, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -71,7 +71,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DarkCol: {r: 0.06666667, g: 0.03529412, b: 0.11372549, a: 1}
-    - _LightCol: {r: 0.19158536, g: 0.16981132, b: 0.2264151, a: 1}
+    - _LightCol: {r: 0.44113567, g: 0.32013172, b: 0.6226415, a: 1}
     - _MidColour: {r: 0.10404817, g: 0.031016378, b: 0.16037738, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
