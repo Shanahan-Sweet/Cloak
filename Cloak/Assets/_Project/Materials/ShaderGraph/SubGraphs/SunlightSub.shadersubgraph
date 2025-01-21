@@ -80,6 +80,9 @@
         },
         {
             "m_Id": "0637d064de9e49a48e3849efa8483a36"
+        },
+        {
+            "m_Id": "a19c3c73c87b4ee2a17945d075c4b023"
         }
     ],
     "m_Edges": [
@@ -442,8 +445,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -1050.033447265625,
-        "y": -11.262344360351563,
+        "x": -1068.0,
+        "y": -3.0,
         "width": 176.0,
         "height": 100.0
     },
@@ -462,7 +465,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Scale",
     "m_StageCapability": 3,
-    "m_Value": 12.0,
+    "m_Value": 14.0,
     "m_DefaultValue": 10.0,
     "m_Labels": []
 }
@@ -479,10 +482,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -440.0,
-            "y": -126.00001525878906,
-            "width": 208.00006103515626,
-            "height": 326.0000305175781
+            "x": -327.9998779296875,
+            "y": -126.00000762939453,
+            "width": 207.99990844726563,
+            "height": 326.0
         }
     },
     "m_Slots": [
@@ -1163,10 +1166,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1822.033203125,
-            "y": 178.73765563964845,
+            "x": -1822.0001220703125,
+            "y": 179.0,
             "width": 126.0,
-            "height": 77.00004577636719
+            "height": 76.99998474121094
         }
     },
     "m_Slots": [
@@ -1371,10 +1374,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -215.99998474121095,
-            "y": 345.0000305175781,
-            "width": 125.99996185302735,
-            "height": 118.00003051757813
+            "x": -119.9999771118164,
+            "y": 344.9999694824219,
+            "width": 125.99999237060547,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -1414,10 +1417,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 126.00008392333985,
-            "y": 442.00006103515627,
-            "width": 120.0000228881836,
-            "height": 76.99993896484375
+            "x": 221.99996948242188,
+            "y": 442.0,
+            "width": 120.00006103515625,
+            "height": 77.0
         }
     },
     "m_Slots": [
@@ -1571,7 +1574,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 2.0,
+    "m_Value": 1.5,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -1823,10 +1826,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -62.0000114440918,
-            "y": 460.00006103515627,
-            "width": 126.00004577636719,
-            "height": 118.0
+            "x": 34.00013732910156,
+            "y": 460.0000305175781,
+            "width": 125.99998474121094,
+            "height": 117.99990844726563
         }
     },
     "m_Slots": [
@@ -1861,7 +1864,7 @@
     "m_ShaderOutputName": "Edge1",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.3400000035762787,
+        "x": 0.5,
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
@@ -1895,6 +1898,26 @@
         "z": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a19c3c73c87b4ee2a17945d075c4b023",
+    "m_Title": "Sunlight Effects",
+    "m_Content": "Write something here",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -810.83984375,
+        "y": 163.70123291015626,
+        "width": 176.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2568,7 +2591,7 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -57.0,
+        "x": 39.0,
         "y": 325.0,
         "width": 151.0,
         "height": 100.0

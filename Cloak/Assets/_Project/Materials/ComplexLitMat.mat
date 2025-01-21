@@ -55,12 +55,13 @@ Material:
     m_Floats:
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
+    - _test: 0.1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DarkCol: {r: 0.06666667, g: 0.03529412, b: 0.1137255, a: 1}
-    - _LightCol: {r: 0.34630007, g: 0.3066038, b: 1, a: 1}
+    - _LightCol: {r: 0.59454477, g: 0.3820755, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SunlightCol: {r: 1, g: 0.91318727, b: 0.58962256, a: 1}
+    - _SunlightCol: {r: 1, g: 0.89711076, b: 0.4481132, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3189328342609783069
