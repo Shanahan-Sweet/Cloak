@@ -69,10 +69,10 @@ Material:
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
     m_Colors:
-    - _AccentCol: {r: 1, g: 0, b: 0, a: 1}
+    - _AccentCol: {r: 0, g: 1, b: 0.87652206, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DarkCol: {r: 0.01960784, g: 0, b: 0.14901954, a: 1}
-    - _DimLightCol: {r: 1, g: 0.758442, b: 0.5613207, a: 1}
+    - _DimLightCol: {r: 0.3342275, g: 0.23985404, b: 0.6603774, a: 1}
     - _LightCol: {r: 0.5416937, g: 0, b: 1, a: 1}
     - _NoiseCol: {r: 0, g: 0.2459282, b: 0.65882355, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

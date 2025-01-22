@@ -2009,7 +2009,83 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SmallTileSet Base_0: -178772408402560430
+      SmallTileSet Base_1: 3545821886693087547
+      SmallTileSet Base_10: 4485552475662413606
+      SmallTileSet Base_11: 7654132310228339101
+      SmallTileSet Base_12: -513704880731692381
+      SmallTileSet Base_13: 3606774903012427888
+      SmallTileSet Base_14: -6268511838275683842
+      SmallTileSet Base_15: -513368247195141264
+      SmallTileSet Base_16: -146763899487164338
+      SmallTileSet Base_17: -5949252451783767095
+      SmallTileSet Base_18: -5400457484300412085
+      SmallTileSet Base_19: 9090432846865582951
+      SmallTileSet Base_2: 8211136585639056336
+      SmallTileSet Base_20: -3628019042492962232
+      SmallTileSet Base_21: -2480917433652136558
+      SmallTileSet Base_22: 5681506433843563213
+      SmallTileSet Base_23: 6224184487987306340
+      SmallTileSet Base_24: -5661000846976099174
+      SmallTileSet Base_25: 266218264292287951
+      SmallTileSet Base_26: 2169503557009584061
+      SmallTileSet Base_27: -4166726085372308307
+      SmallTileSet Base_28: -3351210129733865533
+      SmallTileSet Base_29: -376905122901470209
+      SmallTileSet Base_3: 928003526116151368
+      SmallTileSet Base_30: -3007322112795786564
+      SmallTileSet Base_31: 1867906828612844672
+      SmallTileSet Base_32: -8674628252800511959
+      SmallTileSet Base_33: -8780816545215961856
+      SmallTileSet Base_34: -139246682402604091
+      SmallTileSet Base_35: 3966162240078374468
+      SmallTileSet Base_36: -5604466544573598714
+      SmallTileSet Base_37: -6091332544271497791
+      SmallTileSet Base_38: -1862454807669002565
+      SmallTileSet Base_39: -8005564093406703726
+      SmallTileSet Base_4: 2208995965569180084
+      SmallTileSet Base_40: -7780990364026070687
+      SmallTileSet Base_41: 757726397218048398
+      SmallTileSet Base_42: 7267092080635300141
+      SmallTileSet Base_43: -4437026032218837477
+      SmallTileSet Base_44: -8075467993767103239
+      SmallTileSet Base_45: -5326594545216818154
+      SmallTileSet Base_46: 9198009848033049047
+      SmallTileSet Base_47: -5209566882942411257
+      SmallTileSet Base_48: 8499109164733753201
+      SmallTileSet Base_49: -2033330332443300523
+      SmallTileSet Base_5: -6533153454119932839
+      SmallTileSet Base_50: 7037363482031492344
+      SmallTileSet Base_51: -5937854422471866480
+      SmallTileSet Base_52: 1698147922021564209
+      SmallTileSet Base_53: -4407296952945313741
+      SmallTileSet Base_54: -6325030209284241430
+      SmallTileSet Base_55: -1680379852961031980
+      SmallTileSet Base_56: 5701054164294431725
+      SmallTileSet Base_57: -8123664519797412956
+      SmallTileSet Base_58: -9142775109018514403
+      SmallTileSet Base_59: 2996199936191112064
+      SmallTileSet Base_6: -2540613186080776088
+      SmallTileSet Base_60: -915296331650865359
+      SmallTileSet Base_61: 3120959945011139004
+      SmallTileSet Base_62: 5493457097265473205
+      SmallTileSet Base_63: -3404876678794974358
+      SmallTileSet Base_64: 4870134017191334276
+      SmallTileSet Base_65: 4120340945200792442
+      SmallTileSet Base_66: 1436723340881911331
+      SmallTileSet Base_67: 4749662074222920273
+      SmallTileSet Base_68: -8337262439506943516
+      SmallTileSet Base_69: -606604980269717885
+      SmallTileSet Base_7: -261168994474411058
+      SmallTileSet Base_70: 4639232915641316107
+      SmallTileSet Base_71: 6495304985457699190
+      SmallTileSet Base_72: -6853219576971826661
+      SmallTileSet Base_73: -8773868678981366765
+      SmallTileSet Base_74: 4250159781648414402
+      SmallTileSet Base_75: 1556355385566505872
+      SmallTileSet Base_8: -3371792299203187421
+      SmallTileSet Base_9: 8315014636123271596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
