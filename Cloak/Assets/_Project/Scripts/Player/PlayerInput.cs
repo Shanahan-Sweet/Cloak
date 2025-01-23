@@ -15,7 +15,7 @@ public class PlayerInput : MonoBehaviour
 
     //check for ground
     [SerializeField] LayerMask groundMask;
-    bool isGrounded;//, roof;
+    bool isGrounded;
     public bool IsGrounded { get { return isGrounded; } }
 
     //Ground stabilization
@@ -90,7 +90,7 @@ public class PlayerInput : MonoBehaviour
     {
         if (Time.timeScale != 0)
         {
-            timeFromJump = Time.time + .3f;
+            timeFromJump = Time.time + .2f;
         }
     }
 
@@ -109,7 +109,7 @@ public class PlayerInput : MonoBehaviour
     {
         if (rigidBody.linearVelocity.magnitude < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.6f, 0), .15f, groundMask))
         {
-            timeFromGrounded = Time.time + .3f;
+            timeFromGrounded = Time.time + .15f;
             if (!isGrounded)
             {
                 isGrounded = true;
@@ -123,25 +123,6 @@ public class PlayerInput : MonoBehaviour
         }
 
         if (timeFromJump > Time.time && timeFromGrounded > Time.time) Jump();//was close to ground or has pressed jump
-
-        /*
-        //check for roof
-        if (Physics2D.OverlapCircle(transform.position + new Vector3(0, .5f, 0), .15f, groundMask))
-        {
-            if (roof == false)
-            {
-                roof = true;
-
-                //effects
-                animScript.Blink(.8f, -1);
-
-                moveScript.Duck();
-            }
-        }
-        else
-        {
-            roof = false;
-        }*/
 
     }
 }
