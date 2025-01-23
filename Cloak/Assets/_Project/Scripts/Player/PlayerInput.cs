@@ -18,6 +18,11 @@ public class PlayerInput : MonoBehaviour
     bool isGrounded;
     public bool IsGrounded { get { return isGrounded; } }
 
+    //ground raycasts
+    GroundPoint groundHit;
+    public Vector2 GroundPoint { get { return groundHit.groundPoint; } }
+    [SerializeField] Transform groundPointTransform;
+
     //Ground stabilization
     [SerializeField] PhysicsMaterial2D moveMat, idleMat;
 
@@ -46,7 +51,9 @@ public class PlayerInput : MonoBehaviour
     private void Update()
     {
         SetMoveAxis(moveAction.action.ReadValue<Vector2>());//get axis input
+
         CheckForGround();//check for ground
+        CheckGroundRaycast();
     }
 
     //Input
@@ -125,4 +132,34 @@ public class PlayerInput : MonoBehaviour
         if (timeFromJump > Time.time && timeFromGrounded > Time.time) Jump();//was close to ground or has pressed jump
 
     }
+
+    void CheckGroundRaycast()
+    {
+        GroundPoint leftHit = DownRay((Vector2)transform.position + Vector2.right * .1f, 1);
+        //GroundPoint leftHit = DownRay(transform.position, 1);
+        //groundPointTransform.position = groundPoint;
+    }
+
+    GroundPoint DownRay(Vector2 origin, float length)
+    {
+        GroundPoint hitData = new GroundPoint();
+        hitData.groundHit = false;
+
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, length, groundMask);
+        if (hit.collider)
+        {
+            hitData.groundHit = true;
+            hitData.groundPoint = hit.point;
+            hitData.groundNormal = hit.normal;
+        }
+
+        return hitData;
+    }
+}
+
+public class GroundPoint
+{
+    public bool groundHit;
+    public Vector2 groundPoint;
+    public Vector2 groundNormal;
 }
