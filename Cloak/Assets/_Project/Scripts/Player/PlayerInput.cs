@@ -19,9 +19,11 @@ public class PlayerInput : MonoBehaviour
     public bool IsGrounded { get { return isGrounded; } }
 
     //ground raycasts
-    GroundPoint groundHit;
+    GroundPoint groundHit = new GroundPoint();
+    public bool GroundHit { get { return groundHit.groundHit; } }
     public Vector2 GroundPoint { get { return groundHit.groundPoint; } }
-    [SerializeField] Transform groundPointTransform;
+    public Vector2 GroundNormal { get { return groundHit.groundNormal; } }
+    [SerializeField] Transform[] groundPointTransform;
 
     //Ground stabilization
     [SerializeField] PhysicsMaterial2D moveMat, idleMat;
@@ -114,7 +116,7 @@ public class PlayerInput : MonoBehaviour
 
     void CheckForGround()
     {
-        if (rigidBody.linearVelocity.magnitude < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.6f, 0), .15f, groundMask))
+        if (rigidBody.linearVelocity.magnitude < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.5f, 0), .1f, groundMask))
         {
             timeFromGrounded = Time.time + .15f;
             if (!isGrounded)
@@ -135,9 +137,27 @@ public class PlayerInput : MonoBehaviour
 
     void CheckGroundRaycast()
     {
-        GroundPoint leftHit = DownRay((Vector2)transform.position + Vector2.right * .1f, 1);
-        //GroundPoint leftHit = DownRay(transform.position, 1);
-        //groundPointTransform.position = groundPoint;
+        float groundCheckDist = .8f;
+        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * .1f, groundCheckDist);
+        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * .1f, groundCheckDist);
+
+        groundHit.groundHit = leftHit.groundHit && rightHit.groundHit;
+
+        if (!leftHit.groundHit)
+            groundHit = rightHit;
+        else if (!rightHit.groundHit)
+            groundHit = leftHit;
+        else
+        {
+            groundHit.groundPoint = (leftHit.groundPoint + rightHit.groundPoint) / 2;
+            groundHit.groundNormal = (leftHit.groundNormal + rightHit.groundNormal) / 2;
+            groundHit.groundNormal.Normalize();
+        }
+
+
+        groundPointTransform[0].position = leftHit.groundPoint;
+        groundPointTransform[1].position = groundHit.groundPoint;
+        groundPointTransform[2].position = rightHit.groundPoint;
     }
 
     GroundPoint DownRay(Vector2 origin, float length)

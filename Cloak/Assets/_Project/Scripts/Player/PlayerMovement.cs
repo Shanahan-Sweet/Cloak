@@ -51,17 +51,26 @@ public class PlayerMovement : MonoBehaviour
     //States
     void MoveUpdate()
     {
-
+        /*
+            //rotate to target direction
+            float rotZ = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
+            Quaternion newAngle = Quaternion.AngleAxis(rotZ, Vector3.forward);
+            float t = 1 - Mathf.Pow(0.5f, Time.deltaTime * 3f);//2.6f
+            glideDir.rotation = Quaternion.Lerp(glideDir.rotation, newAngle, t);//Time.deltaTime * 2
+            */
     }
 
     void MoveFixed()
     {
-        rigidBody.AddForce(new Vector2(inputScript.MoveAxis.x * moveSpd, 0));
+        // rigidBody.AddForce(new Vector2(inputScript.MoveAxis.x * moveSpd, 0));
+
+        Vector2 moveDir = inputScript.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * inputScript.GroundNormal : Vector2.right;
+        rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd);
 
         //add drag
         rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
 
-
+        KeepWalkHeight();
         FlipUpright(Vector2.up);
     }
 
@@ -79,5 +88,18 @@ public class PlayerMovement : MonoBehaviour
     {
         Quaternion rot = Quaternion.FromToRotation(transform.up, pointTarget);
         rigidBody.AddTorque(rot.z * rotationTorque);
+    }
+
+    void KeepWalkHeight()
+    {
+        if (inputScript.IsGrounded && inputScript.GroundHit)
+        {
+            rigidBody.AddForce(new Vector2(0, -rigidBody.linearVelocity.y * 10));//Y drag
+
+            Vector2 targetPos = inputScript.GroundPoint + Vector2.up * .7f;
+            rigidBody.AddForce(new Vector2(0, (targetPos - (Vector2)transform.position).y) * 60);
+
+
+        }
     }
 }
