@@ -20,6 +20,9 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rigidBody;
 
+    //Debug
+    [SerializeField] Transform directionTrans;
+
     void Awake()
     {
         inputScript = GetComponent<PlayerInput>();
@@ -66,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2 moveDir = inputScript.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * inputScript.GroundNormal : Vector2.right;
         rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd);
-
+        directionTrans.position = (Vector2)transform.position + moveDir;
         //add drag
         rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
 
@@ -96,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rigidBody.AddForce(new Vector2(0, -rigidBody.linearVelocity.y * 10));//Y drag
 
-            Vector2 targetPos = inputScript.GroundPoint + Vector2.up * .7f;
+            Vector2 targetPos = inputScript.GroundPoint + Vector2.up * .8f;
             rigidBody.AddForce(new Vector2(0, (targetPos - (Vector2)transform.position).y) * 60);
 
 

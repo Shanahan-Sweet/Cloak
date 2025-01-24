@@ -116,7 +116,7 @@ public class PlayerInput : MonoBehaviour
 
     void CheckForGround()
     {
-        if (rigidBody.linearVelocity.magnitude < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.5f, 0), .1f, groundMask))
+        if (rigidBody.linearVelocity.magnitude < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.6f, 0), .1f, groundMask))
         {
             timeFromGrounded = Time.time + .15f;
             if (!isGrounded)
@@ -137,9 +137,9 @@ public class PlayerInput : MonoBehaviour
 
     void CheckGroundRaycast()
     {
-        float groundCheckDist = .8f;
-        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * .1f, groundCheckDist);
-        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * .1f, groundCheckDist);
+        float groundCheckDist = .9f;
+        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * .13f, groundCheckDist);
+        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * .13f, groundCheckDist);
 
         groundHit.groundHit = leftHit.groundHit && rightHit.groundHit;
 
