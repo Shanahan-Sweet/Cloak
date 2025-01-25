@@ -8,7 +8,7 @@ public class PlatformerPhysics : MonoBehaviour
     float standHeight = .8f, rotationTorque = 16;
 
     //Timers
-    float timeFromGrounded;
+    float timeFromGrounded, timeFromJump;
     public float TimeFromGrounded { get { return timeFromGrounded; } }
 
     //check for ground
@@ -36,6 +36,7 @@ public class PlatformerPhysics : MonoBehaviour
     public void Jump(float jumpHeight)
     {
         timeFromGrounded = 0;
+        timeFromJump = Time.time + .25f;
 
         rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpHeight);
         //effects
@@ -62,7 +63,7 @@ public class PlatformerPhysics : MonoBehaviour
     //Ground Check
     public void CheckForGround()
     {
-        if (rigidBody.linearVelocity.y < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.6f, 0), .1f, groundMask))
+        if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.6f, 0), .1f, groundMask))
         {
             timeFromGrounded = Time.time + .15f;
             if (!isGrounded)

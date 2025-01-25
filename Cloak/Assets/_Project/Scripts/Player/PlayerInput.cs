@@ -106,13 +106,13 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     //Attacks
     void StartAttack()
     {
-        myWeapon.StartAttack();
+        myWeapon.StartAttack(moveAxis);
         moveScript.StartAttack();
     }
 
-    public void AttackStrike()
+    public void AttackStrike(Vector2 attackDir)
     {
-        moveScript.AttackStrike();
+        moveScript.AttackStrike(attackDir);
     }
     public void AttackEnded()
     {

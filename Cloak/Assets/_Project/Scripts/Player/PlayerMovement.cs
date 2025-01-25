@@ -94,9 +94,9 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = PlayerState.Attack;//set state
     }
-    public void AttackStrike()
+    public void AttackStrike(Vector2 attackDir)
     {
-        rigidBody.AddForce(Vector2.right * 2, ForceMode2D.Impulse);
+        rigidBody.AddForce(attackDir * 2, ForceMode2D.Impulse);
     }
     public void AttackEnded()
     {
