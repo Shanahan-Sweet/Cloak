@@ -10,9 +10,6 @@ public class MainCam : MonoBehaviour
     [SerializeField] Transform transFollow;
     [SerializeField] float maxMoveSpd = .5f, minMoveSpd = 2, playerBias = 3;
     Vector2 targetPos;
-    float zoomSpd = 3;
-
-    bool gameOver = false;
 
     [SerializeField] List<CamTarget> camTargets = new List<CamTarget>();
 
@@ -90,12 +87,4 @@ public class MainCam : MonoBehaviour
         targetZoom = newDefault;
     }
 
-    public void SetGameOver()
-    {
-        gameOver = true;
-
-        zoomSpd = 1.5f;
-
-        SetDefaultZoom(.05f);
-    }
 }

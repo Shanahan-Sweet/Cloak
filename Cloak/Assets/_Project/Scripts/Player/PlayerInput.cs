@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class PlayerInput : MonoBehaviour
+public class PlayerInput : MonoBehaviour, IWeaponMaster
 {
 
     [SerializeField] InputActionReference jumpAction, moveAction, toolAction;
@@ -11,31 +11,21 @@ public class PlayerInput : MonoBehaviour
     bool isMoving;
     public bool IsMoving { get { return isMoving; } }
 
-    float timeFromJump, timeFromGrounded;
-
-    //check for ground
-    [SerializeField] LayerMask groundMask;
-    bool isGrounded;
-    public bool IsGrounded { get { return isGrounded; } }
-
-    //ground raycasts
-    GroundPoint groundHit = new GroundPoint();
-    public bool GroundHit { get { return groundHit.groundHit; } }
-    public Vector2 GroundPoint { get { return groundHit.groundPoint; } }
-    public Vector2 GroundNormal { get { return groundHit.groundNormal; } }
-    [SerializeField] Transform[] groundPointTransform;
+    float timeFromJump;
 
     //Ground stabilization
     [SerializeField] PhysicsMaterial2D moveMat, idleMat;
 
     //Components
     PlayerMovement moveScript;
-
+    PlatformerPhysics platformerPhysics;
     Rigidbody2D rigidBody;
+    [SerializeField] Weapon myWeapon;
 
     void Awake()
     {
         moveScript = GetComponent<PlayerMovement>();
+        platformerPhysics = GetComponent<PlatformerPhysics>();
         rigidBody = GetComponent<Rigidbody2D>();
 
 
@@ -54,8 +44,10 @@ public class PlayerInput : MonoBehaviour
     {
         SetMoveAxis(moveAction.action.ReadValue<Vector2>());//get axis input
 
-        CheckForGround();//check for ground
-        CheckGroundRaycast();
+        platformerPhysics.CheckForGround();//check for ground
+        platformerPhysics.CheckGroundRaycast();
+
+        if (timeFromJump > Time.time && platformerPhysics.TimeFromGrounded > Time.time) Jump();//was close to ground or has pressed jump
     }
 
     //Input
@@ -70,8 +62,7 @@ public class PlayerInput : MonoBehaviour
     }
     public void ToolAction(InputAction.CallbackContext context)
     {
-
-
+        StartAttack();
     }
     void SetMoveAxis(Vector2 newAxis)
     {
@@ -105,81 +96,27 @@ public class PlayerInput : MonoBehaviour
 
     void Jump()//reset jump input
     {
-        timeFromGrounded = 0;
         timeFromJump = 0;
-        moveScript.MoveJump();
+        moveScript.Jump();
         //effects
         //partJump.Play();
     }
 
 
-
-    void CheckForGround()
+    //Attacks
+    void StartAttack()
     {
-        if (rigidBody.linearVelocity.magnitude < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.6f, 0), .1f, groundMask))
-        {
-            timeFromGrounded = Time.time + .15f;
-            if (!isGrounded)
-            {
-                isGrounded = true;
-                //effects
-                //partLand.Play();
-            }
-        }
-        else if (isGrounded)//set airborne
-        {
-            isGrounded = false;
-        }
-
-        if (timeFromJump > Time.time && timeFromGrounded > Time.time) Jump();//was close to ground or has pressed jump
-
+        myWeapon.StartAttack();
+        moveScript.StartAttack();
     }
 
-    void CheckGroundRaycast()
+    public void AttackStrike()
     {
-        float groundCheckDist = .9f;
-        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * .13f, groundCheckDist);
-        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * .13f, groundCheckDist);
-
-        groundHit.groundHit = leftHit.groundHit && rightHit.groundHit;
-
-        if (!leftHit.groundHit)
-            groundHit = rightHit;
-        else if (!rightHit.groundHit)
-            groundHit = leftHit;
-        else
-        {
-            groundHit.groundPoint = (leftHit.groundPoint + rightHit.groundPoint) / 2;
-            groundHit.groundNormal = (leftHit.groundNormal + rightHit.groundNormal) / 2;
-            groundHit.groundNormal.Normalize();
-        }
-
-
-        groundPointTransform[0].position = leftHit.groundPoint;
-        groundPointTransform[1].position = groundHit.groundPoint;
-        groundPointTransform[2].position = rightHit.groundPoint;
+        moveScript.AttackStrike();
+    }
+    public void AttackEnded()
+    {
+        moveScript.AttackEnded();
     }
 
-    GroundPoint DownRay(Vector2 origin, float length)
-    {
-        GroundPoint hitData = new GroundPoint();
-        hitData.groundHit = false;
-
-        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, length, groundMask);
-        if (hit.collider)
-        {
-            hitData.groundHit = true;
-            hitData.groundPoint = hit.point;
-            hitData.groundNormal = hit.normal;
-        }
-
-        return hitData;
-    }
-}
-
-public class GroundPoint
-{
-    public bool groundHit;
-    public Vector2 groundPoint;
-    public Vector2 groundNormal;
 }

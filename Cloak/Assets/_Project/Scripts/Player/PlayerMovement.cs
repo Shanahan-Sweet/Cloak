@@ -5,19 +5,20 @@ public class PlayerMovement : MonoBehaviour
     public enum PlayerState
     {
         Move,
+        Attack,
         Stunned,
         Dead,
     }
     public PlayerState currentState;
 
     //variables
-    [SerializeField] float moveSpd = 10, jumpHeight = 7, rotationTorque = 20;
+    [SerializeField] float moveSpd = 10, jumpHeight = 7;
 
     float yDrag = 1;
 
     //Components
     PlayerInput inputScript;
-
+    PlatformerPhysics platformerPhysics;
     Rigidbody2D rigidBody;
 
     //Debug
@@ -26,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         inputScript = GetComponent<PlayerInput>();
+        platformerPhysics = GetComponent<PlatformerPhysics>();
         rigidBody = GetComponent<Rigidbody2D>();
     }
 
@@ -49,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         switch (currentState)
         {
             case PlayerState.Move: MoveFixed(); break;
+            case PlayerState.Attack: AttackFixed(); break;
         }
     }
     //States
@@ -67,42 +70,51 @@ public class PlayerMovement : MonoBehaviour
     {
         // rigidBody.AddForce(new Vector2(inputScript.MoveAxis.x * moveSpd, 0));
 
-        Vector2 moveDir = inputScript.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * inputScript.GroundNormal : Vector2.right;
+        Vector2 moveDir = platformerPhysics.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * platformerPhysics.GroundNormal : Vector2.right;
         rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd);
         directionTrans.position = (Vector2)transform.position + moveDir;
         //add drag
-        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
+        //rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
+        rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag
 
-        KeepWalkHeight();
-        FlipUpright(Vector2.up);
+
+        platformerPhysics.KeepWalkHeight();
+        platformerPhysics.FlipUpright(Vector2.up);
     }
 
     //Actions
-    public void MoveJump()
+    public void Jump()
     {
-        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpHeight);
-        //effects
-        //anim.SetTrigger("Jump");
-        //AudioManager.instance.PlaySound3D(jumpSnd, 5, .2f, transform.position, Random.Range(.9f, 1.1f));
+        float tempHeight = currentState == PlayerState.Attack ? jumpHeight * .5f : jumpHeight;
+        platformerPhysics.Jump(tempHeight);
     }
 
-    //Physics stuff
-    void FlipUpright(Vector2 pointTarget)
+    //Attack state
+    public void StartAttack()
     {
-        Quaternion rot = Quaternion.FromToRotation(transform.up, pointTarget);
-        rigidBody.AddTorque(rot.z * rotationTorque);
+        currentState = PlayerState.Attack;//set state
+    }
+    public void AttackStrike()
+    {
+        rigidBody.AddForce(Vector2.right * 2, ForceMode2D.Impulse);
+    }
+    public void AttackEnded()
+    {
+        currentState = PlayerState.Move;//reset state
     }
 
-    void KeepWalkHeight()
+    void AttackFixed()
     {
-        if (inputScript.IsGrounded && inputScript.GroundHit)
-        {
-            rigidBody.AddForce(new Vector2(0, -rigidBody.linearVelocity.y * 10));//Y drag
+        // rigidBody.AddForce(new Vector2(inputScript.MoveAxis.x * moveSpd, 0));
 
-            Vector2 targetPos = inputScript.GroundPoint + Vector2.up * .8f;
-            rigidBody.AddForce(new Vector2(0, (targetPos - (Vector2)transform.position).y) * 60);
+        Vector2 moveDir = platformerPhysics.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * platformerPhysics.GroundNormal : Vector2.right;
+        rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd * .1f);
+        directionTrans.position = (Vector2)transform.position + moveDir;
+        //add drag
+        rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * (platformerPhysics.IsGrounded ? 8 : .5f), 0));//X drag
 
 
-        }
+        platformerPhysics.KeepWalkHeight();
+        platformerPhysics.FlipUpright(Vector2.up);
     }
 }
