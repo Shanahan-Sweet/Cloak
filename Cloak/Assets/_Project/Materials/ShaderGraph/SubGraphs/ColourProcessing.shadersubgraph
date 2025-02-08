@@ -132,20 +132,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "1660bab7822d436898851a6599136eab"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "1cdef4350581405bb21c191b88287422"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "25c3e3693502470bb8ae6602d382858a"
                 },
                 "m_SlotId": 3
@@ -267,6 +253,20 @@
                     "m_Id": "1660bab7822d436898851a6599136eab"
                 },
                 "m_SlotId": -2026764101
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "885b9b48774a43a6a402ed22f0270659"
+                },
+                "m_SlotId": 3
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "1cdef4350581405bb21c191b88287422"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -850,16 +850,13 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 484.0,
-            "y": -163.00001525878907,
-            "width": 249.99993896484376,
+            "x": 454.99993896484377,
+            "y": -447.0,
+            "width": 250.00006103515626,
             "height": 327.0
         }
     },
     "m_Slots": [
-        {
-            "m_Id": "915e49a6f3504d96b71ebdc795a6dde7"
-        },
         {
             "m_Id": "e80d83b25a714eb2b7558e9939a622b9"
         },
@@ -1184,9 +1181,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 151.0,
-            "y": -34.0,
-            "width": 148.0,
+            "x": 122.00001525878906,
+            "y": -318.0,
+            "width": 147.9999542236328,
             "height": 34.0
         }
     },
@@ -1845,10 +1842,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 279.9999694824219,
-            "y": -82.0000228881836,
-            "width": 114.00003051757813,
-            "height": 34.000003814697269
+            "x": 250.99998474121095,
+            "y": -366.0,
+            "width": 114.00004577636719,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1867,31 +1864,6 @@
     "m_Property": {
         "m_Id": "2b915321983747ba9f42be5948980009"
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
-    "m_ObjectId": "915e49a6f3504d96b71ebdc795a6dde7",
-    "m_Id": 2095058334,
-    "m_DisplayName": "BackWall",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "_BackWall",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.14564184844493867,
-        "y": 0.10586506128311157,
-        "z": 0.3679245114326477,
-        "w": 1.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_Labels": []
 }
 
 {

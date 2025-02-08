@@ -82,11 +82,12 @@ MonoBehaviour:
   - m_Id: 1
     m_Sprites:
     - {fileID: 747744732, guid: c250ec2d7303f7e4285f9522a6eca94e, type: 3}
+    - {fileID: -1843311023, guid: c250ec2d7303f7e4285f9522a6eca94e, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
     m_PerlinScale: 0.5
-    m_Output: 0
+    m_Output: 1
     m_ColliderType: 2
     m_RandomTransform: 0
     m_Neighbors: 020000000100000001000000010000000100000001000000
