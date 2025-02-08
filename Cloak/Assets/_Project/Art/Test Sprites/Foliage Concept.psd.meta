@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: 01faebdf00c160d46acabf1bb6fe6124
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1302538514285784351
+    second: Foliage Concept_0
+  - first:
+      213: 3186380341053221884
+    second: Foliage Concept_1
+  - first:
+      213: 4094515634711812286
+    second: Foliage Concept_2
+  - first:
+      213: -8640070228953969078
+    second: Foliage Concept_3
+  - first:
+      213: -8104538416400421851
+    second: Foliage Concept_4
+  - first:
+      213: 8064871259030489306
+    second: Foliage Concept_5
+  - first:
+      213: -874976566896357481
+    second: Foliage Concept_6
+  - first:
+      213: 6494509654807283088
+    second: Foliage Concept_7
+  - first:
+      213: -3481747715286294038
+    second: Foliage Concept_8
+  - first:
+      213: -7758418660921367978
+    second: Foliage Concept_9
+  - first:
+      213: -3101379870583250553
+    second: Foliage Concept_10
+  - first:
+      213: 1639024418072824110
+    second: Foliage Concept_11
+  - first:
+      213: -1721054854526620716
+    second: Foliage Concept_12
+  - first:
+      213: 5289000962284322448
+    second: Foliage Concept_13
+  - first:
+      213: 3265613542870920089
+    second: Foliage Concept_14
+  - first:
+      213: -7117461888368907890
+    second: Foliage Concept_15
+  - first:
+      213: 579534358576101146
+    second: Foliage Concept_16
+  - first:
+      213: -67149212028396840
+    second: Foliage Concept_17
+  - first:
+      213: 5520272501604434633
+    second: Foliage Concept_18
+  - first:
+      213: -2284666999542625874
+    second: Foliage Concept_19
+  - first:
+      213: 9079277250568112060
+    second: Foliage Concept_20
+  - first:
+      213: 8286364593073293524
+    second: Foliage Concept_21
+  - first:
+      213: 5904462940117559876
+    second: Foliage Concept_22
+  - first:
+      213: -2999771870037684748
+    second: Foliage Concept_23
+  - first:
+      213: -6387327927335918448
+    second: Foliage Concept_24
+  - first:
+      213: 2991969204346575308
+    second: Foliage Concept_25
+  - first:
+      213: -8037393908955597744
+    second: Foliage Concept_26
+  - first:
+      213: -3925311810136835125
+    second: Foliage Concept_27
+  - first:
+      213: 7764685304743926590
+    second: Foliage Concept_28
+  - first:
+      213: -4092757851599923270
+    second: Foliage Concept_29
+  - first:
+      213: -671925253366085157
+    second: Foliage Concept_30
+  - first:
+      213: -2444388300727638448
+    second: Foliage Concept_31
+  - first:
+      213: -7609519354497264499
+    second: Foliage Concept_32
+  - first:
+      213: -8989408735932041812
+    second: Foliage Concept_33
+  - first:
+      213: 8357047446033198864
+    second: Foliage Concept_34
+  - first:
+      213: -3017854720345895236
+    second: Foliage Concept_35
+  - first:
+      213: 4377836663969877233
+    second: Foliage Concept_36
+  - first:
+      213: 9083004922970372037
+    second: Foliage Concept_37
+  - first:
+      213: 8127971281772740672
+    second: Foliage Concept_38
+  - first:
+      213: -5813591665610027663
+    second: Foliage Concept_39
+  - first:
+      213: 7096204276399736129
+    second: Foliage Concept_40
+  - first:
+      213: -1364441631760053173
+    second: Foliage Concept_41
+  - first:
+      213: -8467552665266672647
+    second: Foliage Concept_42
+  - first:
+      213: -607795089287509017
+    second: Foliage Concept_43
+  - first:
+      213: -6107619038101368440
+    second: Foliage Concept_44
+  - first:
+      213: -6279303283499772663
+    second: Foliage Concept_45
+  - first:
+      213: -5426778568762089460
+    second: Foliage Concept_46
+  - first:
+      213: -7357897706926686101
+    second: Foliage Concept_47
+  - first:
+      213: 4583793966200253914
+    second: Foliage Concept_48
+  - first:
+      213: -8897760587395770781
+    second: Foliage Concept_49
+  - first:
+      213: -2908074701505036315
+    second: Foliage Concept_50
+  - first:
+      213: -7525625567929140432
+    second: Foliage Concept_51
+  - first:
+      213: -720251493037426226
+    second: Foliage Concept_52
+  - first:
+      213: 8897832623662491401
+    second: Foliage Concept_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Foliage Concept_0
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 474
+        width: 36
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1de44aa0eb831210800000000000000
+      internalID: 1302538514285784351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 473
+        width: 41
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbe3cbb90c483c20800000000000000
+      internalID: 3186380341053221884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_2
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 475
+        width: 49
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8d74ea644a2d830800000000000000
+      internalID: 4094515634711812286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_3
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 474
+        width: 59
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e45c067ed481880800000000000000
+      internalID: -8640070228953969078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_4
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 473
+        width: 50
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c22fdff35e68f80800000000000000
+      internalID: -8104538416400421851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_5
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 474
+        width: 39
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad805c93ead2cef60800000000000000
+      internalID: 8064871259030489306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_6
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 546
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f0a5fb2757bd3f0800000000000000
+      internalID: -874976566896357481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_8
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 547
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae125d866e85eafc0800000000000000
+      internalID: -3481747715286294038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_9
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 550
+        width: 22
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6522501755f845490800000000000000
+      internalID: -7758418660921367978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_10
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 551
+        width: 28
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781a654807fa5f4d0800000000000000
+      internalID: -3101379870583250553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_11
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 553
+        width: 28
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e290c69360cfeb610800000000000000
+      internalID: 1639024418072824110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_12
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 555
+        width: 24
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbaaf47ab59d18e0800000000000000
+      internalID: -1721054854526620716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_13
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 559
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ef7a55a5e466940800000000000000
+      internalID: 5289000962284322448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_14
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 470
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ba68c173ac15d20800000000000000
+      internalID: 3265613542870920089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_15
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 472
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89e3695f12b93d90800000000000000
+      internalID: -7117461888368907890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_16
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 473
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17ff0abd6bea0800800000000000000
+      internalID: 579534358576101146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_17
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 473
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da991eb520711ff0800000000000000
+      internalID: -67149212028396840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_18
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 473
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c24d71b792fb9c40800000000000000
+      internalID: 5520272501604434633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_20
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 475
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7c5692e82100e70800000000000000
+      internalID: 9079277250568112060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_21
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 474
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d80281c1b41ff270800000000000000
+      internalID: 8286364593073293524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_22
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 474
+        width: 69
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a6a27c2cdd0f150800000000000000
+      internalID: 5904462940117559876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_31
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 473
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056220a9ac9c31ed0800000000000000
+      internalID: -2444388300727638448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_37
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 473
+        width: 67
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f5c68ad05d0e70800000000000000
+      internalID: 9083004922970372037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_42
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 473
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb2ed5c6b53d7a80800000000000000
+      internalID: -8467552665266672647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_46
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 341
+        width: 65
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00ab3ed4a530b4b0800000000000000
+      internalID: -5426778568762089460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_47
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 304
+        width: 62
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6049f4f40f73e990800000000000000
+      internalID: -7357897706926686101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_48
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 268
+        width: 22
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adde1f68358ec9f30800000000000000
+      internalID: 4583793966200253914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_49
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 394
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366ddcb53edc48480800000000000000
+      internalID: -8897760587395770781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_50
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 398
+        width: 160
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5effd74777174a7d0800000000000000
+      internalID: -2908074701505036315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_51
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 318
+        width: 20
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b7cfe1b6b9f8790800000000000000
+      internalID: -7525625567929140432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_52
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 410
+        width: 89
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec93f8845172106f0800000000000000
+      internalID: -720251493037426226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foliage Concept_53
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 390
+        width: 141
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907e844e0a37b7b70800000000000000
+      internalID: 8897832623662491401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1a0e2ea4dfc421f4f91ffae46f9bfce0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Foliage Concept_0: 1302538514285784351
+      Foliage Concept_1: 3186380341053221884
+      Foliage Concept_10: -3101379870583250553
+      Foliage Concept_11: 1639024418072824110
+      Foliage Concept_12: -1721054854526620716
+      Foliage Concept_13: 5289000962284322448
+      Foliage Concept_14: 3265613542870920089
+      Foliage Concept_15: -7117461888368907890
+      Foliage Concept_16: 579534358576101146
+      Foliage Concept_17: -67149212028396840
+      Foliage Concept_18: 5520272501604434633
+      Foliage Concept_19: -2284666999542625874
+      Foliage Concept_2: 4094515634711812286
+      Foliage Concept_20: 9079277250568112060
+      Foliage Concept_21: 8286364593073293524
+      Foliage Concept_22: 5904462940117559876
+      Foliage Concept_23: -2999771870037684748
+      Foliage Concept_24: -6387327927335918448
+      Foliage Concept_25: 2991969204346575308
+      Foliage Concept_26: -8037393908955597744
+      Foliage Concept_27: -3925311810136835125
+      Foliage Concept_28: 7764685304743926590
+      Foliage Concept_29: -4092757851599923270
+      Foliage Concept_3: -8640070228953969078
+      Foliage Concept_30: -671925253366085157
+      Foliage Concept_31: -2444388300727638448
+      Foliage Concept_32: -7609519354497264499
+      Foliage Concept_33: -8989408735932041812
+      Foliage Concept_34: 8357047446033198864
+      Foliage Concept_35: -3017854720345895236
+      Foliage Concept_36: 4377836663969877233
+      Foliage Concept_37: 9083004922970372037
+      Foliage Concept_38: 8127971281772740672
+      Foliage Concept_39: -5813591665610027663
+      Foliage Concept_4: -8104538416400421851
+      Foliage Concept_40: 7096204276399736129
+      Foliage Concept_41: -1364441631760053173
+      Foliage Concept_42: -8467552665266672647
+      Foliage Concept_43: -607795089287509017
+      Foliage Concept_44: -6107619038101368440
+      Foliage Concept_45: -6279303283499772663
+      Foliage Concept_46: -5426778568762089460
+      Foliage Concept_47: -7357897706926686101
+      Foliage Concept_48: 4583793966200253914
+      Foliage Concept_49: -8897760587395770781
+      Foliage Concept_5: 8064871259030489306
+      Foliage Concept_50: -2908074701505036315
+      Foliage Concept_51: -7525625567929140432
+      Foliage Concept_52: -720251493037426226
+      Foliage Concept_53: 8897832623662491401
+      Foliage Concept_6: -874976566896357481
+      Foliage Concept_7: 6494509654807283088
+      Foliage Concept_8: -3481747715286294038
+      Foliage Concept_9: -7758418660921367978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
