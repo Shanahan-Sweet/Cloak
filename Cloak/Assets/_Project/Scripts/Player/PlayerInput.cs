@@ -22,6 +22,10 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     Rigidbody2D rigidBody;
     [SerializeField] Weapon myWeapon;
 
+    //Animation
+    [Header("Animation")]
+    [SerializeField] Avatar myAvatar;
+
     void Awake()
     {
         moveScript = GetComponent<PlayerMovement>();
@@ -48,6 +52,9 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
         platformerPhysics.CheckGroundRaycast();
 
         if (timeFromJump > Time.time && platformerPhysics.TimeFromGrounded > Time.time) Jump();//was close to ground or has pressed jump
+
+        //animation
+        myAvatar.SetInputAxis(moveAxis);
     }
 
     //Input

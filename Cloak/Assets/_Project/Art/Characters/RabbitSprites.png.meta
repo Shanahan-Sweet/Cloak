@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 6cc88b52427b6e348a155872a751df5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3366836371630291487
+    second: RabbitSprites_0
+  - first:
+      213: -8414793438434920433
+    second: RabbitSprites_1
+  - first:
+      213: -197093640864449582
+    second: RabbitSprites_2
+  - first:
+      213: 7333344539732269159
+    second: RabbitSprites_3
+  - first:
+      213: 5101865058439999533
+    second: RabbitSprites_4
+  - first:
+      213: -3667359056421443473
+    second: RabbitSprites_5
+  - first:
+      213: -3463882933652418411
+    second: RabbitSprites_6
+  - first:
+      213: 3827455761231057309
+    second: RabbitSprites_7
+  - first:
+      213: 7766903007046051323
+    second: RabbitSprites_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RabbitSprites_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 124
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a73eb77d769be20800000000000000
+      internalID: 3366836371630291487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 79
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f087cc383f5a83b80800000000000000
+      internalID: -8414793438434920433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 63
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db39ccb068c34df0800000000000000
+      internalID: -197093640864449582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 83
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768da42510645c560800000000000000
+      internalID: 7333344539732269159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 25
+        height: 42
+      alignment: 9
+      pivot: {x: 0.69196314, y: 0.80643475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d203b446d377dc640800000000000000
+      internalID: 5101865058439999533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 14
+        width: 27
+        height: 44
+      alignment: 9
+      pivot: {x: 0.7746949, y: 0.83712536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6820326e5cea1dc0800000000000000
+      internalID: -3667359056421443473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 9
+        width: 20
+        height: 49
+      alignment: 9
+      pivot: {x: 0.30367357, y: 0.84724325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5901c1403d0ddefc0800000000000000
+      internalID: -3463882933652418411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 7
+        width: 48
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5727132, y: 0.7534274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9113b17cbadd1530800000000000000
+      internalID: 3827455761231057309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 52
+        height: 71
+      alignment: 9
+      pivot: {x: 0.39496952, y: 0.7061872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5a4e3522599cb60800000000000000
+      internalID: 7766903007046051323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b19f69715bcdb504c885f882d2c7189d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RabbitSprites_0: 3366836371630291487
+      RabbitSprites_1: -8414793438434920433
+      RabbitSprites_2: -197093640864449582
+      RabbitSprites_3: 7333344539732269159
+      RabbitSprites_4: 5101865058439999533
+      RabbitSprites_5: -3667359056421443473
+      RabbitSprites_6: -3463882933652418411
+      RabbitSprites_7: 3827455761231057309
+      RabbitSprites_8: 7766903007046051323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
