@@ -281,12 +281,12 @@ TextureImporter:
       name: RabbitSprites_7
       rect:
         serializedVersion: 2
-        x: 86
-        y: 7
-        width: 48
-        height: 68
+        x: 93
+        y: 5
+        width: 39
+        height: 69
       alignment: 9
-      pivot: {x: 0.5727132, y: 0.7534274}
+      pivot: {x: 0.5, y: 0.75026584}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: RabbitSprites_8
       rect:
         serializedVersion: 2
-        x: 139
-        y: 3
-        width: 52
-        height: 71
+        x: 140
+        y: 2
+        width: 44
+        height: 75
       alignment: 9
-      pivot: {x: 0.39496952, y: 0.7061872}
+      pivot: {x: 0.44454643, y: 0.75716496}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,6 +317,50 @@ TextureImporter:
       bones: []
       spriteID: bf5a4e3522599cb60800000000000000
       internalID: 7766903007046051323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 62
+        width: 13
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaddeff9bf32ce42831ffd54050b0b9
+      internalID: 251046740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RabbitSprites_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 5
+        width: 45
+        height: 72
+      alignment: 9
+      pivot: {x: 0.30124986, y: 0.7787345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6416fc53e9a404aab051911ea498c7
+      internalID: -1448797946
       vertices: []
       indices: 
       edges: []
@@ -337,6 +381,7 @@ TextureImporter:
     nameFileIdTable:
       RabbitSprites_0: 3366836371630291487
       RabbitSprites_1: -8414793438434920433
+      RabbitSprites_10: -1448797946
       RabbitSprites_2: -197093640864449582
       RabbitSprites_3: 7333344539732269159
       RabbitSprites_4: 5101865058439999533
@@ -344,6 +389,7 @@ TextureImporter:
       RabbitSprites_6: -3463882933652418411
       RabbitSprites_7: 3827455761231057309
       RabbitSprites_8: 7766903007046051323
+      RabbitSprites_9: 251046740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

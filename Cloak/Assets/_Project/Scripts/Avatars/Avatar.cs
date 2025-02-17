@@ -71,9 +71,9 @@ public class Avatar : MonoBehaviour
     void UpdateDirection(Vector2 lookDir)
     {
         float dir = Mathf.Sign(avatarValues.lerpDirSlow.x);
-        if (avatarValues.turnDir != dir)//changed direction
+        if (avatarValues.lastTurnDir != dir)//changed direction
         {
-            avatarValues.turnDir = dir;
+            avatarValues.lastTurnDir = dir;
 
             foreach (AvatarGroup group in avatarGroups)//process animation
             {
@@ -91,7 +91,7 @@ public class AvatarValues
     public float lerpTorque;
     //stance
     public float stanceTilt;
-    public float turnDir = 0;
+    public float lastTurnDir = 1;
     //walk bob
     public float walkSin1, walkCos1, walkSin2, walkCos2;
 }

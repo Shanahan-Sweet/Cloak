@@ -5,7 +5,7 @@ public class PlatformerPhysics : MonoBehaviour
 
     //Variables
     [SerializeField]
-    float standHeight = .8f, rotationTorque = 16;
+    float standHeight = .8f, rotationTorque = 16, legSeparation = .13f;
 
     //Timers
     float timeFromGrounded, timeFromJump;
@@ -82,8 +82,8 @@ public class PlatformerPhysics : MonoBehaviour
     public void CheckGroundRaycast()
     {
         float groundCheckDist = standHeight + .3f;
-        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * .13f, groundCheckDist);
-        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * .13f, groundCheckDist);
+        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * legSeparation, groundCheckDist);
+        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * legSeparation, groundCheckDist);
 
         groundHit.groundHit = leftHit.groundHit && rightHit.groundHit;
 
