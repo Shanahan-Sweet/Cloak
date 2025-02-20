@@ -58,7 +58,7 @@ public class Avatar : MonoBehaviour
         avatarValues.lerpDirSlow = Vector2.Lerp(avatarValues.lerpDirSlow, moveAxis, t);//slow lerp
 
         //Velocity
-        Vector2 velocity = rigidBody.linearVelocity * .9f;
+        Vector2 velocity = rigidBody.linearVelocity * .6f;
         if (velocity.magnitude > 1) velocity = velocity.normalized;//normalize velocity value
         t = 1 - Mathf.Pow(0.5f, Time.deltaTime * velocityLerpSpd);
         avatarValues.lerpVelocity = Vector2.Lerp(avatarValues.lerpVelocity, velocity, t);//velocity lerp
@@ -85,6 +85,8 @@ public class Avatar : MonoBehaviour
 
 public class AvatarValues
 {
+    public bool isGrounded = true;
+
     public Vector2 lerpDirFast, lerpDirSlow;
 
     public Vector2 lerpVelocity;

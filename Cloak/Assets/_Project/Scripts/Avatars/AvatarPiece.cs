@@ -12,7 +12,7 @@ public class AvatarPiece : MonoBehaviour
     {
         offset = transform.localPosition;
     }
-    public void SetPos(Vector2 lookDir, float torque)
+    public virtual void SetPos(Vector2 lookDir, float torque)
     {
         Vector2 pos = lookDir * moveStrength + offset;
         transform.localPosition = new Vector3(pos.x, pos.y, 0);
