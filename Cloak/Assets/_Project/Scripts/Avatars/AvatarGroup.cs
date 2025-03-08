@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AvatarGroup : MonoBehaviour
 {
-    [SerializeField] AvatarPiece[] moveTransforms, slowTransforms;
+    [SerializeField] protected AvatarPiece[] moveTransforms, slowTransforms;
 
     public virtual void AnimUpdate(AvatarValues avatarValues)
     {
