@@ -845,7 +845,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "014cb0f675064f07a6189ac7b8efbb2e",
     "m_Id": 0,
-    "m_DisplayName": "SunlightCol",
+    "m_DisplayName": "_SunlightCol",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1218,7 +1218,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "1dc96df12ffd486b9a224bb5be06bc9f",
     "m_Id": 0,
-    "m_DisplayName": "DarkCol",
+    "m_DisplayName": "_DarkCol",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1431,12 +1431,12 @@
     "m_Guid": {
         "m_GuidSerialized": "210b389e-6f4f-4c74-8730-44e27d268601"
     },
-    "m_Name": "DarkCol",
+    "m_Name": "_DarkCol",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "DarkCol",
+    "m_RefNameGeneratedByDisplayName": "_DarkCol",
     "m_DefaultReferenceName": "_DarkCol",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -1584,12 +1584,12 @@
     "m_Guid": {
         "m_GuidSerialized": "365b7a7d-e24f-47fb-8649-b6258909df3b"
     },
-    "m_Name": "FogCol",
+    "m_Name": "_FogCol",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "FogCol",
+    "m_RefNameGeneratedByDisplayName": "_FogCol",
     "m_DefaultReferenceName": "_FogCol",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -1614,12 +1614,12 @@
     "m_Guid": {
         "m_GuidSerialized": "202c97b6-0e0e-4375-bf99-df68496555fc"
     },
-    "m_Name": "NoiseCol",
+    "m_Name": "_NoiseCol",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NoiseCol",
+    "m_RefNameGeneratedByDisplayName": "_NoiseCol",
     "m_DefaultReferenceName": "_NoiseCol",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -1702,7 +1702,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "373fb613b0e041ffa905287454c9e0f8",
     "m_Id": 0,
-    "m_DisplayName": "AccentCol",
+    "m_DisplayName": "_AccentCol",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1863,7 +1863,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "3a24ba5d933b4f898c3654f795fb5530",
     "m_Id": 0,
-    "m_DisplayName": "DimLightCol",
+    "m_DisplayName": "_DimLightCol",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2520,12 +2520,12 @@
     "m_Guid": {
         "m_GuidSerialized": "99e2eb51-c441-4323-8ed7-653ff38bcc30"
     },
-    "m_Name": "AccentCol",
+    "m_Name": "_AccentCol",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "AccentCol",
+    "m_RefNameGeneratedByDisplayName": "_AccentCol",
     "m_DefaultReferenceName": "_AccentCol",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -3308,12 +3308,12 @@
     "m_Guid": {
         "m_GuidSerialized": "b398ffe4-7686-4ef9-be33-0ebbc423a060"
     },
-    "m_Name": "DimLightCol",
+    "m_Name": "_DimLightCol",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "DimLightCol",
+    "m_RefNameGeneratedByDisplayName": "_DimLightCol",
     "m_DefaultReferenceName": "_DimLightCol",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
@@ -3360,7 +3360,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "818d22f8fc3a4685a776b54838c4e27e",
     "m_Id": 0,
-    "m_DisplayName": "NoiseCol",
+    "m_DisplayName": "_NoiseCol",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3512,7 +3512,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "8be2ec091da84ef19dd6fbf25afc9a54",
     "m_Id": 0,
-    "m_DisplayName": "FogCol",
+    "m_DisplayName": "_FogCol",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4598,13 +4598,13 @@
             "m_Id": "90f04b93dc384ed5ac3a02e4ad268603"
         },
         {
-            "m_Id": "23db1cdbbfb846ba8317b96e89c45a57"
-        },
-        {
             "m_Id": "7d936845bdda4046a0086ac61f72412c"
         },
         {
             "m_Id": "d527585cb361428f81fed80738d31c5a"
+        },
+        {
+            "m_Id": "23db1cdbbfb846ba8317b96e89c45a57"
         },
         {
             "m_Id": "56a8211f587440cead3e3246cf1a6653"
@@ -4664,12 +4664,12 @@
     "m_Guid": {
         "m_GuidSerialized": "a595bb08-0a35-40e8-b8ec-44770fc73800"
     },
-    "m_Name": "SunlightCol",
+    "m_Name": "_SunlightCol",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "SunlightCol",
+    "m_RefNameGeneratedByDisplayName": "_SunlightCol",
     "m_DefaultReferenceName": "_SunlightCol",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,

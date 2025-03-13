@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdfb77976e2a7eb418de411a3852f723, type: 3}
-  m_Name: PaletteCard
+  m_Name: DarkPalette
   m_EditorClassIdentifier: 
   palette:
-    dimLightCol: {r: 0.20784314, g: 0.29803923, b: 0.7254902, a: 1}
-    sunlightCol: {r: 1, g: 0.79607844, b: 0.46666667, a: 1}
-    darkCol: {r: 0.019607844, g: 0, b: 0.14901961, a: 1}
-    fogCol: {r: 0.20784314, g: 0.1882353, b: 0.34117648, a: 1}
+    dimLightCol: {r: 1, g: 0, b: 0.09262037, a: 1}
+    sunlightCol: {r: 0, g: 0, b: 0, a: 1}
+    darkCol: {r: 0, g: 0, b: 0, a: 1}
+    fogCol: {r: 1, g: 1, b: 1, a: 1}
     accentCol: {r: 1, g: 0, b: 0.7254902, a: 1}
     noiseCol: {r: 0.28627452, g: 0.18431373, b: 1, a: 1}
     bloodCol: {r: 0, g: 0, b: 0, a: 0}

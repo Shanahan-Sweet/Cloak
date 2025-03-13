@@ -3,7 +3,7 @@ using UnityEngine;
 public class PaletteCard : ScriptableObject
 {
     [Header("Colour Palette")]
-    public Palette[] palette;
+    public Palette palette;
 }
 
 [System.Serializable]
@@ -11,7 +11,7 @@ public class Palette
 {
     [Header("Linked Colours")]
     public Color dimLightCol;
-    public Color sunlightColCol;
+    public Color sunlightCol;
     public Color darkCol;
     [Header("Unlinked Colours")]
     public Color fogCol;
