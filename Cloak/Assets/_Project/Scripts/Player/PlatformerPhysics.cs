@@ -26,6 +26,8 @@ public class PlatformerPhysics : MonoBehaviour
     //Components
     Rigidbody2D rigidBody;
 
+    [SerializeField] Avatar myAvatar;
+
     void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -40,6 +42,7 @@ public class PlatformerPhysics : MonoBehaviour
 
         rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpHeight);
         //effects
+        myAvatar.Jump();
         //anim.SetTrigger("Jump");
         //AudioManager.instance.PlaySound3D(jumpSnd, 5, .2f, transform.position, Random.Range(.9f, 1.1f));
     }

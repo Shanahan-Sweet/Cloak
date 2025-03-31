@@ -12,10 +12,12 @@ public class Avatar : MonoBehaviour
     [SerializeField] Vector2 lookTargetPos, moveAxis;
     AvatarValues avatarValues = new AvatarValues();//avatar variables
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
+    Animator anim;
 
+    // Awake
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
     }
     public void SetLookPosition(Vector2 newLookTarget)//look at point
     {
@@ -25,6 +27,12 @@ public class Avatar : MonoBehaviour
     public void SetInputAxis(Vector2 newAxis)//look at point
     {
         moveAxis = newAxis;
+    }
+
+    //Actions
+    public virtual void Jump()
+    {
+        if (anim != null) anim.SetTrigger("Jump");
     }
     // Update is called once per frame
     void Update()
