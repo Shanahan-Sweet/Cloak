@@ -10,9 +10,12 @@ public class ShaderManager : MonoBehaviour
     public Color dimLightCol;
     public Color sunlightCol;
     public Color darkCol;
+    public Color accentCol;
     [SerializeField] Color fogCol;
     [SerializeField] Color backgroundCol;
-
+    Color bgTint;
+    public Color dimLightColBackground;
+    public Color sunlightColBackground;
 
     //_______________________________________________
     [SerializeField] AnimationCurve colourCurve;
@@ -49,8 +52,11 @@ public class ShaderManager : MonoBehaviour
         dimLightCol = currentPalette.dimLightCol;
         sunlightCol = currentPalette.sunlightCol;
         darkCol = currentPalette.darkCol;
+        accentCol = currentPalette.accentCol;
 
         fogCol = currentPalette.fogCol;
+
+        bgTint = currentPalette.backgroundTint;
         CalcBackgroundCol();
 
         SetShaderColours();//set shader colours
@@ -81,6 +87,7 @@ public class ShaderManager : MonoBehaviour
         Color startLight = dimLightCol;
         Color startSun = sunlightCol;
         Color startDark = darkCol;
+        Color startAccent = accentCol;
         Color startFog = fogCol;
 
 
@@ -88,6 +95,7 @@ public class ShaderManager : MonoBehaviour
         Color dimLightColTarget = currentPalette.dimLightCol;
         Color sunlightTarget = currentPalette.sunlightCol;
         Color darkColTarget = currentPalette.darkCol;
+        Color accentTarget = currentPalette.accentCol;
         Color fogColTarget = currentPalette.fogCol;
 
         float t = 0;
@@ -96,6 +104,7 @@ public class ShaderManager : MonoBehaviour
             dimLightCol = Color.Lerp(startLight, dimLightColTarget, t);
             sunlightCol = Color.Lerp(startSun, sunlightTarget, t);
             darkCol = Color.Lerp(startDark, darkColTarget, t);
+            accentCol = Color.Lerp(startAccent, accentTarget, t);
             fogCol = Color.Lerp(startFog, fogColTarget, t);
             CalcBackgroundCol();
 
@@ -108,16 +117,21 @@ public class ShaderManager : MonoBehaviour
 
     void CalcBackgroundCol()
     {
-        backgroundCol = Color.Lerp(dimLightCol, dimLightCol, .5f);
+        backgroundCol = dimLightCol; //Color.Lerp(dimLightCol, dimLightCol, .5f);
+        dimLightColBackground = Color.Lerp(bgTint, dimLightCol, .5f);
+        sunlightColBackground = Color.Lerp(bgTint, sunlightCol, .5f);
     }
     void SetShaderColours()
     {
         Shader.SetGlobalColor("_DimLightCol", EvaluateColour(dimLightCol));
         Shader.SetGlobalColor("_SunlightCol", EvaluateColour(sunlightCol));
         Shader.SetGlobalColor("_DarkCol", EvaluateColour(darkCol));
+        Shader.SetGlobalColor("_AccentCol", EvaluateColour(accentCol));
         Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
-        Shader.SetGlobalColor("_BackgroundCol", EvaluateColour(backgroundCol));
 
+        Shader.SetGlobalColor("_BackgroundCol", EvaluateColour(backgroundCol));
+        Shader.SetGlobalColor("_BackgroundDimLight", EvaluateColour(dimLightColBackground));
+        Shader.SetGlobalColor("_BackgroundSun", EvaluateColour(sunlightColBackground));
 
         //if (MainCam.instance) MainCam.instance.mainCam.backgroundColor = fogCol;
     }

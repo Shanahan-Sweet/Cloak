@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 53906a2020e40d54e9cd147801518cfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6820045692791208452
+    second: FadedPlants_0
+  - first:
+      213: 790551782870041290
+    second: FadedPlants_1
+  - first:
+      213: -1603548274072428142
+    second: FadedPlants_2
+  - first:
+      213: -6364300480573227870
+    second: FadedPlants_3
+  - first:
+      213: -7567781836147701044
+    second: FadedPlants_4
+  - first:
+      213: -2697235513862995679
+    second: FadedPlants_5
+  - first:
+      213: -5588348929867104705
+    second: FadedPlants_6
+  - first:
+      213: 5079418369851028064
+    second: FadedPlants_7
+  - first:
+      213: 713113340545601248
+    second: FadedPlants_8
+  - first:
+      213: -3624481219957111261
+    second: FadedPlants_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FadedPlants_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 363
+        width: 45
+        height: 161
+      alignment: 9
+      pivot: {x: 0.6344558, y: 0.069908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ab0c66c6ba5ae50800000000000000
+      internalID: 6820045692791208452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 24
+        width: 60
+        height: 493
+      alignment: 9
+      pivot: {x: 0.7128886, y: 0.018631391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2458278aa98fa00800000000000000
+      internalID: 790551782870041290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 392
+        width: 55
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4877766, y: 0.09457956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291e8b7375d0fb9e0800000000000000
+      internalID: -1603548274072428142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 235
+        width: 54
+        height: 198
+      alignment: 9
+      pivot: {x: 0.71164393, y: 0.055208918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acb593be667da7a0800000000000000
+      internalID: -6364300480573227870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_4
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 378
+        width: 49
+        height: 142
+      alignment: 9
+      pivot: {x: 0.33536017, y: 0.064438514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca43ce0486d9f690800000000000000
+      internalID: -7567781836147701044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 192
+        width: 56
+        height: 163
+      alignment: 9
+      pivot: {x: 0.3199255, y: 0.104056045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121c0a8379e719ad0800000000000000
+      internalID: -2697235513862995679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 21
+        width: 53
+        height: 359
+      alignment: 9
+      pivot: {x: 0.17020287, y: 0.03183875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e3652b1423272b0800000000000000
+      internalID: -5588348929867104705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 23
+        width: 39
+        height: 185
+      alignment: 9
+      pivot: {x: 0.448286, y: 0.056658916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06270907818bd7640800000000000000
+      internalID: 5079418369851028064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 27
+        width: 78
+        height: 333
+      alignment: 9
+      pivot: {x: 0.12938397, y: 0.023549581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee00d31ecc75e900800000000000000
+      internalID: 713113340545601248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FadedPlants_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 14
+        width: 51
+        height: 148
+      alignment: 9
+      pivot: {x: 0.40772617, y: 0.091181226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326c165a88143bdc0800000000000000
+      internalID: -3624481219957111261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4b0577306c195094a8c8357c71dd28f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FadedPlants_0: 6820045692791208452
+      FadedPlants_1: 790551782870041290
+      FadedPlants_2: -1603548274072428142
+      FadedPlants_3: -6364300480573227870
+      FadedPlants_4: -7567781836147701044
+      FadedPlants_5: -2697235513862995679
+      FadedPlants_6: -5588348929867104705
+      FadedPlants_7: 5079418369851028064
+      FadedPlants_8: 713113340545601248
+      FadedPlants_9: -3624481219957111261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

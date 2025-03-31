@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     //variables
     [SerializeField] float moveSpd = 10, jumpHeight = 7;
 
-    float yDrag = 1;
+    //float yDrag = 1;
 
     //Components
     PlayerInput inputScript;

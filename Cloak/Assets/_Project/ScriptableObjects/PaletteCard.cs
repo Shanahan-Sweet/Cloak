@@ -13,6 +13,7 @@ public class Palette
     public Color dimLightCol;
     public Color sunlightCol;
     public Color darkCol;
+    public Color backgroundTint;
     [Header("Unlinked Colours")]
     public Color fogCol;
     public Color accentCol;
