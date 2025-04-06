@@ -3055,7 +3055,7 @@ Transform:
   m_GameObject: {fileID: 457998098}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.899734, y: 2.8830752, z: 0.050803043}
+  m_LocalPosition: {x: -20.66, y: 3.26, z: 0.050803043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -72533,7 +72533,7 @@ Transform:
   m_GameObject: {fileID: 1900211401}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.999735, y: 2.9430752, z: 0}
+  m_LocalPosition: {x: -20.77, y: 2.9430752, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -78909,12 +78909,32 @@ PrefabInstance:
       value: 0.019607844
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
+      propertyPath: noiseCol.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
+      propertyPath: noiseCol.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
+      propertyPath: noiseCol.g
+      value: 0.18431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
+      propertyPath: noiseCol.r
+      value: 0.28627452
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: accentCol.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: accentCol.b
       value: 0.7254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
+      propertyPath: accentCol.g
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: accentCol.r
@@ -78956,6 +78976,10 @@ PrefabInstance:
       propertyPath: backgroundCol.r
       value: 0.20784314
       objectReference: {fileID: 0}
+    - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
+      propertyPath: currentPaletteCard
+      value: 
+      objectReference: {fileID: 11400000, guid: 921b6b8ebf80e7248ba8b91ae4e38bbc, type: 2}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightColBackground.a
       value: 1

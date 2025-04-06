@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class ShaderManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class ShaderManager : MonoBehaviour
     public Color sunlightCol;
     public Color darkCol;
     public Color accentCol;
+    public Color noiseCol;
     [SerializeField] Color fogCol;
     [SerializeField] Color backgroundCol;
     Color bgTint;
@@ -53,6 +55,7 @@ public class ShaderManager : MonoBehaviour
         sunlightCol = currentPalette.sunlightCol;
         darkCol = currentPalette.darkCol;
         accentCol = currentPalette.accentCol;
+        noiseCol = currentPalette.noiseCol;
 
         fogCol = currentPalette.fogCol;
 
@@ -88,6 +91,7 @@ public class ShaderManager : MonoBehaviour
         Color startSun = sunlightCol;
         Color startDark = darkCol;
         Color startAccent = accentCol;
+        Color startNoise = noiseCol;
         Color startFog = fogCol;
 
 
@@ -96,6 +100,7 @@ public class ShaderManager : MonoBehaviour
         Color sunlightTarget = currentPalette.sunlightCol;
         Color darkColTarget = currentPalette.darkCol;
         Color accentTarget = currentPalette.accentCol;
+        Color noiseTarget = currentPalette.noiseCol;
         Color fogColTarget = currentPalette.fogCol;
 
         float t = 0;
@@ -105,6 +110,7 @@ public class ShaderManager : MonoBehaviour
             sunlightCol = Color.Lerp(startSun, sunlightTarget, t);
             darkCol = Color.Lerp(startDark, darkColTarget, t);
             accentCol = Color.Lerp(startAccent, accentTarget, t);
+            accentCol = Color.Lerp(startNoise, noiseTarget, t);
             fogCol = Color.Lerp(startFog, fogColTarget, t);
             CalcBackgroundCol();
 
@@ -127,6 +133,7 @@ public class ShaderManager : MonoBehaviour
         Shader.SetGlobalColor("_SunlightCol", EvaluateColour(sunlightCol));
         Shader.SetGlobalColor("_DarkCol", EvaluateColour(darkCol));
         Shader.SetGlobalColor("_AccentCol", EvaluateColour(accentCol));
+        Shader.SetGlobalColor("_NoiseCol", EvaluateColour(noiseCol));
         Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
 
         Shader.SetGlobalColor("_BackgroundCol", EvaluateColour(backgroundCol));

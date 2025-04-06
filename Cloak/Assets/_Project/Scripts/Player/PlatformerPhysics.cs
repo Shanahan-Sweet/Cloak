@@ -66,12 +66,15 @@ public class PlatformerPhysics : MonoBehaviour
     //Ground Check
     public void CheckForGround()
     {
-        if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.8f, 0), .2f, groundMask))
+        bool atGroundLevel = ((Vector2)transform.position - groundHit.groundPoint).y < standHeight * 1f;
+        if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.8f, 0), .2f, groundMask) && atGroundLevel)
         {
             timeFromGrounded = Time.time + .15f;
             if (!isGrounded)
             {
                 isGrounded = true;
+
+                myAvatar.UpdateGroundedState(isGrounded);//anim
                 //effects
                 //partLand.Play();
             }
@@ -79,6 +82,7 @@ public class PlatformerPhysics : MonoBehaviour
         else if (isGrounded)//set airborne
         {
             isGrounded = false;
+            myAvatar.UpdateGroundedState(isGrounded);//anim
         }
     }
 

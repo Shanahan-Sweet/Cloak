@@ -149,20 +149,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "38b4d9f940cb4696b9abe4f7a5e0e2b4"
-                },
-                "m_SlotId": 3
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "a0baa3e81a2644368ae8275a0d0fd048"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "4c11f40994b34e5c9a061e90e113575d"
                 },
                 "m_SlotId": 0
@@ -324,6 +310,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "38b4d9f940cb4696b9abe4f7a5e0e2b4"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "b5ca7a52c9204fd296240b5d014d4b5c"
+                },
+                "m_SlotId": 3
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "a0baa3e81a2644368ae8275a0d0fd048"
                 },
                 "m_SlotId": 1
             }
@@ -510,10 +510,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -624.9999389648438,
-            "y": -349.9999694824219,
-            "width": 158.99996948242188,
-            "height": 34.0
+            "x": -828.0001220703125,
+            "y": -308.0000305175781,
+            "width": 159.0,
+            "height": 33.999969482421878
         }
     },
     "m_Slots": [
@@ -1046,10 +1046,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 67.99995422363281,
-            "y": -350.0,
+            "x": 36.000003814697269,
+            "y": -544.0000610351563,
             "width": 208.0000457763672,
-            "height": 326.0
+            "height": 326.0000305175781
         }
     },
     "m_Slots": [
@@ -1758,7 +1758,7 @@
     "m_ShaderOutputName": "Max",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 1.0,
+        "x": 0.699999988079071,
         "y": 1.0,
         "z": 1.0,
         "w": 1.0

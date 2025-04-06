@@ -29,6 +29,11 @@ public class Avatar : MonoBehaviour
         moveAxis = newAxis;
     }
 
+    public void UpdateGroundedState(bool value)
+    {
+        avatarValues.isGrounded = value;
+    }
+
     //Actions
     public virtual void Jump()
     {
