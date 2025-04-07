@@ -29,7 +29,7 @@ public class AvPlatformer : AvatarGroup
         if (avatarValues.isGrounded)
         {
             float groundDist = platformerPhysics.GroundDistance;
-            targetSquish = groundDist;
+            targetSquish = groundDist / 2;
         }
         else
         {

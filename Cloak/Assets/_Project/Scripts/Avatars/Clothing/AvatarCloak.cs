@@ -22,7 +22,9 @@ public class AvatarCloak : AvatarGroup
 
     void AnimateCloak(AvatarValues avatarValues)
     {
-        leftBone.localRotation = Quaternion.Euler(0, 0, -avatarValues.lerpVelocity.x * 20);
-        rightBone.localRotation = Quaternion.Euler(0, 0, -avatarValues.lerpVelocity.x * 20);
+        float xRot = -avatarValues.lerpVelocity.x * 20;
+        float yRot = avatarValues.lerpVelocity.y * 15;
+        leftBone.localRotation = Quaternion.Euler(0, 0, xRot + yRot);
+        rightBone.localRotation = Quaternion.Euler(0, 0, xRot - yRot);
     }
 }
