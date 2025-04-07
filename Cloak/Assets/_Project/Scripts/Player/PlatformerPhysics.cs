@@ -66,8 +66,8 @@ public class PlatformerPhysics : MonoBehaviour
     //Ground Check
     public void CheckForGround()
     {
-        bool atGroundLevel = ((Vector2)transform.position - groundHit.groundPoint).y < standHeight * 1f;
-        if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && Physics2D.OverlapCircle(transform.position + new Vector3(0, -.8f, 0), .2f, groundMask) && atGroundLevel)
+        //bool atGroundLevel = ((Vector2)transform.position - groundHit.groundPoint).y < standHeight * 1f;
+        if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && groundHit.groundHit)// && atGroundLevel)
         {
             timeFromGrounded = Time.time + .15f;
             if (!isGrounded)
@@ -88,7 +88,7 @@ public class PlatformerPhysics : MonoBehaviour
 
     public void CheckGroundRaycast()
     {
-        float groundCheckDist = standHeight + .3f;
+        float groundCheckDist = standHeight + (isGrounded ? .3f : -.15f);
         GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * legSeparation, groundCheckDist);
         GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * legSeparation, groundCheckDist);
 

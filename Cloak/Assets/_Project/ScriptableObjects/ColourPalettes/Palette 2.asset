@@ -16,8 +16,6 @@ MonoBehaviour:
     dimLightCol: {r: 0.8962264, g: 0.36779106, b: 0.85570616, a: 1}
     sunlightCol: {r: 1, g: 0.56883276, b: 0.1745283, a: 1}
     darkCol: {r: 0.07522124, g: 0, b: 0.14901961, a: 1}
-    backgroundTint: {r: 0.019607844, g: 0, b: 0.14901961, a: 1}
-    fogCol: {r: 0, g: 0.12864497, b: 0.3207547, a: 1}
+    fogCol: {r: 0.3250267, g: 0.3858601, b: 0.8301887, a: 1}
     accentCol: {r: 0, g: 1, b: 0.57512, a: 1}
     noiseCol: {r: 1, g: 0, b: 0.12588596, a: 1}
-    bloodCol: {r: 0, g: 0, b: 0, a: 0}

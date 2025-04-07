@@ -12,7 +12,7 @@ public class MainCam : MonoBehaviour
     Vector2 targetPos;
 
     [SerializeField] List<CamTarget> camTargets = new List<CamTarget>();
-
+    [SerializeField] AnimationCurve targetPullCurve;
 
     public Camera MainCamera;
 
@@ -43,7 +43,7 @@ public class MainCam : MonoBehaviour
             foreach (CamTarget target in camTargets)
             {
                 float pDistance = Mathf.InverseLerp(10, 0, (transFollow.position - target.transform.position).magnitude);
-                float pull = target.PullStrength * pDistance;
+                float pull = target.PullStrength * targetPullCurve.Evaluate(pDistance);
                 count += pull;
                 meanPos += (Vector2)target.transform.position * pull;
             }

@@ -8,16 +8,8 @@ public class ShaderManager : MonoBehaviour
     [SerializeField] PaletteCard currentPaletteCard;
     Palette currentPalette;
 
-    public Color dimLightCol;
-    public Color sunlightCol;
-    public Color darkCol;
-    public Color accentCol;
-    public Color noiseCol;
-    [SerializeField] Color fogCol;
-    [SerializeField] Color backgroundCol;
-    Color bgTint;
-    public Color dimLightColBackground;
-    public Color sunlightColBackground;
+    [HideInInspector]
+    public Color dimLightCol, sunlightCol, darkCol, accentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
 
     //_______________________________________________
     [SerializeField] AnimationCurve colourCurve;
@@ -59,7 +51,6 @@ public class ShaderManager : MonoBehaviour
 
         fogCol = currentPalette.fogCol;
 
-        bgTint = currentPalette.backgroundTint;
         CalcBackgroundCol();
 
         SetShaderColours();//set shader colours
@@ -120,12 +111,11 @@ public class ShaderManager : MonoBehaviour
             yield return null;
         }
     }
-
     void CalcBackgroundCol()
     {
-        backgroundCol = dimLightCol; //Color.Lerp(dimLightCol, dimLightCol, .5f);
-        dimLightColBackground = Color.Lerp(bgTint, dimLightCol, .5f);
-        sunlightColBackground = Color.Lerp(bgTint, sunlightCol, .5f);
+        Color backgroundCol = Color.Lerp(darkCol, fogCol, .75f);
+        dimLightColBackground = Color.Lerp(backgroundCol, dimLightCol, .5f);
+        sunlightColBackground = Color.Lerp(backgroundCol, sunlightCol, .5f);
     }
     void SetShaderColours()
     {
@@ -136,7 +126,7 @@ public class ShaderManager : MonoBehaviour
         Shader.SetGlobalColor("_NoiseCol", EvaluateColour(noiseCol));
         Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
 
-        Shader.SetGlobalColor("_BackgroundCol", EvaluateColour(backgroundCol));
+        //Shader.SetGlobalColor("_BackgroundCol", EvaluateColour(backgroundCol));
         Shader.SetGlobalColor("_BackgroundDimLight", EvaluateColour(dimLightColBackground));
         Shader.SetGlobalColor("_BackgroundSun", EvaluateColour(sunlightColBackground));
 
