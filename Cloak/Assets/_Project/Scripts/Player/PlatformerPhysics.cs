@@ -6,6 +6,9 @@ public class PlatformerPhysics : MonoBehaviour
     //Variables
     [SerializeField]
     float standHeight = .8f, rotationTorque = 16, legSeparation = .13f;
+    float StandHeight { get { return standHeight + standHAdd; } }
+
+    float standHAdd = 0;
     float defaultGravity;
     //Timers
     float timeFromGrounded, timeFromJump;
@@ -38,6 +41,11 @@ public class PlatformerPhysics : MonoBehaviour
     }
 
 
+    public void ChangeStandHeight(float addValue)
+    {
+        standHAdd = addValue;
+    }
+
     //Actions
     public void Jump(float jumpHeight)
     {
@@ -64,13 +72,13 @@ public class PlatformerPhysics : MonoBehaviour
 
         rigidBody.AddForce(new Vector2(0, -rigidBody.linearVelocity.y * 10));//Y drag
 
-        Vector2 targetPos = GroundPoint + Vector2.up * standHeight;
+        Vector2 targetPos = GroundPoint + Vector2.up * StandHeight;
         rigidBody.AddForce(new Vector2(0, (targetPos - (Vector2)transform.position).y) * 60);
     }
     //Ground Check
     public void CheckForGround()
     {
-        //bool atGroundLevel = ((Vector2)transform.position - groundHit.groundPoint).y < standHeight * 1f;
+        //bool atGroundLevel = ((Vector2)transform.position - groundHit.groundPoint).y < StandHeight * 1f;
         if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && groundHit.groundHit)// && atGroundLevel)
         {
             timeFromGrounded = Time.time + .15f;

@@ -341,7 +341,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5711538714756525172}
   - {fileID: 4168646059106939759}
   - {fileID: 6904847707425860834}
   m_Father: {fileID: 4658792455980009092}
@@ -361,6 +360,38 @@ MonoBehaviour:
   moveTransforms:
   - {fileID: 398552372139575160}
   slowTransforms: []
+--- !u!1 &662057107761833589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7359112540038411972}
+  m_Layer: 0
+  m_Name: Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7359112540038411972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662057107761833589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3036848603649014358}
+  m_Father: {fileID: 4168646059106939759}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &664656125932740137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,13 +1323,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2576005886077390751}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5639757076120912922}
-  m_Father: {fileID: 8492301037900229118}
+  m_Father: {fileID: 4658792455980009092}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2621280024301363710
 GameObject:
@@ -2083,7 +2114,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3036848603649014358}
+  - {fileID: 7359112540038411972}
   m_Father: {fileID: 8492301037900229118}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6432378953012697888
@@ -2100,6 +2131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveTransforms: []
   slowTransforms: []
+  holder: {fileID: 7359112540038411972}
   leftBone: {fileID: 2137401819472334631}
   rightBone: {fileID: 2649614761060401391}
 --- !u!1 &4973154464521014817
@@ -2209,6 +2241,7 @@ MonoBehaviour:
   slowLerpSpd: 4
   velocityLerpSpd: 10
   torqueLerpSpd: 20
+  walkSinSpeed: 16
   lookTargetPos: {x: 0, y: 0}
   moveAxis: {x: 0, y: 0}
 --- !u!95 &6086804638657730066
@@ -3026,6 +3059,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5711538714756525172}
   - {fileID: 8492301037900229118}
   - {fileID: 2850924063326942164}
   m_Father: {fileID: 691405345140574294}
@@ -3079,6 +3113,7 @@ MonoBehaviour:
   platformerPhysics: {fileID: 6605411648232638728}
   headHolder: {fileID: 5711538714756525172}
   legsHolder: {fileID: 2850924063326942164}
+  bodyHolder: {fileID: 8492301037900229118}
 --- !u!1 &6459828499929783567
 GameObject:
   m_ObjectHideFlags: 0
@@ -3285,7 +3320,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3183460113028534878}
-  m_Father: {fileID: 4168646059106939759}
+  m_Father: {fileID: 7359112540038411972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7025630266751647028
 SpriteRenderer:
@@ -3310,7 +3345,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: f0f4bcc709065fa44ba668c8fa318268, type: 3}
+  - {fileID: 2100000, guid: 4d499867fb2627847af93f5a85ac92ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4011,7 +4046,6 @@ MonoBehaviour:
   - {fileID: 6280281001602835675}
   - {fileID: 3300906602907326430}
   stepMagnitude: 0.2
-  stepSpd: 16
 --- !u!1 &8611633127545876577
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,6 +4132,7 @@ MonoBehaviour:
   slowLerpSpd: 4
   velocityLerpSpd: 10
   torqueLerpSpd: 20
+  walkSinSpeed: 16
   lookTargetPos: {x: 0, y: 0}
   moveAxis: {x: 0, y: 0}
 --- !u!1 &8777042814395620543

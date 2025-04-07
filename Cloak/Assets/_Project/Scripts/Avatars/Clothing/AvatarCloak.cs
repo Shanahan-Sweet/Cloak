@@ -3,7 +3,7 @@ using UnityEngine;
 public class AvatarCloak : AvatarGroup
 {
 
-    [SerializeField] Transform leftBone, rightBone;
+    [SerializeField] Transform holder, leftBone, rightBone;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

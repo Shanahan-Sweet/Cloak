@@ -4,7 +4,7 @@ public class SimpleLegs : AvatarGroup
 {    //legs
     [SerializeField] Transform legTransformHolder;
     [SerializeField] Transform[] legHolder, legPos;
-    [SerializeField] float stepMagnitude, stepSpd = 7.5f;
+    [SerializeField] float stepMagnitude;
     int stepCheck = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,8 +28,8 @@ public class SimpleLegs : AvatarGroup
         //legTransformHolder.localPosition = new Vector3(-avatarValues.lerpVelocity.x * 0.05f, 0, 0);
         if (avatarValues.isGrounded)
         {
-            footTargetPos[0] = avatarValues.lerpVelocity.x * new Vector2(Mathf.Sin(Time.time * stepSpd * avatarValues.lastTurnDir), Mathf.Cos(Time.time * stepSpd * avatarValues.lastTurnDir)) * stepMagnitude;
-            footTargetPos[1] = avatarValues.lerpVelocity.x * new Vector2(Mathf.Sin(Time.time * stepSpd * avatarValues.lastTurnDir + 3), Mathf.Cos(Time.time * stepSpd * avatarValues.lastTurnDir + 3)) * stepMagnitude;
+            footTargetPos[0] = avatarValues.lerpVelocity.x * new Vector2(Mathf.Sin(Time.time * avatarValues.sinSpd * avatarValues.lastTurnDir), Mathf.Cos(Time.time * avatarValues.sinSpd * avatarValues.lastTurnDir)) * stepMagnitude;
+            footTargetPos[1] = avatarValues.lerpVelocity.x * new Vector2(Mathf.Sin(Time.time * avatarValues.sinSpd * avatarValues.lastTurnDir + 3), Mathf.Cos(Time.time * avatarValues.sinSpd * avatarValues.lastTurnDir + 3)) * stepMagnitude;
 
             legTargetPos[0] = new Vector2(-.1f - Mathf.Max(-.1f, -Mathf.Abs(avatarValues.lerpVelocity.x * .2f)), 0);
             legTargetPos[1] = new Vector2(.1f + Mathf.Max(-.1f, -Mathf.Abs(avatarValues.lerpVelocity.x * .2f)), 0);

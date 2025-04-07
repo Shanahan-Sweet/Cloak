@@ -3,7 +3,7 @@ using UnityEngine;
 public class AvPlatformer : AvatarGroup
 {
     [SerializeField] PlatformerPhysics platformerPhysics;
-    public Transform headHolder, legsHolder;
+    public Transform headHolder, legsHolder, bodyHolder;
 
     float squish;
 
@@ -24,7 +24,7 @@ public class AvPlatformer : AvatarGroup
 
     void BodySquishAnim(AvatarValues avatarValues)
     {
-        float look = avatarValues.lerpDirFast.y * .05f;
+
         float targetSquish;
         if (avatarValues.isGrounded)
         {
@@ -38,7 +38,9 @@ public class AvPlatformer : AvatarGroup
 
         squish = Mathf.MoveTowards(squish, targetSquish, 2f * Time.deltaTime);
 
-        headHolder.localPosition = new Vector3(headHolder.localPosition.x, squish + look, 0);
+        headHolder.localPosition = new Vector3(headHolder.localPosition.x, squish + avatarValues.walkBobSin * .02f, 0);
         legsHolder.localPosition = new Vector3(headHolder.localPosition.x, -squish, 0);
+
+        bodyHolder.localPosition = new Vector3(bodyHolder.localPosition.x, avatarValues.walkBobCos * .02f, 0);
     }
 }
