@@ -6,7 +6,7 @@ public class PlatformerPhysics : MonoBehaviour
     //Variables
     [SerializeField]
     float standHeight = .8f, rotationTorque = 16, legSeparation = .13f;
-
+    float defaultGravity;
     //Timers
     float timeFromGrounded, timeFromJump;
     public float TimeFromGrounded { get { return timeFromGrounded; } }
@@ -16,21 +16,25 @@ public class PlatformerPhysics : MonoBehaviour
     bool isGrounded;
     public bool IsGrounded { get { return isGrounded && groundHit.groundHit; } }
 
+    public float GroundDistance { get { return transform.position.y - GroundPoint.y - standHeight; } }
+
     //ground raycasts
     GroundPoint groundHit = new GroundPoint();
     public bool GroundHit { get { return groundHit.groundHit; } }
+    public GroundPoint GrounPointInfo { get { return groundHit; } }
     public Vector2 GroundPoint { get { return groundHit.groundPoint; } }
     public Vector2 GroundNormal { get { return groundHit.groundNormal; } }
     [SerializeField] Transform[] groundPointTransform;//debug
 
     //Components
-    Rigidbody2D rigidBody;
+    public Rigidbody2D rigidBody;
 
     [SerializeField] Avatar myAvatar;
 
     void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+        defaultGravity = rigidBody.gravityScale;
     }
 
 
@@ -73,7 +77,7 @@ public class PlatformerPhysics : MonoBehaviour
             if (!isGrounded)
             {
                 isGrounded = true;
-
+                rigidBody.gravityScale = 0;
                 myAvatar.UpdateGroundedState(isGrounded);//anim
                 //effects
                 //partLand.Play();
@@ -82,6 +86,7 @@ public class PlatformerPhysics : MonoBehaviour
         else if (isGrounded)//set airborne
         {
             isGrounded = false;
+            rigidBody.gravityScale = defaultGravity;
             myAvatar.UpdateGroundedState(isGrounded);//anim
         }
     }
@@ -89,15 +94,16 @@ public class PlatformerPhysics : MonoBehaviour
     public void CheckGroundRaycast()
     {
         float groundCheckDist = standHeight + (isGrounded ? .3f : -.15f);
+        GroundPoint middleHit = DownRay((Vector2)transform.position, groundCheckDist);//center
         GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * legSeparation, groundCheckDist);
         GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * legSeparation, groundCheckDist);
 
         groundHit.groundHit = leftHit.groundHit && rightHit.groundHit;
 
         if (!leftHit.groundHit)
-            groundHit = rightHit;
+            groundHit = middleHit.groundHit ? middleHit : rightHit;
         else if (!rightHit.groundHit)
-            groundHit = leftHit;
+            groundHit = middleHit.groundHit ? middleHit : leftHit;
         else
         {
             groundHit.groundPoint = (leftHit.groundPoint + rightHit.groundPoint) / 2;

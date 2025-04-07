@@ -25,7 +25,7 @@ public class SimpleLegs : AvatarGroup
         Vector2[] legTargetPos = new Vector2[2];
 
         legTransformHolder.localRotation = Quaternion.Euler(0, 0, -avatarValues.lerpVelocity.x * 16);
-        legTransformHolder.localPosition = new Vector3(avatarValues.lerpVelocity.x * 0.1f, 0, 0);
+        legTransformHolder.localPosition = new Vector3(-avatarValues.lerpVelocity.x * 0.05f, 0, 0);
         if (avatarValues.isGrounded)
         {
             footTargetPos[0] = avatarValues.lerpVelocity.x * new Vector2(Mathf.Sin(Time.time * stepSpd * avatarValues.lastTurnDir), Mathf.Cos(Time.time * stepSpd * avatarValues.lastTurnDir)) * stepMagnitude;

@@ -8,8 +8,9 @@ public class ShaderManager : MonoBehaviour
     [SerializeField] PaletteCard currentPaletteCard;
     Palette currentPalette;
 
+    public Color dimLightCol, sunlightCol, darkCol;
     [HideInInspector]
-    public Color dimLightCol, sunlightCol, darkCol, accentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
+    public Color accentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
 
     //_______________________________________________
     [SerializeField] AnimationCurve colourCurve;

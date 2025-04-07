@@ -16,6 +16,11 @@ public class AvatarPiece : MonoBehaviour
     {
         Vector2 pos = lookDir * moveStrength + offset;
         transform.localPosition = new Vector3(pos.x, pos.y, 0);
+        SetRotation(lookDir, torque);
+    }
+
+    public virtual void SetRotation(Vector2 lookDir, float torque)
+    {
         transform.localRotation = Quaternion.Euler(new Vector3(0, 0, (lookDir.x * rotationStrength) + (torque * torqueStrength)));
     }
 }
