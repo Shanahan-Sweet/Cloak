@@ -7,12 +7,10 @@ public class AvPlatformer : AvatarGroup
 
     float squish;
 
-    //Rigidbody2D rigidBody;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //rigidBody = platformerPhysics.rigidBody;
         platformerPhysics = GetComponentInParent<Avatar>().platformerPhysics;
     }
     public override void AnimUpdate(AvatarValues avatarValues)
@@ -30,7 +28,7 @@ public class AvPlatformer : AvatarGroup
         if (avatarValues.isGrounded)
         {
             float groundDist = platformerPhysics.GroundDistance;
-            targetSquish = groundDist;
+            targetSquish = Mathf.Clamp(groundDist, -.1f, 0.1f);
         }
         else
         {

@@ -102,7 +102,7 @@ public class PlatformerPhysics : MonoBehaviour
 
     public void CheckGroundRaycast()
     {
-        float groundCheckDist = standHeight + (isGrounded ? .3f : -.15f);
+        float groundCheckDist = standHeight + (isGrounded ? .2f : -.15f);
         GroundPoint middleHit = DownRay((Vector2)transform.position, groundCheckDist, Vector2.down);//center
         GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * legSeparation, groundCheckDist, Vector2.down);
         GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * legSeparation, groundCheckDist, Vector2.down);
@@ -128,15 +128,16 @@ public class PlatformerPhysics : MonoBehaviour
 
     public void CheckCelingRaycast()
     {
-        float groundCheckDist = standHeight * 2.5f;
-        cellingHit = DownRay(groundHit.groundPoint + new Vector2(0, .05f), groundCheckDist, Vector2.up);//center
+
+        float groundCheckDist = standHeight * 2.2f;
+        cellingHit = DownRay(groundHit.groundPoint + new Vector2(0, .2f), groundCheckDist, Vector2.up);//center
 
         groundPointTransform[3].position = cellingHit.groundPoint;
 
 
         if (isGrounded && cellingHit.groundHit)
         {
-            float celingDist = Mathf.Clamp01(Mathf.InverseLerp(standHeight * 2.5f, standHeight * 1.8f, cellingHit.groundPoint.y - groundHit.groundPoint.y));
+            float celingDist = Mathf.Clamp01(Mathf.InverseLerp(groundCheckDist, standHeight * 1.7f, cellingHit.groundPoint.y - groundHit.groundPoint.y));
             worldStandAdd = -celingDist * .175f;
         }
         else worldStandAdd = 0;
