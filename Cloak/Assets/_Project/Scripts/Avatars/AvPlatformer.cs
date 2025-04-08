@@ -29,7 +29,7 @@ public class AvPlatformer : AvatarGroup
         if (avatarValues.isGrounded)
         {
             float groundDist = platformerPhysics.GroundDistance;
-            targetSquish = groundDist / 2;
+            targetSquish = groundDist;
         }
         else
         {
@@ -38,7 +38,7 @@ public class AvPlatformer : AvatarGroup
 
         squish = Mathf.MoveTowards(squish, targetSquish, 2f * Time.deltaTime);
 
-        headHolder.localPosition = new Vector3(headHolder.localPosition.x, squish + avatarValues.walkBobSin * .02f, 0);
+        headHolder.localPosition = new Vector3(headHolder.localPosition.x, squish * .5f + avatarValues.walkBobSin * .02f, 0);
         legsHolder.localPosition = new Vector3(headHolder.localPosition.x, -squish, 0);
 
         bodyHolder.localPosition = new Vector3(bodyHolder.localPosition.x, avatarValues.walkBobCos * .02f, 0);
