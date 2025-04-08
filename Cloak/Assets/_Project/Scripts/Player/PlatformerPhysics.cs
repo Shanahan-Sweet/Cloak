@@ -6,9 +6,9 @@ public class PlatformerPhysics : MonoBehaviour
     //Variables
     [SerializeField]
     float standHeight = .8f, rotationTorque = 16, legSeparation = .13f;
-    float StandHeight { get { return standHeight + standHAdd; } }
+    float StandHeight { get { return standHeight + standHAdd + worldStandAdd; } }
 
-    float standHAdd = 0;
+    float standHAdd = 0, worldStandAdd = 0;
     float defaultGravity;
     //Timers
     float timeFromGrounded, timeFromJump;
@@ -28,7 +28,8 @@ public class PlatformerPhysics : MonoBehaviour
     public Vector2 GroundPoint { get { return groundHit.groundPoint; } }
     public Vector2 GroundNormal { get { return groundHit.groundNormal; } }
     [SerializeField] Transform[] groundPointTransform;//debug
-
+    //ground raycasts
+    GroundPoint cellingHit = new GroundPoint();
     //Components
     public Rigidbody2D rigidBody;
 
@@ -102,9 +103,9 @@ public class PlatformerPhysics : MonoBehaviour
     public void CheckGroundRaycast()
     {
         float groundCheckDist = standHeight + (isGrounded ? .3f : -.15f);
-        GroundPoint middleHit = DownRay((Vector2)transform.position, groundCheckDist);//center
-        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * legSeparation, groundCheckDist);
-        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * legSeparation, groundCheckDist);
+        GroundPoint middleHit = DownRay((Vector2)transform.position, groundCheckDist, Vector2.down);//center
+        GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * legSeparation, groundCheckDist, Vector2.down);
+        GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * legSeparation, groundCheckDist, Vector2.down);
 
         groundHit.groundHit = leftHit.groundHit && rightHit.groundHit;
 
@@ -119,18 +120,34 @@ public class PlatformerPhysics : MonoBehaviour
             groundHit.groundNormal.Normalize();
         }
 
-
+        //debug
         groundPointTransform[0].position = leftHit.groundPoint;
         groundPointTransform[1].position = groundHit.groundPoint;
         groundPointTransform[2].position = rightHit.groundPoint;
     }
 
-    GroundPoint DownRay(Vector2 origin, float length)
+    public void CheckCelingRaycast()
+    {
+        float groundCheckDist = standHeight * 2.5f;
+        cellingHit = DownRay(groundHit.groundPoint + new Vector2(0, .05f), groundCheckDist, Vector2.up);//center
+
+        groundPointTransform[3].position = cellingHit.groundPoint;
+
+
+        if (isGrounded && cellingHit.groundHit)
+        {
+            float celingDist = Mathf.Clamp01(Mathf.InverseLerp(standHeight * 2.5f, standHeight * 1.8f, cellingHit.groundPoint.y - groundHit.groundPoint.y));
+            worldStandAdd = -celingDist * .175f;
+        }
+        else worldStandAdd = 0;
+    }
+
+    GroundPoint DownRay(Vector2 origin, float length, Vector2 direction)
     {
         GroundPoint hitData = new GroundPoint();
         hitData.groundHit = false;
 
-        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, length, groundMask);
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, length, groundMask);
         if (hit.collider)
         {
             hitData.groundHit = true;

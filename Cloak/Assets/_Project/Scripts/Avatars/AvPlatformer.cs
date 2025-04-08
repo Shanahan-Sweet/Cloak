@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AvPlatformer : AvatarGroup
 {
-    [SerializeField] PlatformerPhysics platformerPhysics;
+    PlatformerPhysics platformerPhysics;
     public Transform headHolder, legsHolder, bodyHolder;
 
     float squish;
@@ -13,6 +13,7 @@ public class AvPlatformer : AvatarGroup
     void Start()
     {
         //rigidBody = platformerPhysics.rigidBody;
+        platformerPhysics = GetComponentInParent<Avatar>().platformerPhysics;
     }
     public override void AnimUpdate(AvatarValues avatarValues)
     {

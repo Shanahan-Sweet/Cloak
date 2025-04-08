@@ -3,6 +3,7 @@ using UnityEngine;
 public class Avatar : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rigidBody;
+    [SerializeField] public PlatformerPhysics platformerPhysics;
     //[SerializeField] AvatarStance avatarStance;
     [SerializeField] AvatarGroup[] avatarGroups;
     [SerializeField] Transform bobHolder;
@@ -110,6 +111,7 @@ public class AvatarValues
 
     public Vector2 lerpVelocity;
     public float lerpTorque;
+
     //stance
     public float stanceTilt;
     public float lastTurnDir = 1;
