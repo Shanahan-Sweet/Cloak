@@ -77,28 +77,6 @@ public class PlatformerPhysics : MonoBehaviour
         rigidBody.AddForce(new Vector2(0, (targetPos - (Vector2)transform.position).y) * 60);
     }
     //Ground Check
-    public void CheckForGround()
-    {
-        //bool atGroundLevel = ((Vector2)transform.position - groundHit.groundPoint).y < StandHeight * 1f;
-        if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && groundHit.groundHit)// && atGroundLevel)
-        {
-            timeFromGrounded = Time.time + .15f;
-            if (!isGrounded)
-            {
-                isGrounded = true;
-                rigidBody.gravityScale = 0;
-                myAvatar.UpdateGroundedState(isGrounded);//anim
-                //effects
-                //partLand.Play();
-            }
-        }
-        else if (isGrounded)//set airborne
-        {
-            isGrounded = false;
-            rigidBody.gravityScale = defaultGravity;
-            myAvatar.UpdateGroundedState(isGrounded);//anim
-        }
-    }
 
     public void CheckGroundRaycast()
     {
@@ -121,9 +99,35 @@ public class PlatformerPhysics : MonoBehaviour
         }
 
         //debug
-        groundPointTransform[0].position = leftHit.groundPoint;
-        groundPointTransform[1].position = groundHit.groundPoint;
-        groundPointTransform[2].position = rightHit.groundPoint;
+        if (groundPointTransform.Length >= 2)
+        {
+            groundPointTransform[0].position = leftHit.groundPoint;
+            groundPointTransform[1].position = groundHit.groundPoint;
+            groundPointTransform[2].position = rightHit.groundPoint;
+        }
+        CheckForGround();
+    }
+    void CheckForGround()
+    {
+        //bool atGroundLevel = ((Vector2)transform.position - groundHit.groundPoint).y < StandHeight * 1f;
+        if (timeFromJump < Time.time && rigidBody.linearVelocity.y < 4 && groundHit.groundHit)// && atGroundLevel)
+        {
+            timeFromGrounded = Time.time + .15f;
+            if (!isGrounded)
+            {
+                isGrounded = true;
+                rigidBody.gravityScale = 0;
+                myAvatar.UpdateGroundedState(isGrounded);//anim
+                //effects
+                //partLand.Play();
+            }
+        }
+        else if (isGrounded)//set airborne
+        {
+            isGrounded = false;
+            rigidBody.gravityScale = defaultGravity;
+            myAvatar.UpdateGroundedState(isGrounded);//anim
+        }
     }
 
     public void CheckCelingRaycast()
