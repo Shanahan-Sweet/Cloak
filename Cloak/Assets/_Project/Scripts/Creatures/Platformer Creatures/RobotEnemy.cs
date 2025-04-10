@@ -60,7 +60,7 @@ public class RobotEnemy : BaseCreature
         rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag
 
         Vector2 moveDir = platformerPhysics.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * platformerPhysics.GroundNormal : Vector2.right;
-        rigidBody.AddForce(moveDir * moveAxis * 46);
+        rigidBody.AddForce(moveDir * moveAxis * 25);
         directionTrans.position = (Vector2)transform.position + moveDir;
         //add drag
         //rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
