@@ -69,7 +69,7 @@ Material:
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
     m_Colors:
-    - _AccentCol: {r: 1, g: 0.8905312, b: 0.58962256, a: 1}
+    - _AccentCol: {r: 0.1548149, g: 0.25960323, b: 0.46226418, a: 1}
     - _CharacterCol: {r: 1, g: 0.8905312, b: 0.58962256, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DarkCol: {r: 0.076972686, g: 0.03470986, b: 0.11320745, a: 1}

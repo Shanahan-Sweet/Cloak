@@ -752,22 +752,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot (2)
@@ -2113,22 +2097,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot (5)
@@ -3114,22 +3082,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot (3)
@@ -5115,11 +5067,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &563368628 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4162333306342190497, guid: 8a18d36393a42ee439541085281a1971, type: 3}
-  m_PrefabInstance: {fileID: 1615533455417194902}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &567200859
 GameObject:
   m_ObjectHideFlags: 0
@@ -5675,7 +5622,7 @@ Transform:
   m_GameObject: {fileID: 665285174}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.99, y: -1.1, z: 0}
+  m_LocalPosition: {x: 36.38, y: -0.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5733,11 +5680,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!4 &668705686 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2104830445093514463, guid: 8a18d36393a42ee439541085281a1971, type: 3}
-  m_PrefabInstance: {fileID: 1615533455417194902}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &672374435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5957,22 +5899,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot (6)
@@ -6399,7 +6325,7 @@ Transform:
   m_GameObject: {fileID: 753320863}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.03, y: 3.37, z: 0}
+  m_LocalPosition: {x: 20.02, y: 6.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7395,6 +7321,7 @@ Transform:
   - {fileID: 672374436}
   - {fileID: 1968819165}
   - {fileID: 665285175}
+  - {fileID: 1309431930}
   - {fileID: 329070052}
   - {fileID: 2110420648}
   - {fileID: 1452764078}
@@ -7610,22 +7537,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot (4)
@@ -15913,6 +15824,90 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   MainCamera: {fileID: 519420031}
+--- !u!1 &1309431929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309431930}
+  - component: {fileID: 1309431931}
+  m_Layer: 0
+  m_Name: Light 2D (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1309431930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309431929}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.56, y: 16.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 849086804}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1309431931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309431929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 2
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0, g: 0.5254902, b: 1, a: 1}
+  m_Intensity: 2
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000ddbcf2330b1385141306ced54b7b4bd389d5083d1d13d3e6953d77248fc177f84f77311c
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 2.1
+  m_PointLightOuterRadius: 10.37
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &1319603841
 GameObject:
   m_ObjectHideFlags: 0
@@ -16693,16 +16688,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1401889898 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1237804866251008615, guid: 8a18d36393a42ee439541085281a1971, type: 3}
-  m_PrefabInstance: {fileID: 1615533455417194902}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1432541256 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4122918239316300103, guid: 8a18d36393a42ee439541085281a1971, type: 3}
-  m_PrefabInstance: {fileID: 1615533455417194902}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1445250374
 GameObject:
   m_ObjectHideFlags: 0
@@ -60223,22 +60208,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot (1)
@@ -85711,22 +85680,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot (7)
@@ -96324,7 +96277,7 @@ Transform:
   m_GameObject: {fileID: 1968819164}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.38, y: -1.56, z: 0}
+  m_LocalPosition: {x: 15.31, y: -0.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -96371,7 +96324,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 2.1
-  m_PointLightOuterRadius: 8.15
+  m_PointLightOuterRadius: 6.97
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -97990,22 +97943,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1401889898}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1432541256}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[2]'
-      value: 
-      objectReference: {fileID: 668705686}
-    - target: {fileID: 6433655372368560066, guid: 976865a51ab52b84a870869462b07a44, type: 3}
-      propertyPath: 'groundPointTransform.Array.data[3]'
-      value: 
-      objectReference: {fileID: 563368628}
     - target: {fileID: 8615822593374604767, guid: 976865a51ab52b84a870869462b07a44, type: 3}
       propertyPath: m_Name
       value: Robot

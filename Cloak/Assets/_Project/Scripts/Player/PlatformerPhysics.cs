@@ -7,7 +7,7 @@ public class PlatformerPhysics : MonoBehaviour
     [SerializeField]
     float standHeight = .8f, rotationTorque = 16, legSeparation = .13f;
     float StandHeight { get { return standHeight + standHAdd + worldStandAdd; } }
-
+    [SerializeField] float groundRayAddGrounded = .2f, groundRayAddAirborne = -.15f, standHeightForce = 60f;
     float standHAdd = 0, worldStandAdd = 0;
     float defaultGravity;
     //Timers
@@ -74,13 +74,13 @@ public class PlatformerPhysics : MonoBehaviour
         rigidBody.AddForce(new Vector2(0, -rigidBody.linearVelocity.y * 10));//Y drag
 
         Vector2 targetPos = GroundPoint + Vector2.up * StandHeight;
-        rigidBody.AddForce(new Vector2(0, (targetPos - (Vector2)transform.position).y) * 60);
+        rigidBody.AddForce(new Vector2(0, (targetPos - (Vector2)transform.position).y) * standHeightForce);
     }
     //Ground Check
 
     public void CheckGroundRaycast()
     {
-        float groundCheckDist = standHeight + (isGrounded ? .2f : -.15f);
+        float groundCheckDist = standHeight + (isGrounded ? groundRayAddGrounded : groundRayAddAirborne);
         GroundPoint middleHit = DownRay((Vector2)transform.position, groundCheckDist, Vector2.down);//center
         GroundPoint leftHit = DownRay((Vector2)transform.position - Vector2.right * legSeparation, groundCheckDist, Vector2.down);
         GroundPoint rightHit = DownRay((Vector2)transform.position + Vector2.right * legSeparation, groundCheckDist, Vector2.down);

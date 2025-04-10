@@ -13,6 +13,9 @@ public class RobotEnemy : BaseCreature
     [Header("Animation")]
     [SerializeField] Avatar myAvatar;
 
+    //Debug
+    [SerializeField] Transform directionTrans;
+
     void Awake()
     {
         moveScript = GetComponent<PlayerMovement>();
@@ -54,12 +57,14 @@ public class RobotEnemy : BaseCreature
     void MoveFixed()
     {
         // rigidBody.AddForce(new Vector2(inputScript.MoveAxis.x * moveSpd, 0));
+        rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag
 
         Vector2 moveDir = platformerPhysics.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * platformerPhysics.GroundNormal : Vector2.right;
-        rigidBody.AddForce(moveDir * moveAxis * 26);
+        rigidBody.AddForce(moveDir * moveAxis * 46);
+        directionTrans.position = (Vector2)transform.position + moveDir;
         //add drag
         //rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
-        rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag
+
 
 
         platformerPhysics.KeepWalkHeight();
