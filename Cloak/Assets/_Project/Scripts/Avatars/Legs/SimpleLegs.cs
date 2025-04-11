@@ -44,8 +44,10 @@ public class SimpleLegs : AvatarGroup
         }
         else
         {
-            legTargetPos[0] = new Vector2(-.1f, 0);
-            legTargetPos[1] = new Vector2(.1f, 0);
+            float xAdd = Mathf.Lerp(.1f, .02f, avatarValues.lerpVelocity.y);
+            float dirAdd = avatarValues.lerpDirFast.x * avatarValues.lerpVelocity.y * .1f;
+            legTargetPos[0] = new Vector2(-xAdd, Mathf.Max(-dirAdd, 0));
+            legTargetPos[1] = new Vector2(xAdd, Mathf.Max(dirAdd, 0));
         }
 
         legHolder[0].localPosition = Vector2.Lerp(legHolder[0].localPosition, footTargetPos[0], Time.deltaTime * 15);

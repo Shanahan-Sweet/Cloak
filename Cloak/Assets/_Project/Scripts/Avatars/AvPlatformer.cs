@@ -29,6 +29,7 @@ public class AvPlatformer : AvatarGroup
         {
             float groundDist = platformerPhysics.GroundDistance;
             targetSquish = Mathf.Clamp(groundDist, -.1f, 0.1f);
+            targetSquish += -Mathf.Abs(avatarValues.lerpVelocity.x) * .1f;
         }
         else
         {

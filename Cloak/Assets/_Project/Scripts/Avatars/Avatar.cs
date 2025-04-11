@@ -68,7 +68,7 @@ public class Avatar : MonoBehaviour
     }
     void UpdateLerps(Vector2 lookDir)
     {
-        avatarValues.groundedT = Mathf.MoveTowards(avatarValues.groundedT, avatarValues.isGrounded ? 1 : 0, 1 * Time.deltaTime);
+        avatarValues.groundedT = Mathf.MoveTowards(avatarValues.groundedT, avatarValues.isGrounded ? 1 : 0, 1.5f * Time.deltaTime);
 
         //Lerp Look Dir
         float t = 1 - Mathf.Pow(0.5f, Time.deltaTime * fastLerpSpd);
