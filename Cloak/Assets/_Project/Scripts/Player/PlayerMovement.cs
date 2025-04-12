@@ -85,8 +85,8 @@ public class PlayerMovement : MonoBehaviour
     //Actions
     public void Jump()
     {
-        float tempHeight = currentState == PlayerState.Attack ? jumpHeight * .5f : jumpHeight;
-        platformerPhysics.Jump(tempHeight);
+        //float tempHeight = currentState == PlayerState.Attack ? jumpHeight * .5f : jumpHeight;
+        platformerPhysics.Jump(jumpHeight);
     }
 
     //Attack state
@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void AttackStrike(Vector2 attackDir)
     {
-        rigidBody.AddForce(attackDir * 2, ForceMode2D.Impulse);
+        rigidBody.AddForce(attackDir * 4, ForceMode2D.Impulse);
     }
     public void AttackEnded()
     {

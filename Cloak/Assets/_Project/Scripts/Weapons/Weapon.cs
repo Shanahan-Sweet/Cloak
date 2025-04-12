@@ -3,6 +3,7 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     [SerializeField] Transform weaponRotation;
+    [SerializeField] WeaponCollider weaponCollider;
     //components
     IWeaponMaster myWeaponMaster;
     [SerializeField] Animator weaponAnim;
@@ -11,12 +12,15 @@ public class Weapon : MonoBehaviour
     void Awake()
     {
         myWeaponMaster = GetComponentInParent<IWeaponMaster>();
+        weaponCollider.gameObject.SetActive(false);
     }
 
     public void StartAttack(Vector2 pointDirection)
     {
         //Reset attack
         CancelInvoke(nameof(AttackStrike));
+        DisableAttackCollider();
+        CancelInvoke(nameof(DisableAttackCollider));
         CancelInvoke(nameof(EndAttack));
         weaponAnim.ResetTrigger("Strike");
 
@@ -39,10 +43,20 @@ public class Weapon : MonoBehaviour
         weaponAnim.SetTrigger("Strike");
 
         myWeaponMaster.AttackStrike(weaponRotation.right);
+
+        weaponCollider.gameObject.SetActive(true);//hit collider
+
+        Invoke(nameof(DisableAttackCollider), .5f);//disable collider
     }
 
     void EndAttack()
     {
         myWeaponMaster.AttackEnded();
+    }
+
+
+    void DisableAttackCollider()
+    {
+        weaponCollider.gameObject.SetActive(false);
     }
 }
