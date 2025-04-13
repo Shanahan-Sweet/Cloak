@@ -12,10 +12,10 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - SmallCreature
+  - MidCreature
+  - largeCreature
+  - Attack
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
   - name: Backwall
     uniqueID: 3587048979
     locked: 0
+  - name: BackDetails
+    uniqueID: 611794325
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -53,8 +56,17 @@ TagManager:
   - name: Characters
     uniqueID: 1023989129
     locked: 0
+  - name: Effects
+    uniqueID: 473003855
+    locked: 0
   - name: Ground
     uniqueID: 871546077
+    locked: 0
+  - name: FrontDetails
+    uniqueID: 4168597903
+    locked: 0
+  - name: Foreground
+    uniqueID: 3872592669
     locked: 0
   m_RenderingLayers:
   - Default

@@ -17,5 +17,6 @@ MonoBehaviour:
     sunlightCol: {r: 0, g: 0, b: 0, a: 1}
     darkCol: {r: 0, g: 0, b: 0, a: 1}
     fogCol: {r: 0.122641504, g: 0, b: 0, a: 1}
-    accentCol: {r: 0.2688679, g: 1, b: 0.9256109, a: 1}
+    topAccentCol: {r: 0.27058825, g: 1, b: 0.9254902, a: 1}
+    accentCol: {r: 0.08866177, g: 0, b: 0.8679245, a: 1}
     noiseCol: {r: 0.28627452, g: 0.18431373, b: 1, a: 1}

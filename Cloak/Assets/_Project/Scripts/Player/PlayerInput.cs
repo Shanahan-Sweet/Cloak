@@ -48,8 +48,9 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     {
         SetMoveAxis(moveAction.action.ReadValue<Vector2>());//get axis input
 
-        platformerPhysics.CheckForGround();//check for ground
-        platformerPhysics.CheckGroundRaycast();
+        //platformerPhysics.CheckForGround();//check for ground
+        platformerPhysics.CheckGroundRaycast();//check for ground
+        platformerPhysics.CheckCelingRaycast();
         platformerPhysics.ChangeStandHeight(moveAxis.y > 0 ? moveAxis.y * .1f : moveAxis.y * .2f);
         if (timeFromJump > Time.time && platformerPhysics.TimeFromGrounded > Time.time) Jump();//was close to ground or has pressed jump
 

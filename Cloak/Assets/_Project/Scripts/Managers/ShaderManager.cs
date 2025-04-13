@@ -10,7 +10,7 @@ public class ShaderManager : MonoBehaviour
 
     public Color dimLightCol, sunlightCol, darkCol;
     [HideInInspector]
-    public Color accentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
+    public Color accentCol, topAccentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
 
     //_______________________________________________
     [SerializeField] AnimationCurve colourCurve;
@@ -48,6 +48,7 @@ public class ShaderManager : MonoBehaviour
         sunlightCol = currentPalette.sunlightCol;
         darkCol = currentPalette.darkCol;
         accentCol = currentPalette.accentCol;
+        topAccentCol = currentPalette.topAccentCol;
         noiseCol = currentPalette.noiseCol;
 
         fogCol = currentPalette.fogCol;
@@ -83,6 +84,7 @@ public class ShaderManager : MonoBehaviour
         Color startSun = sunlightCol;
         Color startDark = darkCol;
         Color startAccent = accentCol;
+        Color startTopAccent = topAccentCol;
         Color startNoise = noiseCol;
         Color startFog = fogCol;
 
@@ -92,6 +94,7 @@ public class ShaderManager : MonoBehaviour
         Color sunlightTarget = currentPalette.sunlightCol;
         Color darkColTarget = currentPalette.darkCol;
         Color accentTarget = currentPalette.accentCol;
+        Color topAccentTarget = currentPalette.topAccentCol;
         Color noiseTarget = currentPalette.noiseCol;
         Color fogColTarget = currentPalette.fogCol;
 
@@ -102,7 +105,8 @@ public class ShaderManager : MonoBehaviour
             sunlightCol = Color.Lerp(startSun, sunlightTarget, t);
             darkCol = Color.Lerp(startDark, darkColTarget, t);
             accentCol = Color.Lerp(startAccent, accentTarget, t);
-            accentCol = Color.Lerp(startNoise, noiseTarget, t);
+            topAccentCol = Color.Lerp(startTopAccent, topAccentTarget, t);
+            noiseCol = Color.Lerp(startNoise, noiseTarget, t);
             fogCol = Color.Lerp(startFog, fogColTarget, t);
             CalcBackgroundCol();
 
@@ -124,6 +128,7 @@ public class ShaderManager : MonoBehaviour
         Shader.SetGlobalColor("_SunlightCol", EvaluateColour(sunlightCol));
         Shader.SetGlobalColor("_DarkCol", EvaluateColour(darkCol));
         Shader.SetGlobalColor("_AccentCol", EvaluateColour(accentCol));
+        Shader.SetGlobalColor("_TopAccentCol", EvaluateColour(topAccentCol));
         Shader.SetGlobalColor("_NoiseCol", EvaluateColour(noiseCol));
         Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
 
