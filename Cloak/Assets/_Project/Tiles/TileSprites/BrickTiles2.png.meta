@@ -1059,7 +1059,45 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BrickTiles2_0: -7227690929098211300
+      BrickTiles2_1: 1312138200474946249
+      BrickTiles2_10: 7258162294601006780
+      BrickTiles2_11: 3039370223603083747
+      BrickTiles2_12: -2523321173204829388
+      BrickTiles2_13: -22113547720165083
+      BrickTiles2_14: 1752656570319972513
+      BrickTiles2_15: 7192313755939284336
+      BrickTiles2_16: 789044253842189666
+      BrickTiles2_17: 1976790206432895707
+      BrickTiles2_18: 4583142737312057767
+      BrickTiles2_19: -7912770462431861082
+      BrickTiles2_2: -5993873121806466693
+      BrickTiles2_20: 1650170891111483237
+      BrickTiles2_21: -3495485864909424314
+      BrickTiles2_22: 506017903995098416
+      BrickTiles2_23: 7178419127394042905
+      BrickTiles2_24: -4548363206321019050
+      BrickTiles2_25: -3529397389646249336
+      BrickTiles2_26: -6451354582465447676
+      BrickTiles2_27: 1703866204396491749
+      BrickTiles2_28: -9147571951374975801
+      BrickTiles2_29: -2390014179423758841
+      BrickTiles2_3: 7433399106871949105
+      BrickTiles2_30: 2579362015472335654
+      BrickTiles2_31: -908089592199601193
+      BrickTiles2_32: -5177024997910044005
+      BrickTiles2_33: 7001144619413914653
+      BrickTiles2_34: 4494091075954371564
+      BrickTiles2_35: -7661522768492540461
+      BrickTiles2_36: 8405938906555516524
+      BrickTiles2_37: 6578349598508658411
+      BrickTiles2_4: -956578645469548663
+      BrickTiles2_5: -5947638634607929348
+      BrickTiles2_6: 6631895473358740563
+      BrickTiles2_7: -3972426128979685446
+      BrickTiles2_8: 655048844189221776
+      BrickTiles2_9: 5915459071795566573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

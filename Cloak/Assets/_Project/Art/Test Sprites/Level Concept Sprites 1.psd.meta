@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 94f9d4ea88a43b1418d26c5506a2551a
+guid: 09542d2d933d93743b803d0884c33c53
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2837464215175852190
-    second: ShapePeople_0
+      213: -2210362794752416392
+    second: Level Concept Sprites 1_0
   - first:
-      213: 8131204343111759980
-    second: ShapePeople_1
+      213: -2769103177814794541
+    second: Level Concept Sprites 1_1
   - first:
-      213: 5332404086639355643
-    second: ShapePeople_2
+      213: 3896269015410909553
+    second: Level Concept Sprites 1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,67 +106,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ShapePeople_0
+      name: Level Concept Sprites 1_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 41
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 159
+        y: 550
+        width: 233
+        height: 445
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26f8f8f645d4f98d0800000000000000
-      internalID: -2837464215175852190
+      spriteID: 875ea0acfb63351e0800000000000000
+      internalID: -2210362794752416392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapePeople_1
+      name: Level Concept Sprites 1_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 6
-        width: 58
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 451
+        y: 550
+        width: 123
+        height: 430
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c683a43e447d7d070800000000000000
-      internalID: 8131204343111759980
+      spriteID: 3de91f3c45b2299d0800000000000000
+      internalID: -2769103177814794541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapePeople_2
+      name: Level Concept Sprites 1_2
       rect:
         serializedVersion: 2
-        x: 121
-        y: 9
-        width: 44
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 638
+        y: 542
+        width: 281
+        height: 393
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf6eaf6b341800a40800000000000000
-      internalID: 5332404086639355643
+      spriteID: 171ade4b604521630800000000000000
+      internalID: 3896269015410909553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 1_3
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 540
+        width: 185
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba09a886d1c13c4ab9e404abbd93a9f
+      internalID: -716349403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 1_4
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 541
+        width: 112
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83ffde9c34f7d242a010b5c4c60d9a8
+      internalID: -1884441890
       vertices: []
       indices: 
       edges: []
@@ -175,7 +219,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9470c573e05e5b149a83697cdab90cc6
     internalID: 0
     vertices: []
     indices: 
@@ -185,11 +229,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ShapePeople_0: -2837464215175852190
-      ShapePeople_1: 8131204343111759980
-      ShapePeople_2: 5332404086639355643
+      Level Concept Sprites 1_0: -2210362794752416392
+      Level Concept Sprites 1_1: -2769103177814794541
+      Level Concept Sprites 1_2: 3896269015410909553
+      Level Concept Sprites 1_3: -716349403
+      Level Concept Sprites 1_4: -1884441890
   mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
