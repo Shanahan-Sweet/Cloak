@@ -142,9 +142,6 @@
             "m_Id": "ee961ce1253447e08e2734d8dd9570d3"
         },
         {
-            "m_Id": "5360d4bc2e244ef88a97b911406b7900"
-        },
-        {
             "m_Id": "82db7607e7584ecbae1418e4cef36b2b"
         },
         {
@@ -2175,8 +2172,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -2239.0,
-        "y": 1261.0,
+        "x": -2416.0,
+        "y": 1263.0,
         "width": 156.0,
         "height": 100.0
     },
@@ -2641,42 +2638,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "5360d4bc2e244ef88a97b911406b7900",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -2080.999755859375,
-            "y": 1390.9998779296875,
-            "width": 109.0,
-            "height": 34.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "cd76f4ddcf09405082c1af9d69f83854"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "2bf3a5d403bf40ddb5aa5feb39cd29df"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalSpriteUnlitSubTarget",
     "m_ObjectId": "53a30e50da65431aa92f809efc427efd"
 }
@@ -3102,9 +3063,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2257.999755859375,
-            "y": 1142.9998779296875,
-            "width": 133.0,
+            "x": -2435.000244140625,
+            "y": 1145.0001220703125,
+            "width": 133.000244140625,
             "height": 34.0
         }
     },
@@ -3186,9 +3147,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2096.999755859375,
-            "y": 1119.9998779296875,
-            "width": 207.9998779296875,
+            "x": -2274.000244140625,
+            "y": 1122.0001220703125,
+            "width": 208.000244140625,
             "height": 435.0
         }
     },
@@ -3589,8 +3550,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1794.9998779296875,
-            "y": 1098.9998779296875,
+            "x": -1915.0001220703125,
+            "y": 1098.0001220703125,
             "width": 208.0,
             "height": 326.0
         }
@@ -5032,31 +4993,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
-    "m_ObjectId": "cd76f4ddcf09405082c1af9d69f83854",
-    "m_Id": 0,
-    "m_DisplayName": "_FogCol",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "cddf298292ea41ff8c6f9cd9689925f6",
     "m_Id": 0,
@@ -5774,7 +5710,7 @@
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "eb149b1efb29428e915e45e9f8c232bf",
-    "m_Title": "Sunlight noise",
+    "m_Title": "Sunlight",
     "m_Content": "outputs max sunlight level\n",
     "m_TextSize": 0,
     "m_Theme": 0,

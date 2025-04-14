@@ -66,7 +66,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DarkThreshold: 0.4
+    - _DarkThreshold1: 0.4
+    - _DarkThreshold_sun: -0.1
     - _EnableExternalAlpha: 0
+    - _LightThreshold: 1
+    - _LightThreshold1: 1
+    - _LightThreshold1_sun: 0.5
     - _ZWrite: 0
     m_Colors:
     - _AccentCol: {r: 1, g: 0, b: 0.7245035, a: 1}
