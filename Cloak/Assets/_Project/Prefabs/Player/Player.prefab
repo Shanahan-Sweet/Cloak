@@ -2021,7 +2021,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   moveSpd: 25
-  jumpHeight: 8
+  jumpHeight: 7.75
+  slideSpd: 45
   directionTrans: {fileID: 121412858723560231}
 --- !u!114 &6605411648232638728
 MonoBehaviour:
@@ -2064,7 +2065,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0.5
+  m_LinearDamping: 0.25
   m_AngularDamping: 12
   m_GravityScale: 1.9
   m_Material: {fileID: 6200000, guid: 8fc59846824a23d46ade80ef92311188, type: 2}

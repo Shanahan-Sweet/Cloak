@@ -12,7 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public PlayerState currentState;
 
     //variables
-    [SerializeField] float moveSpd = 10, jumpHeight = 7;
+    [SerializeField] float moveSpd = 25, jumpHeight = 7;
+    [SerializeField] float slideSpd = 30;
 
     //float yDrag = 1;
 
@@ -20,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     PlayerInput inputScript;
     PlatformerPhysics platformerPhysics;
     Rigidbody2D rigidBody;
+
+    Vector2 GroundNormal { get { return Quaternion.AngleAxis(-90, Vector3.forward) * platformerPhysics.GroundNormal; } }
 
     //Debug
     [SerializeField] Transform directionTrans;
@@ -70,9 +73,18 @@ public class PlayerMovement : MonoBehaviour
     {
         // rigidBody.AddForce(new Vector2(inputScript.MoveAxis.x * moveSpd, 0));
 
-        Vector2 moveDir = platformerPhysics.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * platformerPhysics.GroundNormal : Vector2.right;
-        rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd);
-        directionTrans.position = (Vector2)transform.position + moveDir;
+        if (platformerPhysics.GroundHit && inputScript.MoveAxis.y < -.25f)//holding down
+        {
+            Vector2 moveDir = GroundNormal * -Mathf.Sign(GroundNormal.y);//get down direction
+            rigidBody.AddForce(moveDir * slideSpd);
+            directionTrans.position = (Vector2)transform.position + moveDir;//debug
+        }
+        else
+        {
+            Vector2 moveDir = platformerPhysics.GroundHit ? GroundNormal : Vector2.right;
+            rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd);
+            directionTrans.position = (Vector2)transform.position + moveDir;//debug
+        }
         //add drag
         //rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
         rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag

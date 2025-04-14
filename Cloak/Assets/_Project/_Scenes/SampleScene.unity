@@ -94170,7 +94170,7 @@ GameObject:
   - component: {fileID: 2130472254}
   - component: {fileID: 2130472253}
   m_Layer: 0
-  m_Name: CableShapeProfile (3)
+  m_Name: BackgroundCable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94191,7 +94191,7 @@ MonoBehaviour:
   m_Spline:
     m_IsOpenEnded: 0
     m_ControlPoints:
-    - position: {x: 26.333334, y: 4.533334, z: 0}
+    - position: {x: 26.333334, y: 7.8666673, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -94199,7 +94199,7 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 21.330467, y: 3.814306, z: 0}
+    - position: {x: 21, y: 5.866667, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -94207,7 +94207,7 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 15.000003, y: 3.8666675, z: 0}
+    - position: {x: 15.009861, y: 5.042262, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -94215,7 +94215,7 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 10.333334, y: 4.533334, z: 0}
+    - position: {x: 8.020905, y: 5.712142, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -94223,15 +94223,7 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 5.000002, y: 5.866667, z: 0}
-      leftTangent: {x: 0, y: 0, z: 0}
-      rightTangent: {x: 0, y: 0, z: 0}
-      mode: 0
-      height: 1
-      spriteIndex: 0
-      corner: 1
-      m_CornerMode: 1
-    - position: {x: 0.6559914, y: 7.6771703, z: 0}
+    - position: {x: 2.3333335, y: 7.2000003, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -94388,8 +94380,8 @@ SpriteShapeRenderer:
   - {fileID: 1882487189, guid: e08dd8a02d50ca1448129df16ac55568, type: 3}
   - {fileID: -476287581, guid: e08dd8a02d50ca1448129df16ac55568, type: 3}
   m_LocalAABB:
-    m_Center: {x: 11.666667, y: 7.5521207, z: 0}
-    m_Extent: {x: 15.166667, y: 4.2381115, z: 0}
+    m_Center: {x: 11.666667, y: 8.164614, z: 0}
+    m_Extent: {x: 15.166667, y: 3.6256177, z: 0}
   m_SpriteSortPoint: 0
 --- !u!4 &2130472255
 Transform:
