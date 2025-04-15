@@ -218,6 +218,9 @@
         },
         {
             "m_Id": "a642dc901c5a48dbb29ba3f7f24dca1e"
+        },
+        {
+            "m_Id": "f26a9b023f324772ada4bd9d4cec65d8"
         }
     ],
     "m_Edges": [
@@ -1090,6 +1093,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "0939b9fc4ee24a77a2a6c4413c0371a8",
+    "m_Id": 1314542684,
+    "m_DisplayName": "SunlightMaxValue",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_SunlightMaxValue",
+    "m_StageCapability": 2,
+    "m_Value": 2.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "09f4d88e114d49deb5c0212d5379a538",
     "m_Id": 1,
@@ -1324,6 +1342,9 @@
             "m_Id": "282a6151b9ae4f4dbba83f44917a07af"
         },
         {
+            "m_Id": "0939b9fc4ee24a77a2a6c4413c0371a8"
+        },
+        {
             "m_Id": "a3eb08f9ce584d1e852027c95448ae36"
         }
     ],
@@ -1337,10 +1358,12 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"45f2fa1aa373b784aa77d4cbd4271242\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "25b9eb9c-c7c5-4eae-b29b-b614eae5d224"
+        "25b9eb9c-c7c5-4eae-b29b-b614eae5d224",
+        "bbc44341-8c74-4438-bbb2-1bacd229bd1d"
     ],
     "m_PropertyIds": [
-        1534284289
+        1534284289,
+        1314542684
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -5983,6 +6006,26 @@
         "w": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "f26a9b023f324772ada4bd9d4cec65d8",
+    "m_Title": "Noise",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -189.0,
+        "y": 220.0,
+        "width": 90.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {

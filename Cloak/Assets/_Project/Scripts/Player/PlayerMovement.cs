@@ -12,10 +12,11 @@ public class PlayerMovement : MonoBehaviour
     public PlayerState currentState;
 
     //variables
-    [SerializeField] float moveSpd = 25, jumpHeight = 7;
+    [SerializeField] float moveSpd = 25, airMoveSpd = 15, jumpHeight = 7;
     [SerializeField] float slideSpd = 30;
 
     //float yDrag = 1;
+    float xDragMultiplier = 1;
 
     //Components
     PlayerInput inputScript;
@@ -75,23 +76,33 @@ public class PlayerMovement : MonoBehaviour
 
         if (platformerPhysics.GroundHit && inputScript.MoveAxis.y < -.25f)//holding down
         {
-            Vector2 moveDir = GroundNormal * -Mathf.Sign(GroundNormal.y);//get down direction
-            rigidBody.AddForce(moveDir * slideSpd);
-            directionTrans.position = (Vector2)transform.position + moveDir;//debug
+            //MoveSlide();
+            MoveWalk();
         }
         else
         {
-            Vector2 moveDir = platformerPhysics.GroundHit ? GroundNormal : Vector2.right;
-            rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd);
-            directionTrans.position = (Vector2)transform.position + moveDir;//debug
+            MoveWalk();
         }
         //add drag
-        //rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
-        rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag
+        ApplyXDrag();
 
 
         platformerPhysics.KeepWalkHeight();
         platformerPhysics.FlipUpright(Vector2.up);
+    }
+
+    void MoveWalk()
+    {
+        Vector2 moveDir = platformerPhysics.GroundHit ? GroundNormal : Vector2.right;
+        rigidBody.AddForce(moveDir * inputScript.MoveAxis.x * moveSpd);
+        directionTrans.position = (Vector2)transform.position + moveDir;//debug
+    }
+
+    void MoveSlide()
+    {
+        Vector2 moveDir = GroundNormal * -Mathf.Sign(GroundNormal.y);//get down direction
+        rigidBody.AddForce(moveDir * slideSpd);
+        directionTrans.position = (Vector2)transform.position + moveDir;//debug
     }
 
     //Actions
@@ -99,6 +110,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //float tempHeight = currentState == PlayerState.Attack ? jumpHeight * .5f : jumpHeight;
         platformerPhysics.Jump(jumpHeight);
+        xDragMultiplier = 0;
     }
 
     //Attack state
@@ -128,5 +140,17 @@ public class PlayerMovement : MonoBehaviour
 
         platformerPhysics.KeepWalkHeight();
         platformerPhysics.FlipUpright(Vector2.up);
+    }
+
+
+    //Forces
+    void ApplyXDrag()
+    {
+        /*if (xDragMultiplier < .99f && platformerPhysics.GroundHit)
+        {
+            xDragMultiplier = Mathf.MoveTowards(xDragMultiplier, 1, Time.deltaTime * 6);
+            if (xDragMultiplier >= .99f) xDragMultiplier = 1;//set to default
+        }*/
+        rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag
     }
 }

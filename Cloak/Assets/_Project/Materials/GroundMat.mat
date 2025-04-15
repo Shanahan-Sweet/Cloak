@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AbstractLitMat
+  m_Name: GroundMat
   m_Shader: {fileID: -6465566751694194690, guid: acee8223953272644b27d45af5cc2705, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

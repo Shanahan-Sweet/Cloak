@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AbstractBackgroundMat
+  m_Name: BackgroundMat
   m_Shader: {fileID: -6465566751694194690, guid: e1d44d5f3746e65458b6b659dc34bbf8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -53,7 +53,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DarkThreshold1: -2.11
     - _EnableExternalAlpha: 0
+    - _LightThreshold1: 1
     - _ZWrite: 0
     m_Colors:
     - _AccentCol: {r: 0.20283017, g: 0.32077807, b: 1, a: 1}
