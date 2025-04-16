@@ -3,11 +3,13 @@ using UnityEngine.InputSystem;
 public class PlayerInput : MonoBehaviour, IWeaponMaster
 {
 
-    [SerializeField] InputActionReference jumpAction, moveAction, toolAction;
+    [SerializeField] InputActionReference jumpAction, moveAction, toolAction, dashAction;
 
     //variables
     Vector2 rawMoveAxis, moveAxis;
+    float lastXDir;
     public Vector2 MoveAxis { get { return moveAxis; } }
+    public float GetlastXDir { get { return lastXDir; } }
     bool isMoving;
     public bool IsMoving { get { return isMoving; } }
 
@@ -37,10 +39,13 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
         jumpAction.action.Enable();
         moveAction.action.Enable();
         toolAction.action.Enable();
+        dashAction.action.Enable();
         jumpAction.action.performed += JumpAction;
         jumpAction.action.canceled += JumpCanceled;
 
         toolAction.action.performed += ToolAction;
+
+        dashAction.action.performed += DashAction;
     }
 
     //Update
@@ -72,9 +77,16 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     {
         StartAttack();
     }
+    public void DashAction(InputAction.CallbackContext context)
+    {
+        moveScript.StartDash();
+    }
     void SetMoveAxis(Vector2 newAxis)
     {
         rawMoveAxis = newAxis;
+
+        if (Mathf.Abs(rawMoveAxis.x) > 0.1f) lastXDir = Mathf.Sign(rawMoveAxis.x);//save last held direction
+
         if (rawMoveAxis.magnitude < .15f)
         {
             isMoving = false;

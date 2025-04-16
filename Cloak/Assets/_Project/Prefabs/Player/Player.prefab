@@ -1996,7 +1996,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 0.4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: ddbcf233
@@ -2087,6 +2087,7 @@ MonoBehaviour:
   jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   toolAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  dashAction: {fileID: 625871161335463959, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   moveMat: {fileID: 6200000, guid: 8fc59846824a23d46ade80ef92311188, type: 2}
   idleMat: {fileID: 6200000, guid: e05ba3b752b373446a42cc2cd27d30ed, type: 2}
   myWeapon: {fileID: 1116552899265054772}
@@ -2108,6 +2109,9 @@ MonoBehaviour:
   airMoveSpd: 9
   jumpHeight: 7.75
   slideSpd: 45
+  dashSpd: 60
+  dashBurstForce: 15
+  dashTime: 0.4
   directionTrans: {fileID: 121412858723560231}
 --- !u!114 &6605411648232638728
 MonoBehaviour:
