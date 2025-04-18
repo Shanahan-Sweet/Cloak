@@ -56,7 +56,7 @@ Material:
     - _DarkThreshold1: -2.11
     - _EnableExternalAlpha: 0
     - _FogFar: 7
-    - _FogNear: -8
+    - _FogNear: -3
     - _LightThreshold1: 1
     - _ZWrite: 0
     m_Colors:
