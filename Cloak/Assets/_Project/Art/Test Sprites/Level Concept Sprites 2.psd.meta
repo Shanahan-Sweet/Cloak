@@ -1,0 +1,1515 @@
+fileFormatVersion: 2
+guid: 10d4ad6f713e14d4295312ab7b0c9a16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3059770288844697767
+    second: Level Concept Sprites 2_0
+  - first:
+      213: -8069332239920855563
+    second: Level Concept Sprites 2_1
+  - first:
+      213: 9151385647340282118
+    second: Level Concept Sprites 2_2
+  - first:
+      213: -7593810852875934124
+    second: Level Concept Sprites 2_3
+  - first:
+      213: 2459098716364128833
+    second: Level Concept Sprites 2_4
+  - first:
+      213: 8847669485305374368
+    second: Level Concept Sprites 2_5
+  - first:
+      213: 1418924772064443499
+    second: Level Concept Sprites 2_6
+  - first:
+      213: 7767940619676159828
+    second: Level Concept Sprites 2_7
+  - first:
+      213: -2112326379480353692
+    second: Level Concept Sprites 2_8
+  - first:
+      213: -8173659686173862276
+    second: Level Concept Sprites 2_9
+  - first:
+      213: 777820092705207909
+    second: Level Concept Sprites 2_10
+  - first:
+      213: -7554732058939440808
+    second: Level Concept Sprites 2_11
+  - first:
+      213: 5027949061323230860
+    second: Level Concept Sprites 2_12
+  - first:
+      213: 8997029157953076963
+    second: Level Concept Sprites 2_13
+  - first:
+      213: 9128781627102814423
+    second: Level Concept Sprites 2_14
+  - first:
+      213: -4526111641649392000
+    second: Level Concept Sprites 2_15
+  - first:
+      213: -3167908688531540452
+    second: Level Concept Sprites 2_16
+  - first:
+      213: 509924972868862263
+    second: Level Concept Sprites 2_17
+  - first:
+      213: -1857989073102510661
+    second: Level Concept Sprites 2_18
+  - first:
+      213: 1608009452917748979
+    second: Level Concept Sprites 2_19
+  - first:
+      213: 7433409383060392738
+    second: Level Concept Sprites 2_20
+  - first:
+      213: -3873164901033143042
+    second: Level Concept Sprites 2_21
+  - first:
+      213: -4108252944834349946
+    second: Level Concept Sprites 2_22
+  - first:
+      213: -6500558601605020848
+    second: Level Concept Sprites 2_23
+  - first:
+      213: 5674786096622904587
+    second: Level Concept Sprites 2_24
+  - first:
+      213: -510078099116343849
+    second: Level Concept Sprites 2_25
+  - first:
+      213: 5191285011917885400
+    second: Level Concept Sprites 2_26
+  - first:
+      213: -6035020923219450123
+    second: Level Concept Sprites 2_27
+  - first:
+      213: -4732444763204583735
+    second: Level Concept Sprites 2_28
+  - first:
+      213: 1575277051189845205
+    second: Level Concept Sprites 2_29
+  - first:
+      213: -3731728246848382864
+    second: Level Concept Sprites 2_30
+  - first:
+      213: -1637852679975734318
+    second: Level Concept Sprites 2_31
+  - first:
+      213: 8300977843881174173
+    second: Level Concept Sprites 2_32
+  - first:
+      213: 1039111805068392341
+    second: Level Concept Sprites 2_33
+  - first:
+      213: 5740349765053717533
+    second: Level Concept Sprites 2_34
+  - first:
+      213: -6622693317942767724
+    second: Level Concept Sprites 2_35
+  - first:
+      213: -8696977858624412421
+    second: Level Concept Sprites 2_36
+  - first:
+      213: 2737012616105178704
+    second: Level Concept Sprites 2_37
+  - first:
+      213: -3333498929785963888
+    second: Level Concept Sprites 2_38
+  - first:
+      213: 5778820063261809914
+    second: Level Concept Sprites 2_39
+  - first:
+      213: 742281693958699837
+    second: Level Concept Sprites 2_40
+  - first:
+      213: 2867984698931080018
+    second: Level Concept Sprites 2_41
+  - first:
+      213: 4558881481379183547
+    second: Level Concept Sprites 2_42
+  - first:
+      213: 8093985315187854485
+    second: Level Concept Sprites 2_43
+  - first:
+      213: 9193086043465280475
+    second: Level Concept Sprites 2_44
+  - first:
+      213: 1750571494281596039
+    second: Level Concept Sprites 2_45
+  - first:
+      213: 6803918607939257788
+    second: Level Concept Sprites 2_46
+  - first:
+      213: 3178664871891037034
+    second: Level Concept Sprites 2_47
+  - first:
+      213: -4854351726495490530
+    second: Level Concept Sprites 2_48
+  - first:
+      213: -6308902118468880441
+    second: Level Concept Sprites 2_49
+  - first:
+      213: 4054088019733749732
+    second: Level Concept Sprites 2_50
+  - first:
+      213: 2360824080730336656
+    second: Level Concept Sprites 2_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 653
+        width: 82
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f0e1732238985d0800000000000000
+      internalID: -3059770288844697767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 649
+        width: 182
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f509e8b419f30090800000000000000
+      internalID: -8069332239920855563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 679
+        width: 72
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601635892c0400f70800000000000000
+      internalID: 9151385647340282118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_3
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 661
+        width: 88
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456e2d6534d5d9690800000000000000
+      internalID: -7593810852875934124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 841
+        width: 124
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142c080f049702220800000000000000
+      internalID: 2459098716364128833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_5
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 539
+        width: 67
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6a0b9158c39ca70800000000000000
+      internalID: 8847669485305374368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_6
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 840
+        width: 36
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c37e9ff8801b310800000000000000
+      internalID: 1418924772064443499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_7
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 730
+        width: 34
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f002856d44dcb60800000000000000
+      internalID: 7767940619676159828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_8
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 841
+        width: 70
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464f26579528fa2e0800000000000000
+      internalID: -2112326379480353692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_9
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 853
+        width: 80
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c761da242d3519e80800000000000000
+      internalID: -8173659686173862276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_10
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 865
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566fad4d04f5bca00800000000000000
+      internalID: 777820092705207909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_11
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 837
+        width: 38
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851c8a51833382790800000000000000
+      internalID: -7554732058939440808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_12
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 856
+        width: 88
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e0ee4380dd6c540800000000000000
+      internalID: 5027949061323230860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_13
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 437
+        width: 156
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eeff91d95edbdc70800000000000000
+      internalID: 8997029157953076963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_14
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 616
+        width: 86
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d063930682ffae70800000000000000
+      internalID: 9128781627102814423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_15
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 470
+        width: 15
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0865ab931750031c0800000000000000
+      internalID: -4526111641649392000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_16
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 635
+        width: 44
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16343305d35904d0800000000000000
+      internalID: -3167908688531540452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_17
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 650
+        width: 44
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73103f5af0e931700800000000000000
+      internalID: 509924972868862263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_18
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 678
+        width: 71
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5ea2538c81736e0800000000000000
+      internalID: -1857989073102510661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_19
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 603
+        width: 23
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4f1ace31cc05610800000000000000
+      internalID: 1608009452917748979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_20
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 688
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bce533376c82760800000000000000
+      internalID: 7433409383060392738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_21
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 676
+        width: 174
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4986d1b01cf3ac0800000000000000
+      internalID: -3873164901033143042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 548
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68432bf86bd8cf6c0800000000000000
+      internalID: -4108252944834349946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 389
+        width: 57
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05309bda46069c5a0800000000000000
+      internalID: -6500558601605020848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_24
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 308
+        width: 84
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05a88973e3e0ce40800000000000000
+      internalID: 5674786096622904587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_25
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 609
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddb67edba6dbe8f0800000000000000
+      internalID: -510078099116343849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_26
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 462
+        width: 43
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfcc27b6362b0840800000000000000
+      internalID: 5191285011917885400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_27
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 463
+        width: 61
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6647bf17c4f3ca0800000000000000
+      internalID: -6035020923219450123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_28
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 588
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce780abf8af25eb0800000000000000
+      internalID: -4732444763204583735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_29
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 612
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcdef2c1228cd510800000000000000
+      internalID: 1575277051189845205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_30
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 446
+        width: 52
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0789f485eec363cc0800000000000000
+      internalID: -3731728246848382864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_31
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 471
+        width: 19
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3ff9f4aad2549e0800000000000000
+      internalID: -1637852679975734318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_32
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 496
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94ece85e5ff23370800000000000000
+      internalID: 8300977843881174173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_33
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 521
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59734076eaaab6e00800000000000000
+      internalID: 1039111805068392341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_34
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 553
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c168892b1d9af40800000000000000
+      internalID: 5740349765053717533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_35
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 528
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f0baf04877714a0800000000000000
+      internalID: -6622693317942767724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_36
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 442
+        width: 251
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4214557b02e4780800000000000000
+      internalID: -8696977858624412421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_37
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 455
+        width: 155
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05636b81972dbf520800000000000000
+      internalID: 2737012616105178704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_38
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 461
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a76fe82680db1d0800000000000000
+      internalID: -3333498929785963888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_39
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 492
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcde93ea3e723050800000000000000
+      internalID: 5778820063261809914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_40
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 457
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bfea3944d1d4a00800000000000000
+      internalID: 742281693958699837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_41
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 457
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bea0173e02dc720800000000000000
+      internalID: 2867984698931080018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_42
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 46
+        width: 36
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb76b6ad86644f30800000000000000
+      internalID: 4558881481379183547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_43
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 332
+        width: 253
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c0009a2cc935070800000000000000
+      internalID: 8093985315187854485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_44
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 339
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb695aac07649f70800000000000000
+      internalID: 9193086043465280475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_45
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 171
+        width: 17
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c4496cf774b4810800000000000000
+      internalID: 1750571494281596039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_46
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 167
+        width: 18
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5c3eadcef5c6e50800000000000000
+      internalID: 6803918607939257788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_47
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 169
+        width: 14
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6be3151cd2ec1c20800000000000000
+      internalID: 3178664871891037034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_48
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 167
+        width: 14
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e9e6ff2d0e1acb0800000000000000
+      internalID: -4854351726495490530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_49
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 204
+        width: 260
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7f3f103f64278a0800000000000000
+      internalID: -6308902118468880441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_50
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 205
+        width: 146
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef95601393034830800000000000000
+      internalID: 4054088019733749732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_51
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 165
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dae154ef453c020800000000000000
+      internalID: 2360824080730336656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_52
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 28
+        width: 52
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 18, z: 0, w: 44}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c6357d12cab7946aa0149f8fac1e55
+      internalID: -1221360927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level Concept Sprites 2_53
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 87
+        width: 266
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 31}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48201d013994f3c4d886f69d2591fcf0
+      internalID: 656838956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62ff99617bd043c4a917d2383fe93458
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Level Concept Sprites 2_0: -3059770288844697767
+      Level Concept Sprites 2_1: -8069332239920855563
+      Level Concept Sprites 2_10: 777820092705207909
+      Level Concept Sprites 2_11: -7554732058939440808
+      Level Concept Sprites 2_12: 5027949061323230860
+      Level Concept Sprites 2_13: 8997029157953076963
+      Level Concept Sprites 2_14: 9128781627102814423
+      Level Concept Sprites 2_15: -4526111641649392000
+      Level Concept Sprites 2_16: -3167908688531540452
+      Level Concept Sprites 2_17: 509924972868862263
+      Level Concept Sprites 2_18: -1857989073102510661
+      Level Concept Sprites 2_19: 1608009452917748979
+      Level Concept Sprites 2_2: 9151385647340282118
+      Level Concept Sprites 2_20: 7433409383060392738
+      Level Concept Sprites 2_21: -3873164901033143042
+      Level Concept Sprites 2_22: -4108252944834349946
+      Level Concept Sprites 2_23: -6500558601605020848
+      Level Concept Sprites 2_24: 5674786096622904587
+      Level Concept Sprites 2_25: -510078099116343849
+      Level Concept Sprites 2_26: 5191285011917885400
+      Level Concept Sprites 2_27: -6035020923219450123
+      Level Concept Sprites 2_28: -4732444763204583735
+      Level Concept Sprites 2_29: 1575277051189845205
+      Level Concept Sprites 2_3: -7593810852875934124
+      Level Concept Sprites 2_30: -3731728246848382864
+      Level Concept Sprites 2_31: -1637852679975734318
+      Level Concept Sprites 2_32: 8300977843881174173
+      Level Concept Sprites 2_33: 1039111805068392341
+      Level Concept Sprites 2_34: 5740349765053717533
+      Level Concept Sprites 2_35: -6622693317942767724
+      Level Concept Sprites 2_36: -8696977858624412421
+      Level Concept Sprites 2_37: 2737012616105178704
+      Level Concept Sprites 2_38: -3333498929785963888
+      Level Concept Sprites 2_39: 5778820063261809914
+      Level Concept Sprites 2_4: 2459098716364128833
+      Level Concept Sprites 2_40: 742281693958699837
+      Level Concept Sprites 2_41: 2867984698931080018
+      Level Concept Sprites 2_42: 4558881481379183547
+      Level Concept Sprites 2_43: 8093985315187854485
+      Level Concept Sprites 2_44: 9193086043465280475
+      Level Concept Sprites 2_45: 1750571494281596039
+      Level Concept Sprites 2_46: 6803918607939257788
+      Level Concept Sprites 2_47: 3178664871891037034
+      Level Concept Sprites 2_48: -4854351726495490530
+      Level Concept Sprites 2_49: -6308902118468880441
+      Level Concept Sprites 2_5: 8847669485305374368
+      Level Concept Sprites 2_50: 4054088019733749732
+      Level Concept Sprites 2_51: 2360824080730336656
+      Level Concept Sprites 2_52: -1221360927
+      Level Concept Sprites 2_53: 656838956
+      Level Concept Sprites 2_6: 1418924772064443499
+      Level Concept Sprites 2_7: 7767940619676159828
+      Level Concept Sprites 2_8: -2112326379480353692
+      Level Concept Sprites 2_9: -8173659686173862276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

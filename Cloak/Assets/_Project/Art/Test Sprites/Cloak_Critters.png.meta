@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cloak_Critters_0: -1920907260335168431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
