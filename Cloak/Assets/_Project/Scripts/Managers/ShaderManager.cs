@@ -130,9 +130,9 @@ public class ShaderManager : MonoBehaviour
         Shader.SetGlobalColor("_AccentCol", EvaluateColour(accentCol));
         Shader.SetGlobalColor("_TopAccentCol", EvaluateColour(topAccentCol));
         Shader.SetGlobalColor("_NoiseCol", EvaluateColour(noiseCol));
-        Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
 
-        //Shader.SetGlobalColor("_BackgroundCol", EvaluateColour(backgroundCol));
+        //background colours
+        Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
         Shader.SetGlobalColor("_BackgroundDimLight", EvaluateColour(dimLightColBackground));
         Shader.SetGlobalColor("_BackgroundSun", EvaluateColour(sunlightColBackground));
 

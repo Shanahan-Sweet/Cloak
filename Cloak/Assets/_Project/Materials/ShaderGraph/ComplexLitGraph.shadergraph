@@ -662,6 +662,18 @@
             "m_Id": "f5a7ad4d3de84ec0945845391380b9bd"
         },
         {
+            "m_Id": "ce3bb96a59e74195afcf38d07b4c2fb6"
+        },
+        {
+            "m_Id": "9f33a68ccf76451ebadfe41a3b0bfde6"
+        },
+        {
+            "m_Id": "77ac420293924108a3a281f1b449d029"
+        },
+        {
+            "m_Id": "9abf44a0318e40389fa30519c2020f5c"
+        },
+        {
             "m_Id": "2635a663786345448f6706cc6136be3c"
         }
     ],
@@ -679,14 +691,22 @@
         "83139eb8-8fd3-46a2-ba46-ddc9a46bcf65",
         "c6c28a72-eba6-4ea4-9c16-269f69d0ab91",
         "3bd4102a-a154-4394-a6df-6e656e7e1142",
-        "94e841ae-0da9-4e80-841e-becc5efc8ed2"
+        "94e841ae-0da9-4e80-841e-becc5efc8ed2",
+        "9a91f966-404e-469f-97d1-57d6153fba2d",
+        "31f7c021-fab7-4fb8-843b-28abe1701858",
+        "e765a4f9-69af-4d66-9c35-4a6727dd8f4f",
+        "9e70ba43-e0bd-47c1-960b-13f5a784290b"
     ],
     "m_PropertyIds": [
         1726279658,
         1772305525,
         -2031376607,
         1597968566,
-        -1000821027
+        -1000821027,
+        669210538,
+        -1921027597,
+        -2100943379,
+        663475663
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -1353,6 +1373,31 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "77ac420293924108a3a281f1b449d029",
+    "m_Id": -2100943379,
+    "m_DisplayName": "AccentCol",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_AccentCol",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.8016605377197266,
+        "w": 1.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "7b5e0102375941f8adeb0cb8290076b3",
     "m_Id": 2,
@@ -1656,6 +1701,31 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "9abf44a0318e40389fa30519c2020f5c",
+    "m_Id": 663475663,
+    "m_DisplayName": "FogCol",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_FogCol",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.42051610350608828,
+        "y": 0.2912513315677643,
+        "z": 0.7264150977134705,
+        "w": 1.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "9be707c754064a25b8bfd99f34d8fbc8",
     "m_Id": 4,
@@ -1666,6 +1736,31 @@
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "9f33a68ccf76451ebadfe41a3b0bfde6",
+    "m_Id": -1921027597,
+    "m_DisplayName": "TopAccentValue",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_TopAccentValue",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 1.0,
+        "y": 0.6791972517967224,
+        "z": 0.3820754885673523,
+        "w": 1.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
     "m_Labels": []
 }
 
@@ -1900,6 +1995,21 @@
     "m_Property": {
         "m_Id": "23db1cdbbfb846ba8317b96e89c45a57"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ce3bb96a59e74195afcf38d07b4c2fb6",
+    "m_Id": 669210538,
+    "m_DisplayName": "AccentValue",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_AccentValue",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {

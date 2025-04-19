@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8288513189686968269
+--- !u!114 &-7550512502339957993
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CharacterLineMat
-  m_Shader: {fileID: -6465566751694194690, guid: f0f4bcc709065fa44ba668c8fa318268, type: 3}
+  m_Name: GroundMat
+  m_Shader: {fileID: -6465566751694194690, guid: acee8223953272644b27d45af5cc2705, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 407d9a3135cfde043a9911bc4ac4108f, type: 3}
+        m_Texture: {fileID: 2800000, guid: f6289971d04d8d146a75e97fe854f5cb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -66,13 +66,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DarkThreshold: 0.4
+    - _DarkThreshold1: 0.4
+    - _DarkThreshold_sun: -0.1
     - _EnableExternalAlpha: 0
+    - _LightThreshold: 1
+    - _LightThreshold1: 1
+    - _LightThreshold1_sun: 0.5
     - _ZWrite: 0
     m_Colors:
-    - _AccentCol: {r: 0.1548149, g: 0.25960323, b: 0.46226418, a: 1}
-    - _CharacterCol: {r: 1, g: 0.8905312, b: 0.58962256, a: 1}
+    - _AccentCol: {r: 1, g: 0, b: 0.7245035, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkCol: {r: 0.076972686, g: 0.03470986, b: 0.11320745, a: 1}
+    - _DarkCol: {r: 0.01960784, g: 0, b: 0.14901954, a: 1}
+    - _DimLightCol: {r: 0.20784311, g: 0.29958022, b: 0.7254902, a: 1}
+    - _FogCol: {r: 0.20745815, g: 0.18743324, b: 0.33962262, a: 1}
+    - _LightCol: {r: 0.5416937, g: 0, b: 1, a: 1}
+    - _NoiseCol: {r: 0.28738222, g: 0.18396229, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SunlightCol: {r: 1, g: 0.7960534, b: 0.4669811, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
