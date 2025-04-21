@@ -13,9 +13,6 @@
             "m_Id": "869363dedc9446f7a4fe478545d7ca77"
         },
         {
-            "m_Id": "f35861d609014b35a159e8cbe4845c20"
-        },
-        {
             "m_Id": "55f49e6d8b3e42c2bd5d8cc1425ec6b0"
         },
         {
@@ -98,9 +95,6 @@
         },
         {
             "m_Id": "100cd1656c334f7aaa13b57d2c8fdcb7"
-        },
-        {
-            "m_Id": "bed2d84f12b64ea28202b6707493525b"
         },
         {
             "m_Id": "2d0ef89c5b3a4ea0b817ad717c893aa9"
@@ -818,9 +812,6 @@
             "m_Id": "869363dedc9446f7a4fe478545d7ca77"
         },
         {
-            "m_Id": "f35861d609014b35a159e8cbe4845c20"
-        },
-        {
             "m_Id": "55f49e6d8b3e42c2bd5d8cc1425ec6b0"
         },
         {
@@ -1292,31 +1283,6 @@
         "e32": 0.0,
         "e33": 1.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
-    "m_ObjectId": "3341e7a71f07418faab8708cf2f0a216",
-    "m_Id": 0,
-    "m_DisplayName": "ShadowCol",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_Labels": []
 }
 
 {
@@ -2700,42 +2666,6 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "bed2d84f12b64ea28202b6707493525b",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -555.3062744140625,
-            "y": 441.7523193359375,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "3341e7a71f07418faab8708cf2f0a216"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "f35861d609014b35a159e8cbe4845c20"
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "c164d8fccfc3411d91882af338e25139",
     "m_Group": {
         "m_Id": ""
@@ -3382,36 +3312,6 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 3,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
-    "m_ObjectId": "f35861d609014b35a159e8cbe4845c20",
-    "m_Guid": {
-        "m_GuidSerialized": "ae07a245-2c19-4216-98e1-1970f79f4e0a"
-    },
-    "m_Name": "ShadowCol",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "ShadowCol",
-    "m_DefaultReferenceName": "_ShadowCol",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "r": 0.0947268158197403,
-        "g": 0.09109114855527878,
-        "b": 0.8396226167678833,
-        "a": 1.0
-    },
-    "isMainColor": false,
-    "m_ColorMode": 0
 }
 
 {

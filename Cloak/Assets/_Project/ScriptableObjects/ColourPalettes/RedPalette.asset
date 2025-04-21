@@ -15,7 +15,7 @@ MonoBehaviour:
   palette:
     dimLightCol: {r: 1, g: 0, b: 0.09262037, a: 1}
     sunlightCol: {r: 0, g: 0, b: 0, a: 1}
-    darkCol: {r: 0, g: 0, b: 0, a: 1}
+    darkCol: {r: 0.05490196, g: 0.02745098, b: 0.07450981, a: 1}
     fogCol: {r: 0.122641504, g: 0, b: 0, a: 1}
     topAccentCol: {r: 0.27058825, g: 1, b: 0.9254902, a: 1}
     accentCol: {r: 0.08866177, g: 0, b: 0.8679245, a: 1}
