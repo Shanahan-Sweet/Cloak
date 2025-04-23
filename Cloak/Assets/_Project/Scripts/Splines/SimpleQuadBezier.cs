@@ -8,7 +8,7 @@ public class SimpleQuadBezier : SimpleBezierLine
     {
         for (int i = 0; i < pointCount; i++)
         {
-            float t = i / (float)pointCount;// * 1.1f;
+            float t = i / ((float)pointCount - 1);// * 1.1f;
             linePositions[i] = BaseBezier.CalculateQuadraticBezierPoint(t, transPoints[0].position, transPoints[1].position, transPoints[2].position) + AddToLine(t);
         }
 

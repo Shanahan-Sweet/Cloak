@@ -25,15 +25,22 @@ public class PlayerMovement : MonoBehaviour
     PlayerInput inputScript;
     PlatformerPhysics platformerPhysics;
     Rigidbody2D rigidBody;
+    CompanionManager companionManager;
 
     //Debug
     [SerializeField] Transform directionTrans;
 
+    //static reference
+    public static PlayerMovement instance;
+
     void Awake()
     {
+        instance = this;
+
         inputScript = GetComponent<PlayerInput>();
         platformerPhysics = GetComponent<PlatformerPhysics>();
         rigidBody = GetComponent<Rigidbody2D>();
+        companionManager = GetComponent<CompanionManager>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -148,6 +155,8 @@ public class PlayerMovement : MonoBehaviour
         if (dashSequence != null) StopCoroutine(dashSequence);
         dashSequence = DashSequence();
         StartCoroutine(dashSequence);
+
+        companionManager.UseDash();
     }
 
     void ForceEndDash()
