@@ -826,7 +826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 101825544}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EndPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2504,7 +2504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 327910336}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EndPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2944,7 +2944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 348653980}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Tether
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3684,7 +3684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417878372}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MidPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5231,7 +5231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560551304}
   - component: {fileID: 560551305}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6411,7 +6411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 719111129}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: StartPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8021,7 +8021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852610758}
   - component: {fileID: 852610759}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BezierCurve1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8073,7 +8073,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 864826909}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: StartPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8542,7 +8542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 907478619}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EndPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8782,7 +8782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 933795714}
-  m_Layer: 3
+  m_Layer: 11
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8805,6 +8805,93 @@ Transform:
   - {fileID: 1642346709}
   m_Father: {fileID: 1212243129}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &938138031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938138032}
+  - component: {fileID: 938138033}
+  m_Layer: 11
+  m_Name: Sprite (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938138032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938138031}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1212243129}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &938138033
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938138031}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4d499867fb2627847af93f5a85ac92ec, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1023989129
+  m_SortingLayer: 2
+  m_SortingOrder: -1
+  m_Sprite: {fileID: -3860233088949121374, guid: e3ae43f6b38bd964581fc35084c847c8, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.6, y: 0.74}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &950821396
 GameObject:
   m_ObjectHideFlags: 0
@@ -14116,7 +14203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1014639303}
   - component: {fileID: 1014639304}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14718,7 +14805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1046923773}
   - component: {fileID: 1046923774}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16675,7 +16762,8 @@ GameObject:
   - component: {fileID: 1212243129}
   - component: {fileID: 1212243128}
   - component: {fileID: 1212243127}
-  m_Layer: 0
+  - component: {fileID: 1212243130}
+  m_Layer: 11
   m_Name: PlayerCompanion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16695,10 +16783,10 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 3.5
-  m_AngularDamping: 1
+  m_LinearDamping: 4
+  m_AngularDamping: 5
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7ecb9077c9c65f841a33f5892847483b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -16721,7 +16809,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81ab2c6a6df80f4087b5b2d328a1abd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpd: 18
+  moveSpd: 20
+  rotationTorque: 5
+  tetherHolder: {fileID: 348653980}
   tetherEnd: {fileID: 1963988614}
   midPoints: {fileID: 2088342648}
   spriteRend: {fileID: 1758406483}
@@ -16741,10 +16831,47 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1758406482}
+  - {fileID: 938138032}
   - {fileID: 348653980}
   - {fileID: 933795714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1212243130
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212243126}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.2
 --- !u!1 &1222378685
 GameObject:
   m_ObjectHideFlags: 0
@@ -40329,7 +40456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1479980868}
   - component: {fileID: 1479980869}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BezierCurve2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67677,7 +67804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1642346709}
   - component: {fileID: 1642346710}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GroundLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87119,7 +87246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732783867}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MidPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87150,7 +87277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1734667240}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: StartPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87356,7 +87483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1758406482}
   - component: {fileID: 1758406483}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88335,7 +88462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1894119407}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: StartPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93643,7 +93770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1927811052}
   - component: {fileID: 1927811053}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BezierCurve3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93916,7 +94043,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1963988614}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TetherEndHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94699,7 +94826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2070807599}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MidPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94817,7 +94944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2088342648}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MidPointsHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

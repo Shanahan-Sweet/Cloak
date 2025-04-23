@@ -3,8 +3,9 @@ using UnityEngine;
 public class CompanionManager : MonoBehaviour
 {
     PCompanion myCompanion;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    PlatformerPhysics platformerPhysics;
+    // Awake
+    void Awake()
     {
 
     }
@@ -24,5 +25,11 @@ public class CompanionManager : MonoBehaviour
     void RechargeDash()
     {
         myCompanion.RechargeDash();
+    }
+
+    //animation
+    void Update()
+    {
+
     }
 }
