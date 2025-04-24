@@ -53,15 +53,18 @@ public class PCompanion : MonoBehaviour
     {
         if (playerReference == null) return;
         //get last move direction
-        if (Mathf.Abs(playerRigidBody.linearVelocityX) > .75f) targetSide = Mathf.Sign(playerRigidBody.linearVelocityX);
+        if (Mathf.Abs(playerRigidBody.linearVelocityX) > .75f && (playerReference.transform.position - transform.position).magnitude > 1.3f) targetSide = Mathf.Sign(playerRigidBody.linearVelocityX);
 
         //calculate target position
-        Vector2 targetPos = playerReference.transform.position + new Vector3(0.75f * targetSide, 1 + (platformerPhysics.IsGrounded ? platformerPhysics.GroundDistance * 3 : 0), 0);
+        Vector2 targetPos = playerReference.transform.position + new Vector3(0.75f * targetSide, .6f + (platformerPhysics.IsGrounded ? platformerPhysics.GroundDistance * 3 : 0), 0);
         Vector2 pV = playerRigidBody.linearVelocity.magnitude > 2 ? playerRigidBody.linearVelocity.normalized * 2 : playerRigidBody.linearVelocity;
         pV *= .2f;
         targetPos += pV;
         //move to target position
-        rigidBody.AddForce((targetPos - (Vector2)transform.position) * moveSpd);
+        Vector2 targetDir = targetPos - (Vector2)transform.position;
+        targetDir *= .25f;
+        if (targetDir.magnitude > 1) targetDir.Normalize();
+        rigidBody.AddForce(targetDir * moveSpd);
 
         //rotate
         FlipUpright(Vector2.up);
