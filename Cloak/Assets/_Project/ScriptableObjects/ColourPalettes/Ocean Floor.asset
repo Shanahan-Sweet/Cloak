@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfb77976e2a7eb418de411a3852f723, type: 3}
+  m_Name: Ocean Floor
+  m_EditorClassIdentifier: 
+  palette:
+    dimLightCol: {r: 1, g: 0.43137252, b: 0.6618742, a: 1}
+    sunlightCol: {r: 0.32258695, g: 0.34076083, b: 0.41799998, a: 1}
+    darkCol: {r: 0.01818182, g: 0.05, b: 0.040909097, a: 1}
+    fogCol: {r: 0.42642266, g: 0.3002353, b: 0.47058824, a: 1}
+    topAccentCol: {r: 1, g: 0.909804, b: 0.3529412, a: 1}
+    accentCol: {r: 1, g: 0.59989893, b: 0.3726415, a: 1}
+    noiseCol: {r: 0.09204, g: 0.096760005, b: 0.118, a: 1}
