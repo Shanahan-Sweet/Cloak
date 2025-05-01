@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Palette 2
   m_EditorClassIdentifier: 
   palette:
-    dimLightCol: {r: 0.3322319, g: 0.090196095, b: 0.7529412, a: 1}
-    sunlightCol: {r: 1, g: 0.3443396, b: 0.84817046, a: 1}
-    darkCol: {r: 0.07522124, g: 0, b: 0.14901961, a: 1}
-    fogCol: {r: 0.3250267, g: 0.3858601, b: 0.8301887, a: 1}
+    dimLightCol: {r: 0.14950937, g: 0.033374865, b: 0.2830189, a: 1}
+    sunlightCol: {r: 0.32930887, g: 0.07008721, b: 0.4245283, a: 1}
+    darkCol: {r: 0, g: 0, b: 0, a: 1}
+    fogCol: {r: 0.456752, g: 0.37068352, b: 0.6603774, a: 1}
     topAccentCol: {r: 0.9008031, g: 0, b: 1, a: 1}
     accentCol: {r: 0, g: 1, b: 0.57512, a: 1}
     noiseCol: {r: 1, g: 0, b: 0.12588596, a: 1}
