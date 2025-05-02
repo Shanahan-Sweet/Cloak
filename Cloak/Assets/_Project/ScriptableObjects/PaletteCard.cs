@@ -12,6 +12,7 @@ public class Palette
     [Header("Linked Colours")]
     public Color dimLightCol;
     public Color sunlightCol;
+    public Color sunHighlightCol;
     public Color darkCol;
     [Header("Unlinked Colours")]
     public Color fogCol;

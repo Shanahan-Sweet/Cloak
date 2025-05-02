@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ground
+  m_Name: Foreground
   m_Shader: {fileID: -6465566751694194690, guid: 3a30be7991e62f341bb02da024b65920, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -76,7 +76,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
-    - _LightInputAdjustment: {r: 1, g: 1, b: 1, a: 1}
+    - _LightInputAdjustment: {r: 0.2980392, g: 0.62352943, b: 0.85882354, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

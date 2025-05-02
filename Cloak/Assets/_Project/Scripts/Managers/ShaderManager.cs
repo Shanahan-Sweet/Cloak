@@ -10,7 +10,7 @@ public class ShaderManager : MonoBehaviour
 
     public Color dimLightCol, sunlightCol, darkCol;
     [HideInInspector]
-    public Color accentCol, topAccentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
+    public Color sunHighlightCol, accentCol, topAccentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
 
     //_______________________________________________
     [SerializeField] AnimationCurve colourCurve;
@@ -46,6 +46,7 @@ public class ShaderManager : MonoBehaviour
 
         dimLightCol = currentPalette.dimLightCol;
         sunlightCol = currentPalette.sunlightCol;
+        sunHighlightCol = currentPalette.sunHighlightCol;
         darkCol = currentPalette.darkCol;
         accentCol = currentPalette.accentCol;
         topAccentCol = currentPalette.topAccentCol;
@@ -82,6 +83,7 @@ public class ShaderManager : MonoBehaviour
     {
         Color startLight = dimLightCol;
         Color startSun = sunlightCol;
+        Color startHighlight = sunHighlightCol;
         Color startDark = darkCol;
         Color startAccent = accentCol;
         Color startTopAccent = topAccentCol;
@@ -92,6 +94,7 @@ public class ShaderManager : MonoBehaviour
         //Get Target Colours
         Color dimLightColTarget = currentPalette.dimLightCol;
         Color sunlightTarget = currentPalette.sunlightCol;
+        Color highlightTarget = currentPalette.sunHighlightCol;
         Color darkColTarget = currentPalette.darkCol;
         Color accentTarget = currentPalette.accentCol;
         Color topAccentTarget = currentPalette.topAccentCol;
@@ -103,6 +106,7 @@ public class ShaderManager : MonoBehaviour
         {
             dimLightCol = Color.Lerp(startLight, dimLightColTarget, t);
             sunlightCol = Color.Lerp(startSun, sunlightTarget, t);
+            sunHighlightCol = Color.Lerp(startHighlight, highlightTarget, t);
             darkCol = Color.Lerp(startDark, darkColTarget, t);
             accentCol = Color.Lerp(startAccent, accentTarget, t);
             topAccentCol = Color.Lerp(startTopAccent, topAccentTarget, t);
@@ -126,6 +130,7 @@ public class ShaderManager : MonoBehaviour
     {
         Shader.SetGlobalColor("_DimLightCol", EvaluateColour(dimLightCol));
         Shader.SetGlobalColor("_SunlightCol", EvaluateColour(sunlightCol));
+        Shader.SetGlobalColor("_Highlight", EvaluateColour(sunHighlightCol));
         Shader.SetGlobalColor("_DarkCol", EvaluateColour(darkCol));
         Shader.SetGlobalColor("_AccentCol", EvaluateColour(accentCol));
         Shader.SetGlobalColor("_TopAccentCol", EvaluateColour(topAccentCol));
