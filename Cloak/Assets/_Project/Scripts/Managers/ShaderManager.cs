@@ -10,7 +10,7 @@ public class ShaderManager : MonoBehaviour
 
     public Color dimLightCol, sunlightCol, darkCol;
     [HideInInspector]
-    public Color sunHighlightCol, accentCol, topAccentCol, noiseCol, fogCol, dimLightColBackground, sunlightColBackground;
+    public Color sunHighlightCol, accentCol, topAccentCol, noiseCol, fogCol, sunFogCol, dimLightColBackground, sunlightColBackground;
 
     //_______________________________________________
     [SerializeField] AnimationCurve colourCurve;
@@ -125,6 +125,8 @@ public class ShaderManager : MonoBehaviour
         Color backgroundCol = Color.Lerp(darkCol, fogCol, .75f);
         dimLightColBackground = Color.Lerp(backgroundCol, dimLightCol, .5f);
         sunlightColBackground = Color.Lerp(backgroundCol, sunlightCol, .5f);
+
+        sunFogCol = Color.Lerp(fogCol, sunHighlightCol, .5f);
     }
     void SetShaderColours()
     {
@@ -138,6 +140,7 @@ public class ShaderManager : MonoBehaviour
 
         //background colours
         Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
+        Shader.SetGlobalColor("_SunFogCol", EvaluateColour(sunFogCol));
         Shader.SetGlobalColor("_BackgroundDimLight", EvaluateColour(dimLightColBackground));
         Shader.SetGlobalColor("_BackgroundSun", EvaluateColour(sunlightColBackground));
 

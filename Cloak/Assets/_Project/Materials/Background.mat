@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-61599177759125599
+--- !u!114 &-2971081306343749477
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Foreground
-  m_Shader: {fileID: -6465566751694194690, guid: 3a30be7991e62f341bb02da024b65920, type: 3}
+  m_Name: Background
+  m_Shader: {fileID: -6465566751694194690, guid: 4a83b39faf21d364d90903d5eef445e5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3069bb3906c6208448df87ffb8522d65, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -71,12 +71,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _TexVisibility: 0.5
-    - _TextureScale: 0.242
+    - _TexVisibility: 1
+    - _TextureScale: 0.5
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
-    - _LightInputAdjustment: {r: 0.53333336, g: 0.62352943, b: 0.85882354, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _LightInputAdjustment: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
