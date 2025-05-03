@@ -1377,6 +1377,9 @@
             "m_Id": "0030c976c300490f9d69df99232a50d9"
         },
         {
+            "m_Id": "743bfacc6bac451fa056a32cd98dd89c"
+        },
+        {
             "m_Id": "db962f5e1b9345318ce99d36d15a2942"
         }
     ],
@@ -1393,13 +1396,15 @@
         "25b9eb9c-c7c5-4eae-b29b-b614eae5d224",
         "bbc44341-8c74-4438-bbb2-1bacd229bd1d",
         "4c03a4a3-f5ce-497b-a9ed-ac5de31fee06",
-        "d5419572-5e24-4f9a-8059-f9371242054b"
+        "d5419572-5e24-4f9a-8059-f9371242054b",
+        "e2d5f428-1e23-4668-b903-15f7a45dc807"
     ],
     "m_PropertyIds": [
         1534284289,
         1314542684,
         1580901159,
-        -433598268
+        -433598268,
+        1415623702
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -2543,6 +2548,21 @@
         "b": 0.5,
         "a": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "743bfacc6bac451fa056a32cd98dd89c",
+    "m_Id": 1415623702,
+    "m_DisplayName": "RedLightNoise",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_RedLightNoise",
+    "m_StageCapability": 2,
+    "m_Value": 1.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
