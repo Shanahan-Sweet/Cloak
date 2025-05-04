@@ -2560,7 +2560,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "_RedLightNoise",
     "m_StageCapability": 2,
-    "m_Value": 1.0,
+    "m_Value": 0.699999988079071,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }

@@ -53,7 +53,7 @@ public class ShaderManager : MonoBehaviour
         noiseCol = currentPalette.noiseCol;
 
         fogCol = currentPalette.fogCol;
-
+        sunFogCol = currentPalette.sunFogCol;
         CalcBackgroundCol();
 
         SetShaderColours();//set shader colours
@@ -89,7 +89,7 @@ public class ShaderManager : MonoBehaviour
         Color startTopAccent = topAccentCol;
         Color startNoise = noiseCol;
         Color startFog = fogCol;
-
+        Color startSunFog = sunFogCol;
 
         //Get Target Colours
         Color dimLightColTarget = currentPalette.dimLightCol;
@@ -100,7 +100,7 @@ public class ShaderManager : MonoBehaviour
         Color topAccentTarget = currentPalette.topAccentCol;
         Color noiseTarget = currentPalette.noiseCol;
         Color fogColTarget = currentPalette.fogCol;
-
+        Color sunFogTarget = currentPalette.sunFogCol;
         float t = 0;
         while (t < 1)
         {
@@ -112,6 +112,7 @@ public class ShaderManager : MonoBehaviour
             topAccentCol = Color.Lerp(startTopAccent, topAccentTarget, t);
             noiseCol = Color.Lerp(startNoise, noiseTarget, t);
             fogCol = Color.Lerp(startFog, fogColTarget, t);
+            sunFogCol = Color.Lerp(startSunFog, sunFogTarget, t);
             CalcBackgroundCol();
 
 
@@ -126,7 +127,7 @@ public class ShaderManager : MonoBehaviour
         dimLightColBackground = Color.Lerp(backgroundCol, dimLightCol, .5f);
         sunlightColBackground = Color.Lerp(backgroundCol, sunlightCol, .5f);
 
-        sunFogCol = Color.Lerp(fogCol, sunHighlightCol, .5f);
+        //sunFogCol = Color.Lerp(fogCol, sunHighlightCol, .5f);
     }
     void SetShaderColours()
     {

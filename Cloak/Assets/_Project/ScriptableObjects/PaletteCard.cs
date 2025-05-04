@@ -16,6 +16,7 @@ public class Palette
     public Color darkCol;
     [Header("Unlinked Colours")]
     public Color fogCol;
+    public Color sunFogCol;
     public Color topAccentCol, accentCol;
     public Color noiseCol;
     //public Color bloodCol;

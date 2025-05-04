@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: 1f197af46856b3140a639095dc486a82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7227690929098211300
+    second: BrickTiles2_0
+  - first:
+      213: 1312138200474946249
+    second: BrickTiles2_1
+  - first:
+      213: -5993873121806466693
+    second: BrickTiles2_2
+  - first:
+      213: 7433399106871949105
+    second: BrickTiles2_3
+  - first:
+      213: -956578645469548663
+    second: BrickTiles2_4
+  - first:
+      213: -5947638634607929348
+    second: BrickTiles2_5
+  - first:
+      213: 6631895473358740563
+    second: BrickTiles2_6
+  - first:
+      213: -3972426128979685446
+    second: BrickTiles2_7
+  - first:
+      213: 655048844189221776
+    second: BrickTiles2_8
+  - first:
+      213: 5915459071795566573
+    second: BrickTiles2_9
+  - first:
+      213: 7258162294601006780
+    second: BrickTiles2_10
+  - first:
+      213: 3039370223603083747
+    second: BrickTiles2_11
+  - first:
+      213: -2523321173204829388
+    second: BrickTiles2_12
+  - first:
+      213: -22113547720165083
+    second: BrickTiles2_13
+  - first:
+      213: 1752656570319972513
+    second: BrickTiles2_14
+  - first:
+      213: 7192313755939284336
+    second: BrickTiles2_15
+  - first:
+      213: 789044253842189666
+    second: BrickTiles2_16
+  - first:
+      213: 1976790206432895707
+    second: BrickTiles2_17
+  - first:
+      213: 4583142737312057767
+    second: BrickTiles2_18
+  - first:
+      213: -7912770462431861082
+    second: BrickTiles2_19
+  - first:
+      213: 1650170891111483237
+    second: BrickTiles2_20
+  - first:
+      213: -3495485864909424314
+    second: BrickTiles2_21
+  - first:
+      213: 506017903995098416
+    second: BrickTiles2_22
+  - first:
+      213: 7178419127394042905
+    second: BrickTiles2_23
+  - first:
+      213: -4548363206321019050
+    second: BrickTiles2_24
+  - first:
+      213: -3529397389646249336
+    second: BrickTiles2_25
+  - first:
+      213: -6451354582465447676
+    second: BrickTiles2_26
+  - first:
+      213: 1703866204396491749
+    second: BrickTiles2_27
+  - first:
+      213: -9147571951374975801
+    second: BrickTiles2_28
+  - first:
+      213: -2390014179423758841
+    second: BrickTiles2_29
+  - first:
+      213: 2579362015472335654
+    second: BrickTiles2_30
+  - first:
+      213: -908089592199601193
+    second: BrickTiles2_31
+  - first:
+      213: -5177024997910044005
+    second: BrickTiles2_32
+  - first:
+      213: 7001144619413914653
+    second: BrickTiles2_33
+  - first:
+      213: 4494091075954371564
+    second: BrickTiles2_34
+  - first:
+      213: -7661522768492540461
+    second: BrickTiles2_35
+  - first:
+      213: 8405938906555516524
+    second: BrickTiles2_36
+  - first:
+      213: 6578349598508658411
+    second: BrickTiles2_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrickTiles2_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1527
+        width: 602
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10c9c8d46512bb90800000000000000
+      internalID: -7227690929098211300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1375
+        width: 602
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca8787cdb6a53210800000000000000
+      internalID: 1312138200474946249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1231
+        width: 146
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71c6f1172c71dca0800000000000000
+      internalID: -5993873121806466693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1231
+        width: 146
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137fec69a1db82760800000000000000
+      internalID: 7433399106871949105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1231
+        width: 146
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f20154acc89b2f0800000000000000
+      internalID: -956578645469548663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_5
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1223
+        width: 146
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf71ecb7c2eb57da0800000000000000
+      internalID: -5947638634607929348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1071
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c9115bbc9390c50800000000000000
+      internalID: 6631895473358740563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1079
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf8fa58b7b1fd8c0800000000000000
+      internalID: -3972426128979685446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1079
+        width: 138
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093cd640473371900800000000000000
+      internalID: 655048844189221776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1079
+        width: 138
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de79cb13faee71250800000000000000
+      internalID: 5915459071795566573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 927
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbeb3dbc62c2ab460800000000000000
+      internalID: 7258162294601006780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 927
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9e2c67d130e2a20800000000000000
+      internalID: 3039370223603083747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 927
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b77e813cc5bfcd0800000000000000
+      internalID: -2523321173204829388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_13
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 927
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5297a6378df61bff0800000000000000
+      internalID: -22113547720165083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 775
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a82d2f5ddfa25810800000000000000
+      internalID: 1752656570319972513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 775
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075aae7214b30d360800000000000000
+      internalID: 7192313755939284336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 775
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26da35e719f33fa00800000000000000
+      internalID: 789044253842189666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_17
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 775
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd267e12838fe6b10800000000000000
+      internalID: 1976790206432895707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 623
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9856c79089a9f30800000000000000
+      internalID: 4583142737312057767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_19
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 623
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6ab852031303290800000000000000
+      internalID: -7912770462431861082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 615
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567c367bea596e610800000000000000
+      internalID: 1650170891111483237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_21
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 623
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649bca0302a8d7fc0800000000000000
+      internalID: -3495485864909424314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 471
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0359d994a9cb50700800000000000000
+      internalID: 506017903995098416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 471
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9140139d92ede9360800000000000000
+      internalID: 7178419127394042905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_24
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 463
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65767c913c7f0e0c0800000000000000
+      internalID: -4548363206321019050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_25
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 463
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882c1fe06cf050fc0800000000000000
+      internalID: -3529397389646249336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 311
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409fe00203f2876a0800000000000000
+      internalID: -6451354582465447676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 319
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e398d1194955a710800000000000000
+      internalID: 1703866204396491749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 319
+        width: 138
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccb7f0b6cb4d0180800000000000000
+      internalID: -9147571951374975801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_29
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 319
+        width: 138
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706dc4344c6f4ded0800000000000000
+      internalID: -2390014179423758841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b3d57461cbbc320800000000000000
+      internalID: 2579362015472335654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 167
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3a6b0c351d563f0800000000000000
+      internalID: -908089592199601193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_32
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 167
+        width: 138
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92214681338728b0800000000000000
+      internalID: -5177024997910044005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_33
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 167
+        width: 138
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14cd4d00ff092160800000000000000
+      internalID: 7001144619413914653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb638ad5083e5e30800000000000000
+      internalID: 4494091075954371564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_35
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 15
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd4f6172adcca590800000000000000
+      internalID: -7661522768492540461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_36
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 15
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6680e026e4e7a470800000000000000
+      internalID: 8405938906555516524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickTiles2_37
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 15
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee21733b1efa4b50800000000000000
+      internalID: 6578349598508658411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BrickTiles2_0: -7227690929098211300
+      BrickTiles2_1: 1312138200474946249
+      BrickTiles2_10: 7258162294601006780
+      BrickTiles2_11: 3039370223603083747
+      BrickTiles2_12: -2523321173204829388
+      BrickTiles2_13: -22113547720165083
+      BrickTiles2_14: 1752656570319972513
+      BrickTiles2_15: 7192313755939284336
+      BrickTiles2_16: 789044253842189666
+      BrickTiles2_17: 1976790206432895707
+      BrickTiles2_18: 4583142737312057767
+      BrickTiles2_19: -7912770462431861082
+      BrickTiles2_2: -5993873121806466693
+      BrickTiles2_20: 1650170891111483237
+      BrickTiles2_21: -3495485864909424314
+      BrickTiles2_22: 506017903995098416
+      BrickTiles2_23: 7178419127394042905
+      BrickTiles2_24: -4548363206321019050
+      BrickTiles2_25: -3529397389646249336
+      BrickTiles2_26: -6451354582465447676
+      BrickTiles2_27: 1703866204396491749
+      BrickTiles2_28: -9147571951374975801
+      BrickTiles2_29: -2390014179423758841
+      BrickTiles2_3: 7433399106871949105
+      BrickTiles2_30: 2579362015472335654
+      BrickTiles2_31: -908089592199601193
+      BrickTiles2_32: -5177024997910044005
+      BrickTiles2_33: 7001144619413914653
+      BrickTiles2_34: 4494091075954371564
+      BrickTiles2_35: -7661522768492540461
+      BrickTiles2_36: 8405938906555516524
+      BrickTiles2_37: 6578349598508658411
+      BrickTiles2_4: -956578645469548663
+      BrickTiles2_5: -5947638634607929348
+      BrickTiles2_6: 6631895473358740563
+      BrickTiles2_7: -3972426128979685446
+      BrickTiles2_8: 655048844189221776
+      BrickTiles2_9: 5915459071795566573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

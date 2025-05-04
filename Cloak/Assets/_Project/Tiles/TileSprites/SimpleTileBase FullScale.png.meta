@@ -1,0 +1,1573 @@
+fileFormatVersion: 2
+guid: a7d2c8b6a8b7dc845a81a497b4869ed7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2270169053713930616
+    second: SimpleTileBase FullScale_0
+  - first:
+      213: -6019873271824676716
+    second: SimpleTileBase FullScale_1
+  - first:
+      213: -2458118996621312513
+    second: SimpleTileBase FullScale_2
+  - first:
+      213: -8550050946234413495
+    second: SimpleTileBase FullScale_3
+  - first:
+      213: 2178982567021631082
+    second: SimpleTileBase FullScale_4
+  - first:
+      213: 1366069742690319270
+    second: SimpleTileBase FullScale_5
+  - first:
+      213: -1864355147340451425
+    second: SimpleTileBase FullScale_6
+  - first:
+      213: 4389479860133700242
+    second: SimpleTileBase FullScale_7
+  - first:
+      213: 5640526922344275847
+    second: SimpleTileBase FullScale_8
+  - first:
+      213: 8884141252718132394
+    second: SimpleTileBase FullScale_9
+  - first:
+      213: 1368376422649253400
+    second: SimpleTileBase FullScale_10
+  - first:
+      213: 4954230427561576181
+    second: SimpleTileBase FullScale_11
+  - first:
+      213: 3087287578713759752
+    second: SimpleTileBase FullScale_12
+  - first:
+      213: -8414139793620116834
+    second: SimpleTileBase FullScale_13
+  - first:
+      213: -2005925118109745540
+    second: SimpleTileBase FullScale_14
+  - first:
+      213: 2098260869233567812
+    second: SimpleTileBase FullScale_15
+  - first:
+      213: -6999022000376841257
+    second: SimpleTileBase FullScale_16
+  - first:
+      213: 6867675754362992729
+    second: SimpleTileBase FullScale_17
+  - first:
+      213: 3621060528732925973
+    second: SimpleTileBase FullScale_18
+  - first:
+      213: 3819123330039620344
+    second: SimpleTileBase FullScale_19
+  - first:
+      213: 8178425689823132146
+    second: SimpleTileBase FullScale_20
+  - first:
+      213: 7954598789297109506
+    second: SimpleTileBase FullScale_21
+  - first:
+      213: -1015149349727831180
+    second: SimpleTileBase FullScale_22
+  - first:
+      213: 6561347626898318446
+    second: SimpleTileBase FullScale_23
+  - first:
+      213: -4478982347960274043
+    second: SimpleTileBase FullScale_24
+  - first:
+      213: -2444411958073099499
+    second: SimpleTileBase FullScale_25
+  - first:
+      213: 981629866988446688
+    second: SimpleTileBase FullScale_26
+  - first:
+      213: 4727056172397568835
+    second: SimpleTileBase FullScale_27
+  - first:
+      213: 6349996909029614211
+    second: SimpleTileBase FullScale_28
+  - first:
+      213: 2993008357634899757
+    second: SimpleTileBase FullScale_29
+  - first:
+      213: -1025790234215770308
+    second: SimpleTileBase FullScale_30
+  - first:
+      213: -319753117073175641
+    second: SimpleTileBase FullScale_31
+  - first:
+      213: 3843139983040636254
+    second: SimpleTileBase FullScale_32
+  - first:
+      213: 7175219188738396666
+    second: SimpleTileBase FullScale_33
+  - first:
+      213: -4514054839606449983
+    second: SimpleTileBase FullScale_34
+  - first:
+      213: -8228790561523916350
+    second: SimpleTileBase FullScale_35
+  - first:
+      213: -935373679742916868
+    second: SimpleTileBase FullScale_36
+  - first:
+      213: -9000113255914460130
+    second: SimpleTileBase FullScale_37
+  - first:
+      213: 3478055674920767291
+    second: SimpleTileBase FullScale_38
+  - first:
+      213: -8029930381374354406
+    second: SimpleTileBase FullScale_39
+  - first:
+      213: -4292157484700968355
+    second: SimpleTileBase FullScale_40
+  - first:
+      213: 8410315102673698848
+    second: SimpleTileBase FullScale_41
+  - first:
+      213: -269990062086040141
+    second: SimpleTileBase FullScale_42
+  - first:
+      213: 4167855425460639305
+    second: SimpleTileBase FullScale_43
+  - first:
+      213: 4680100255428138467
+    second: SimpleTileBase FullScale_44
+  - first:
+      213: 4066458574610826423
+    second: SimpleTileBase FullScale_45
+  - first:
+      213: 6580712943738434832
+    second: SimpleTileBase FullScale_46
+  - first:
+      213: -1084367437872651658
+    second: SimpleTileBase FullScale_47
+  - first:
+      213: -1239009086691202248
+    second: SimpleTileBase FullScale_48
+  - first:
+      213: -5814811171802576259
+    second: SimpleTileBase FullScale_49
+  - first:
+      213: 5059802031639109510
+    second: SimpleTileBase FullScale_50
+  - first:
+      213: -8030620184301772941
+    second: SimpleTileBase FullScale_51
+  - first:
+      213: -4900129517184446604
+    second: SimpleTileBase FullScale_52
+  - first:
+      213: 2792410423414505065
+    second: SimpleTileBase FullScale_53
+  - first:
+      213: 8829944601323402387
+    second: SimpleTileBase FullScale_54
+  - first:
+      213: 946765351427968108
+    second: SimpleTileBase FullScale_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 995
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886eb45064dbe70e0800000000000000
+      internalID: -2270169053713930616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 995
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4988508672d157ca0800000000000000
+      internalID: -6019873271824676716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 995
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd3fb6dbc103edd0800000000000000
+      internalID: -2458118996621312513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 995
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e843ae6fd185980800000000000000
+      internalID: -8550050946234413495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 919
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66d717991d4d3e10800000000000000
+      internalID: 2178982567021631082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 919
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab3777713145f210800000000000000
+      internalID: 1366069742690319270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 919
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91f99b0fda7026e0800000000000000
+      internalID: -1864355147340451425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 919
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29220042da09aec30800000000000000
+      internalID: 4389479860133700242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 843
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f9b50e95d274e40800000000000000
+      internalID: 5640526922344275847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 843
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac78ae266fca4b70800000000000000
+      internalID: 8884141252718132394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 843
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e470f3b137df210800000000000000
+      internalID: 1368376422649253400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_11
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 843
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f64d324356f0c440800000000000000
+      internalID: 4954230427561576181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800a5b812bf38da20800000000000000
+      internalID: 3087287578713759752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 763
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a5bce0078fa3b80800000000000000
+      internalID: -8414139793620116834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 763
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ef801abb58924e0800000000000000
+      internalID: -2005925118109745540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_15
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 763
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448e4ccb4258e1d10800000000000000
+      internalID: 2098260869233567812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 687
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbf464b29a7ede90800000000000000
+      internalID: -6999022000376841257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 687
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9587e5b46b2ee4f50800000000000000
+      internalID: 6867675754362992729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 687
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510705d9d57904230800000000000000
+      internalID: 3621060528732925973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 687
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f22b602f60400530800000000000000
+      internalID: 3819123330039620344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 615
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f936df65da9f7170800000000000000
+      internalID: 8178425689823132146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 615
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a7ece1479646e60800000000000000
+      internalID: 7954598789297109506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 615
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bf08f7b0779e1f0800000000000000
+      internalID: -1015149349727831180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 611
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64602537e69e0b50800000000000000
+      internalID: 6561347626898318446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 539
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5833592094577d1c0800000000000000
+      internalID: -4478982347960274043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 539
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bf5527644b31ed0800000000000000
+      internalID: -2444411958073099499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_26
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 535
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3a2c2c9237f9d00800000000000000
+      internalID: 981629866988446688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_27
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 535
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34323153b80e99140800000000000000
+      internalID: 4727056172397568835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 459
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382e9878b88bf1850800000000000000
+      internalID: 6349996909029614211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 459
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f7a9e5e3d498920800000000000000
+      internalID: 2993008357634899757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 463
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3711838739a3c1f0800000000000000
+      internalID: -1025790234215770308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 463
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab8701fb32009bf0800000000000000
+      internalID: -319753117073175641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 387
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55ec37e373955530800000000000000
+      internalID: 3843139983040636254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 387
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1915216df739360800000000000000
+      internalID: 7175219188738396666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_34
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 387
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8ef943a0bda51c0800000000000000
+      internalID: -4514054839606449983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_35
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 387
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1a74115967dcd80800000000000000
+      internalID: -8228790561523916350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 307
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf66ca61892e403f0800000000000000
+      internalID: -935373679742916868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 307
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c2feaadac291380800000000000000
+      internalID: -9000113255914460130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 307
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f0fa47539844030800000000000000
+      internalID: 3478055674920767291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_39
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 307
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c801fccd4ff8090800000000000000
+      internalID: -8029930381374354406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 235
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a5d5c22813f64c0800000000000000
+      internalID: -4292157484700968355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 235
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02008ffa60177b470800000000000000
+      internalID: 8410315102673698848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_42
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 231
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5d970187dc04cf0800000000000000
+      internalID: -269990062086040141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_43
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 231
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94614cd5d6237d930800000000000000
+      internalID: 4167855425460639305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 159
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e55206d26e03f040800000000000000
+      internalID: 4680100255428138467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b405815786fe6830800000000000000
+      internalID: 4066458574610826423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_46
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 159
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01538546e83635b50800000000000000
+      internalID: 6580712943738434832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_47
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 159
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672a99b7f8d83f0f0800000000000000
+      internalID: -1084367437872651658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 79
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b2a4adcc72ecee0800000000000000
+      internalID: -1239009086691202248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_49
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 79
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a0cb42c04ad4fa0800000000000000
+      internalID: -5814811171802576259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_50
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 79
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f16a9c327083640800000000000000
+      internalID: 5059802031639109510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_51
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 79
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f5c9c8d718d8090800000000000000
+      internalID: -8030620184301772941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_52
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f80d68a2e3ffbb0800000000000000
+      internalID: -4900129517184446604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_53
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 7
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e38ba3c72a0c620800000000000000
+      internalID: 2792410423414505065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_54
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 7
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3947244f4d34a8a70800000000000000
+      internalID: 8829944601323402387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SimpleTileBase FullScale_55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 3
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c03892216932d00800000000000000
+      internalID: 946765351427968108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SimpleTileBase FullScale_0: -2270169053713930616
+      SimpleTileBase FullScale_1: -6019873271824676716
+      SimpleTileBase FullScale_10: 1368376422649253400
+      SimpleTileBase FullScale_11: 4954230427561576181
+      SimpleTileBase FullScale_12: 3087287578713759752
+      SimpleTileBase FullScale_13: -8414139793620116834
+      SimpleTileBase FullScale_14: -2005925118109745540
+      SimpleTileBase FullScale_15: 2098260869233567812
+      SimpleTileBase FullScale_16: -6999022000376841257
+      SimpleTileBase FullScale_17: 6867675754362992729
+      SimpleTileBase FullScale_18: 3621060528732925973
+      SimpleTileBase FullScale_19: 3819123330039620344
+      SimpleTileBase FullScale_2: -2458118996621312513
+      SimpleTileBase FullScale_20: 8178425689823132146
+      SimpleTileBase FullScale_21: 7954598789297109506
+      SimpleTileBase FullScale_22: -1015149349727831180
+      SimpleTileBase FullScale_23: 6561347626898318446
+      SimpleTileBase FullScale_24: -4478982347960274043
+      SimpleTileBase FullScale_25: -2444411958073099499
+      SimpleTileBase FullScale_26: 981629866988446688
+      SimpleTileBase FullScale_27: 4727056172397568835
+      SimpleTileBase FullScale_28: 6349996909029614211
+      SimpleTileBase FullScale_29: 2993008357634899757
+      SimpleTileBase FullScale_3: -8550050946234413495
+      SimpleTileBase FullScale_30: -1025790234215770308
+      SimpleTileBase FullScale_31: -319753117073175641
+      SimpleTileBase FullScale_32: 3843139983040636254
+      SimpleTileBase FullScale_33: 7175219188738396666
+      SimpleTileBase FullScale_34: -4514054839606449983
+      SimpleTileBase FullScale_35: -8228790561523916350
+      SimpleTileBase FullScale_36: -935373679742916868
+      SimpleTileBase FullScale_37: -9000113255914460130
+      SimpleTileBase FullScale_38: 3478055674920767291
+      SimpleTileBase FullScale_39: -8029930381374354406
+      SimpleTileBase FullScale_4: 2178982567021631082
+      SimpleTileBase FullScale_40: -4292157484700968355
+      SimpleTileBase FullScale_41: 8410315102673698848
+      SimpleTileBase FullScale_42: -269990062086040141
+      SimpleTileBase FullScale_43: 4167855425460639305
+      SimpleTileBase FullScale_44: 4680100255428138467
+      SimpleTileBase FullScale_45: 4066458574610826423
+      SimpleTileBase FullScale_46: 6580712943738434832
+      SimpleTileBase FullScale_47: -1084367437872651658
+      SimpleTileBase FullScale_48: -1239009086691202248
+      SimpleTileBase FullScale_49: -5814811171802576259
+      SimpleTileBase FullScale_5: 1366069742690319270
+      SimpleTileBase FullScale_50: 5059802031639109510
+      SimpleTileBase FullScale_51: -8030620184301772941
+      SimpleTileBase FullScale_52: -4900129517184446604
+      SimpleTileBase FullScale_53: 2792410423414505065
+      SimpleTileBase FullScale_54: 8829944601323402387
+      SimpleTileBase FullScale_55: 946765351427968108
+      SimpleTileBase FullScale_6: -1864355147340451425
+      SimpleTileBase FullScale_7: 4389479860133700242
+      SimpleTileBase FullScale_8: 5640526922344275847
+      SimpleTileBase FullScale_9: 8884141252718132394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
