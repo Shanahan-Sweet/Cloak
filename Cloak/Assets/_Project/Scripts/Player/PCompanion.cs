@@ -15,9 +15,12 @@ public class PCompanion : MonoBehaviour
     CompanionManager playerReference;
     Rigidbody2D rigidBody, playerRigidBody;
     PlatformerPhysics platformerPhysics;
+    Collider2D myCollider;
+    bool inactiveCollider = false;
     void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+        myCollider = GetComponent<Collider2D>();
     }
 
     void Start()
@@ -60,12 +63,19 @@ public class PCompanion : MonoBehaviour
         Vector2 pV = playerRigidBody.linearVelocity.magnitude > 2 ? playerRigidBody.linearVelocity.normalized * 2 : playerRigidBody.linearVelocity;
         pV *= .2f;
         targetPos += pV;
+
+        if (inactiveCollider) targetPos = playerReference.transform.position;//move to player if stuck
+
         //move to target position
         Vector2 targetDir = targetPos - (Vector2)transform.position;
         targetDir *= .25f;
         if (targetDir.magnitude > 1) targetDir.Normalize();
         rigidBody.AddForce(targetDir * moveSpd);
 
+
+
+        //check if stuck
+        CheckDistance();
         //rotate
         FlipUpright(Vector2.up);
     }
@@ -74,6 +84,28 @@ public class PCompanion : MonoBehaviour
         Quaternion rot = Quaternion.FromToRotation(transform.up, pointTarget);
         rigidBody.AddTorque(rot.z * rotationTorque);
     }
+
+    void CheckDistance()
+    {
+        if (!inactiveCollider)
+        {
+            if ((transform.position - playerReference.transform.position).magnitude > 1.5f)
+            {
+                inactiveCollider = true;
+                myCollider.enabled = false;
+            }
+        }
+        else//test to activate
+        {
+            if ((transform.position - playerReference.transform.position).magnitude < .5f)
+            {
+                inactiveCollider = false;
+                myCollider.enabled = true;
+            }
+        }
+    }
+
+
     //dash effects
     public void UseDash()
     {
