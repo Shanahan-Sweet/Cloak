@@ -1,0 +1,1633 @@
+fileFormatVersion: 2
+guid: baf45c6c3e4a55e489d8a53f7cda8b40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -178772408402560430
+    second: SmallTileSet Base_0
+  - first:
+      213: 3545821886693087547
+    second: SmallTileSet Base_1
+  - first:
+      213: 8211136585639056336
+    second: SmallTileSet Base_2
+  - first:
+      213: 928003526116151368
+    second: SmallTileSet Base_3
+  - first:
+      213: 2208995965569180084
+    second: SmallTileSet Base_4
+  - first:
+      213: -6533153454119932839
+    second: SmallTileSet Base_5
+  - first:
+      213: -2540613186080776088
+    second: SmallTileSet Base_6
+  - first:
+      213: -261168994474411058
+    second: SmallTileSet Base_7
+  - first:
+      213: -3371792299203187421
+    second: SmallTileSet Base_8
+  - first:
+      213: 8315014636123271596
+    second: SmallTileSet Base_9
+  - first:
+      213: 4485552475662413606
+    second: SmallTileSet Base_10
+  - first:
+      213: 7654132310228339101
+    second: SmallTileSet Base_11
+  - first:
+      213: -513704880731692381
+    second: SmallTileSet Base_12
+  - first:
+      213: 3606774903012427888
+    second: SmallTileSet Base_13
+  - first:
+      213: -6268511838275683842
+    second: SmallTileSet Base_14
+  - first:
+      213: -513368247195141264
+    second: SmallTileSet Base_15
+  - first:
+      213: -146763899487164338
+    second: SmallTileSet Base_16
+  - first:
+      213: -5949252451783767095
+    second: SmallTileSet Base_17
+  - first:
+      213: -5400457484300412085
+    second: SmallTileSet Base_18
+  - first:
+      213: 9090432846865582951
+    second: SmallTileSet Base_19
+  - first:
+      213: -3628019042492962232
+    second: SmallTileSet Base_20
+  - first:
+      213: -2480917433652136558
+    second: SmallTileSet Base_21
+  - first:
+      213: 5681506433843563213
+    second: SmallTileSet Base_22
+  - first:
+      213: 6224184487987306340
+    second: SmallTileSet Base_23
+  - first:
+      213: -5661000846976099174
+    second: SmallTileSet Base_24
+  - first:
+      213: 266218264292287951
+    second: SmallTileSet Base_25
+  - first:
+      213: 2169503557009584061
+    second: SmallTileSet Base_26
+  - first:
+      213: -4166726085372308307
+    second: SmallTileSet Base_27
+  - first:
+      213: -3351210129733865533
+    second: SmallTileSet Base_28
+  - first:
+      213: -376905122901470209
+    second: SmallTileSet Base_29
+  - first:
+      213: -3007322112795786564
+    second: SmallTileSet Base_30
+  - first:
+      213: 1867906828612844672
+    second: SmallTileSet Base_31
+  - first:
+      213: -8674628252800511959
+    second: SmallTileSet Base_32
+  - first:
+      213: -8780816545215961856
+    second: SmallTileSet Base_33
+  - first:
+      213: -139246682402604091
+    second: SmallTileSet Base_34
+  - first:
+      213: 3966162240078374468
+    second: SmallTileSet Base_35
+  - first:
+      213: -5604466544573598714
+    second: SmallTileSet Base_36
+  - first:
+      213: -6091332544271497791
+    second: SmallTileSet Base_37
+  - first:
+      213: -1862454807669002565
+    second: SmallTileSet Base_38
+  - first:
+      213: -8005564093406703726
+    second: SmallTileSet Base_39
+  - first:
+      213: -7780990364026070687
+    second: SmallTileSet Base_40
+  - first:
+      213: 757726397218048398
+    second: SmallTileSet Base_41
+  - first:
+      213: 7267092080635300141
+    second: SmallTileSet Base_42
+  - first:
+      213: -4437026032218837477
+    second: SmallTileSet Base_43
+  - first:
+      213: -8075467993767103239
+    second: SmallTileSet Base_44
+  - first:
+      213: -5326594545216818154
+    second: SmallTileSet Base_45
+  - first:
+      213: 9198009848033049047
+    second: SmallTileSet Base_46
+  - first:
+      213: -5209566882942411257
+    second: SmallTileSet Base_47
+  - first:
+      213: 8499109164733753201
+    second: SmallTileSet Base_48
+  - first:
+      213: -2033330332443300523
+    second: SmallTileSet Base_49
+  - first:
+      213: 7037363482031492344
+    second: SmallTileSet Base_50
+  - first:
+      213: -5937854422471866480
+    second: SmallTileSet Base_51
+  - first:
+      213: 1698147922021564209
+    second: SmallTileSet Base_52
+  - first:
+      213: -4407296952945313741
+    second: SmallTileSet Base_53
+  - first:
+      213: -6325030209284241430
+    second: SmallTileSet Base_54
+  - first:
+      213: -1680379852961031980
+    second: SmallTileSet Base_55
+  - first:
+      213: 5701054164294431725
+    second: SmallTileSet Base_56
+  - first:
+      213: -8123664519797412956
+    second: SmallTileSet Base_57
+  - first:
+      213: -9142775109018514403
+    second: SmallTileSet Base_58
+  - first:
+      213: 2996199936191112064
+    second: SmallTileSet Base_59
+  - first:
+      213: -915296331650865359
+    second: SmallTileSet Base_60
+  - first:
+      213: 3120959945011139004
+    second: SmallTileSet Base_61
+  - first:
+      213: 5493457097265473205
+    second: SmallTileSet Base_62
+  - first:
+      213: -3404876678794974358
+    second: SmallTileSet Base_63
+  - first:
+      213: 4870134017191334276
+    second: SmallTileSet Base_64
+  - first:
+      213: 4120340945200792442
+    second: SmallTileSet Base_65
+  - first:
+      213: 1436723340881911331
+    second: SmallTileSet Base_66
+  - first:
+      213: 4749662074222920273
+    second: SmallTileSet Base_67
+  - first:
+      213: -8337262439506943516
+    second: SmallTileSet Base_68
+  - first:
+      213: -606604980269717885
+    second: SmallTileSet Base_69
+  - first:
+      213: 4639232915641316107
+    second: SmallTileSet Base_70
+  - first:
+      213: 6495304985457699190
+    second: SmallTileSet Base_71
+  - first:
+      213: -6853219576971826661
+    second: SmallTileSet Base_72
+  - first:
+      213: -8773868678981366765
+    second: SmallTileSet Base_73
+  - first:
+      213: 4250159781648414402
+    second: SmallTileSet Base_74
+  - first:
+      213: 1556355385566505872
+    second: SmallTileSet Base_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmallTileSet Base_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e486731d20796fdf0800000000000000
+      internalID: -146763899487164338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb8e446a62007da0800000000000000
+      internalID: -5949252451783767095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b9ca7e788bd05b0800000000000000
+      internalID: -5400457484300412085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b47f3d284b72e70800000000000000
+      internalID: 9090432846865582951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84aaad527efa6adc0800000000000000
+      internalID: -3628019042492962232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29537121db2029dd0800000000000000
+      internalID: -2480917433652136558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca875aeff3c8de40800000000000000
+      internalID: 5681506433843563213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_23
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fdafe80deb06650800000000000000
+      internalID: 6224184487987306340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cddc219b51071b0800000000000000
+      internalID: -5661000846976099174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5ecd3d91cc1b300800000000000000
+      internalID: 266218264292287951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfa0869dff9b1e10800000000000000
+      internalID: 2169503557009584061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_27
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4970d93b0dc26c0800000000000000
+      internalID: -4166726085372308307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfa589742c1e71d0800000000000000
+      internalID: -3351210129733865533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3de63a9c6f4caf0800000000000000
+      internalID: -376905122901470209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb241adc878d346d0800000000000000
+      internalID: -3007322112795786564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cbef03d532ce910800000000000000
+      internalID: 1867906828612844672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920124170978d9780800000000000000
+      internalID: -8674628252800511959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005a788ffd5442680800000000000000
+      internalID: -8780816545215961856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbbd3f41eb411ef0800000000000000
+      internalID: -139246682402604091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_35
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44660713b83aa0730800000000000000
+      internalID: 3966162240078374468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60431271f5fe832b0800000000000000
+      internalID: -5604466544573598714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_37
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5cbe1035d377ba0800000000000000
+      internalID: -6091332544271497791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbeabaa583b3726e0800000000000000
+      internalID: -1862454807669002565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f0fd15fd586e090800000000000000
+      internalID: -8005564093406703726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1691d774d7e540490800000000000000
+      internalID: -7780990364026070687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_41
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e894e17c42cf38a00800000000000000
+      internalID: 757726397218048398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d294250aeb5e9d460800000000000000
+      internalID: 7267092080635300141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_43
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e6f6205548c62c0800000000000000
+      internalID: -4437026032218837477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4b97435ac2eef80800000000000000
+      internalID: -8075467993767103239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61471dd8b722416b0800000000000000
+      internalID: -5326594545216818154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9fd804935e5af70800000000000000
+      internalID: 9198009848033049047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_47
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e149c7586e3b7b0800000000000000
+      internalID: -5209566882942411257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177e83f41c6e2f570800000000000000
+      internalID: 8499109164733753201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_49
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55da0bfe5d828c3e0800000000000000
+      internalID: -2033330332443300523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc0bc52dccb9a160800000000000000
+      internalID: 7037363482031492344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_51
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0970594ecd0889da0800000000000000
+      internalID: -5937854422471866480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fb924b988019710800000000000000
+      internalID: 1698147922021564209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_53
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338780ca5c226d2c0800000000000000
+      internalID: -4407296952945313741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae78ffd398af838a0800000000000000
+      internalID: -6325030209284241430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_55
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8d8804d671ea8e0800000000000000
+      internalID: -1680379852961031980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 249
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c96e66920f63eb4bb37d5b3f4048897
+      internalID: -178772408402560430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 249
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af0e8a1f6e30e044b01bd5fbad84daf
+      internalID: 3545821886693087547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 249
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23e85e348ff89f4380892510f64251f
+      internalID: 8211136585639056336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 249
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc607d10fbc83845a9970fe88f2e3a2
+      internalID: 928003526116151368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 230
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2f0099aa645ff4f89ed9ede4faae19
+      internalID: 2208995965569180084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 230
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121e4d8e20879254fad72e0659555e92
+      internalID: -6533153454119932839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 230
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea9bfb796714df4685d358852ceb987
+      internalID: -2540613186080776088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 230
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18399bc992150424fb9d41dd0e16cd68
+      internalID: -261168994474411058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e935e06194fc9f845aa9f519922a49f7
+      internalID: -3371792299203187421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3eec375d31bac499705191d3b64a68
+      internalID: 8315014636123271596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15da5bbb9b610304492178d7b4fea020
+      internalID: 4485552475662413606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_11
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef6c3b3643088b459316c5e7376d5de
+      internalID: 7654132310228339101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abc1977897c7da4ab73f7fbdfa5c19a
+      internalID: -513704880731692381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfcb380ee642cc489ff03a87aee9917
+      internalID: 3606774903012427888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dd5d03f5aa8054190963e0c01cc930
+      internalID: -6268511838275683842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallTileSet Base_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d23f66ea368bd4395e90dbfd74b6c1
+      internalID: -513368247195141264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f97012bd480005a47b9a631a0c65b993
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SmallTileSet Base_0: -178772408402560430
+      SmallTileSet Base_1: 3545821886693087547
+      SmallTileSet Base_10: 4485552475662413606
+      SmallTileSet Base_11: 7654132310228339101
+      SmallTileSet Base_12: -513704880731692381
+      SmallTileSet Base_13: 3606774903012427888
+      SmallTileSet Base_14: -6268511838275683842
+      SmallTileSet Base_15: -513368247195141264
+      SmallTileSet Base_16: -146763899487164338
+      SmallTileSet Base_17: -5949252451783767095
+      SmallTileSet Base_18: -5400457484300412085
+      SmallTileSet Base_19: 9090432846865582951
+      SmallTileSet Base_2: 8211136585639056336
+      SmallTileSet Base_20: -3628019042492962232
+      SmallTileSet Base_21: -2480917433652136558
+      SmallTileSet Base_22: 5681506433843563213
+      SmallTileSet Base_23: 6224184487987306340
+      SmallTileSet Base_24: -5661000846976099174
+      SmallTileSet Base_25: 266218264292287951
+      SmallTileSet Base_26: 2169503557009584061
+      SmallTileSet Base_27: -4166726085372308307
+      SmallTileSet Base_28: -3351210129733865533
+      SmallTileSet Base_29: -376905122901470209
+      SmallTileSet Base_3: 928003526116151368
+      SmallTileSet Base_30: -3007322112795786564
+      SmallTileSet Base_31: 1867906828612844672
+      SmallTileSet Base_32: -8674628252800511959
+      SmallTileSet Base_33: -8780816545215961856
+      SmallTileSet Base_34: -139246682402604091
+      SmallTileSet Base_35: 3966162240078374468
+      SmallTileSet Base_36: -5604466544573598714
+      SmallTileSet Base_37: -6091332544271497791
+      SmallTileSet Base_38: -1862454807669002565
+      SmallTileSet Base_39: -8005564093406703726
+      SmallTileSet Base_4: 2208995965569180084
+      SmallTileSet Base_40: -7780990364026070687
+      SmallTileSet Base_41: 757726397218048398
+      SmallTileSet Base_42: 7267092080635300141
+      SmallTileSet Base_43: -4437026032218837477
+      SmallTileSet Base_44: -8075467993767103239
+      SmallTileSet Base_45: -5326594545216818154
+      SmallTileSet Base_46: 9198009848033049047
+      SmallTileSet Base_47: -5209566882942411257
+      SmallTileSet Base_48: 8499109164733753201
+      SmallTileSet Base_49: -2033330332443300523
+      SmallTileSet Base_5: -6533153454119932839
+      SmallTileSet Base_50: 7037363482031492344
+      SmallTileSet Base_51: -5937854422471866480
+      SmallTileSet Base_52: 1698147922021564209
+      SmallTileSet Base_53: -4407296952945313741
+      SmallTileSet Base_54: -6325030209284241430
+      SmallTileSet Base_55: -1680379852961031980
+      SmallTileSet Base_6: -2540613186080776088
+      SmallTileSet Base_7: -261168994474411058
+      SmallTileSet Base_8: -3371792299203187421
+      SmallTileSet Base_9: 8315014636123271596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
