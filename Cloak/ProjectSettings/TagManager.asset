@@ -65,8 +65,11 @@ TagManager:
   - name: FrontDetails
     uniqueID: 4168597903
     locked: 0
-  - name: Foreground
+  - name: FrontWall
     uniqueID: 3872592669
+    locked: 0
+  - name: Foreground
+    uniqueID: 3365862669
     locked: 0
   m_RenderingLayers:
   - Default
