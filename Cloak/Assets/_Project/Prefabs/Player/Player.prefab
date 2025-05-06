@@ -2106,7 +2106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  moveSpd: 25.5
+  moveSpd: 25.25
   airMoveSpd: 9
   jumpHeight: 7.8
   slideSpd: 45
