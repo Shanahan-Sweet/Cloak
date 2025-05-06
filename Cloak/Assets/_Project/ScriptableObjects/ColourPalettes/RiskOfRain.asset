@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfb77976e2a7eb418de411a3852f723, type: 3}
+  m_Name: RiskOfRain
+  m_EditorClassIdentifier: 
+  palette:
+    dimLightCol: {r: 0.043137256, g: 0.2392157, b: 0.41176474, a: 1}
+    sunlightCol: {r: 0.043137256, g: 0.40000004, b: 0.60784316, a: 1}
+    sunHighlightCol: {r: 0.5803922, g: 0.93333334, b: 0.79664123, a: 1}
+    darkCol: {r: 0.029503377, g: 0.04600926, b: 0.122641504, a: 1}
+    fogCol: {r: 0.34041014, g: 0.33361518, b: 0.46226418, a: 1}
+    sunFogCol: {r: 0.7311321, g: 0.9039757, b: 1, a: 1}
+    topAccentCol: {r: 1, g: 0.5330524, b: 0.27058828, a: 1}
+    accentCol: {r: 1, g: 0, b: 0.7254902, a: 1}
+    noiseCol: {r: 0.28627452, g: 0.18431373, b: 1, a: 1}
