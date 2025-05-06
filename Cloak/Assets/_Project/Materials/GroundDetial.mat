@@ -72,7 +72,7 @@ Material:
     m_Floats:
     - _EnableExternalAlpha: 0
     - _TexVisibility: 0.5
-    - _TextureScale: 0.242
+    - _TextureScale: 0.088
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
