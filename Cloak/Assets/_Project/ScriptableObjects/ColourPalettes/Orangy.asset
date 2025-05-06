@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Orangy
   m_EditorClassIdentifier: 
   palette:
-    dimLightCol: {r: 1, g: 0.454902, b: 0.43137258, a: 1}
-    sunlightCol: {r: 1, g: 0.454902, b: 0.43137258, a: 1}
+    dimLightCol: {r: 0.19215687, g: 0.1254902, b: 0.101960786, a: 1}
+    sunlightCol: {r: 0.6792453, g: 0.32551536, b: 0.31078678, a: 1}
+    sunHighlightCol: {r: 1, g: 0.4961782, b: 0.36320752, a: 1}
     darkCol: {r: 0.11320752, g: 0, b: 0.05727313, a: 1}
-    fogCol: {r: 1, g: 0.45556712, b: 0.43299997, a: 1}
+    fogCol: {r: 1, g: 0.37012166, b: 0.25, a: 1}
+    sunFogCol: {r: 0.9528302, g: 0.8680711, b: 0.6516999, a: 1}
     topAccentCol: {r: 1, g: 0.909804, b: 0.3529412, a: 1}
     accentCol: {r: 1, g: 0.59989893, b: 0.3726415, a: 1}
     noiseCol: {r: 0.191, g: 0.12733333, b: 0.10039744, a: 1}

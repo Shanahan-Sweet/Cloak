@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Ocean Floor
   m_EditorClassIdentifier: 
   palette:
-    dimLightCol: {r: 0.42745098, g: 0.3019608, b: 0.47058824, a: 1}
+    dimLightCol: {r: 0.26415092, g: 0.20060517, b: 0.25140458, a: 1}
     sunlightCol: {r: 0.20554467, g: 0.21774963, b: 0.2924528, a: 1}
     sunHighlightCol: {r: 0.32156864, g: 0.34117648, b: 0.41960785, a: 1}
-    darkCol: {r: 0.01818182, g: 0.05, b: 0.040909097, a: 1}
+    darkCol: {r: 0.045834813, g: 0.09433961, b: 0.07670151, a: 1}
     fogCol: {r: 1, g: 0.43137255, b: 0.6627451, a: 1}
     sunFogCol: {r: 0.5355998, g: 0.57674617, b: 0.6415094, a: 1}
     topAccentCol: {r: 1, g: 0.43137255, b: 0.6627451, a: 1}
