@@ -28179,8 +28179,8 @@ Tilemap:
   - first: {x: 57, y: 44, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 65
+      m_TileIndex: 3
+      m_TileSpriteIndex: 55
       m_TileMatrixIndex: 4
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -28189,9 +28189,9 @@ Tilemap:
   - first: {x: 58, y: 44, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
+      m_TileIndex: 3
+      m_TileSpriteIndex: 55
+      m_TileMatrixIndex: 4
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -28199,8 +28199,8 @@ Tilemap:
   - first: {x: 59, y: 44, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 64
+      m_TileIndex: 3
+      m_TileSpriteIndex: 55
       m_TileMatrixIndex: 4
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -28230,7 +28230,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 59
+      m_TileSpriteIndex: 64
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -28680,7 +28680,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 55
+      m_TileSpriteIndex: 35
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -28699,8 +28699,8 @@ Tilemap:
   - first: {x: 58, y: 45, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 68
+      m_TileIndex: 3
+      m_TileSpriteIndex: 65
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -28740,7 +28740,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 57
+      m_TileSpriteIndex: 61
       m_TileMatrixIndex: 4
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -29020,7 +29020,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 55
+      m_TileSpriteIndex: 35
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -29030,7 +29030,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 61
+      m_TileSpriteIndex: 68
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -29348,15 +29348,15 @@ Tilemap:
       m_AllTileFlags: 1073741826
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 1471
+  - m_RefCount: 1470
     m_Data: {fileID: 11400000, guid: 74259e63c07945a49807afb08357778a, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: edfefe7fcab3e1d49b9b82b04b11ef5b, type: 2}
-  - m_RefCount: 27
+  - m_RefCount: 31
     m_Data: {fileID: 11400000, guid: ac2a035d5dec25341b058544d0dd4a2b, type: 2}
-  - m_RefCount: 6
+  - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 03691d29bc5687e4db93cafe6c0638d4, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 5
@@ -29365,7 +29365,7 @@ Tilemap:
     m_Data: {fileID: 8884141252718132394, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
   - m_RefCount: 8
     m_Data: {fileID: 2178982567021631082, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
-  - m_RefCount: 1194
+  - m_RefCount: 1193
     m_Data: {fileID: 1366069742690319270, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1368376422649253400, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
@@ -29429,8 +29429,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 2
+    m_Data: {fileID: -2270169053713930616, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: -1310808023, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
   - m_RefCount: 3
@@ -29469,40 +29469,40 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 6867675754362992729, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
-  - m_RefCount: 2
-    m_Data: {fileID: -2270169053713930616, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
+  - m_RefCount: 3
+    m_Data: {fileID: 1366069742690319270, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -8550050946234413495, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1366069742690319270, guid: db99a6474f762334e9beec416b2ec20c, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -734709455, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 5640526922344275847, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 6561347626898318446, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -6019873271824676716, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
+    m_Data: {fileID: 1366069742690319270, guid: db99a6474f762334e9beec416b2ec20c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -6019873271824676716, guid: b92b35f6623313f459e43a8474b43fd3, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -2458118996621312513, guid: b92b35f6623313f459e43a8474b43fd3, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 1366069742690319270, guid: b92b35f6623313f459e43a8474b43fd3, type: 3}
+    m_Data: {fileID: 5640526922344275847, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1864355147340451425, guid: b92b35f6623313f459e43a8474b43fd3, type: 3}
+    m_Data: {fileID: -1864355147340451425, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2458118996621312513, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 3621060528732925973, guid: 31fbdadd90f4b1f4abd4f2c24c09f47f, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 8884141252718132394, guid: b92b35f6623313f459e43a8474b43fd3, type: 3}
+    m_Data: {fileID: -6019873271824676716, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 3819123330039620344, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 2098260869233567812, guid: a336ac5d2350c1942925b0b4f4b1941f, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1441
+  - m_RefCount: 1440
     m_Data:
       e00: 1
       e01: 0
@@ -29558,23 +29558,23 @@ Tilemap:
       e33: 1
   - m_RefCount: 0
     m_Data:
-      e00: 2.534489e-39
+      e00: 2.6239255e-29
       e01: 0
-      e02: 0
-      e03: 3.5713905e+29
-      e10: 6.7e-43
-      e11: 2.48e-43
+      e02: 1e-45
+      e03: -1.3231867e-38
+      e10: 8.63e-43
+      e11: 0
       e12: 0
-      e13: 6.7e-43
-      e20: 3.5713543e+29
-      e21: 0
-      e22: 3.565926e+29
-      e23: -1.19817e-40
-      e30: 6.7e-43
-      e31: 0
-      e32: 6.7e-43
-      e33: 6.73e-43
-  - m_RefCount: 3
+      e13: 8.59e-43
+      e20: -4.1089972e-38
+      e21: -1.3231867e-38
+      e22: 2.6239255e-29
+      e23: 1.1398292e-18
+      e30: 4.5907e-41
+      e31: 8.59e-43
+      e32: 8.63e-43
+      e33: 8.6e-43
+  - m_RefCount: 4
     m_Data:
       e00: 0.000000059604645
       e01: 0.99999994
@@ -44515,27 +44515,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: fogCol.b
-      value: 0.6627451
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: fogCol.g
-      value: 0.43137255
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: fogCol.r
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: darkCol.b
-      value: 0.07670151
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: darkCol.g
-      value: 0.09433961
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: darkCol.r
-      value: 0.045834813
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: noiseCol.a
@@ -44543,15 +44543,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: noiseCol.b
-      value: 0.118
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: noiseCol.g
-      value: 0.096760005
+      value: 0.18431373
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: noiseCol.r
-      value: 0.09204
+      value: 0.28627452
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: accentCol.a
@@ -44559,11 +44559,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: accentCol.b
-      value: 0.3726415
+      value: 0.7254902
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: accentCol.g
-      value: 0.59989893
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: accentCol.r
@@ -44575,39 +44575,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunFogCol.b
-      value: 0.6415094
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunFogCol.g
-      value: 0.57674617
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunFogCol.r
-      value: 0.5355998
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightCol.b
-      value: 0.25140458
+      value: 0.09433961
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightCol.g
-      value: 0.20060517
+      value: 0.09433961
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightCol.r
-      value: 0.26415092
+      value: 0.09433961
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightCol.b
-      value: 0.2924528
+      value: 0.3773585
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightCol.g
-      value: 0.21774963
+      value: 0.3773585
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightCol.r
-      value: 0.20554467
+      value: 0.3773585
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: topAccentCol.a
@@ -44615,11 +44615,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: topAccentCol.b
-      value: 0.6627451
+      value: 0.7254902
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: topAccentCol.g
-      value: 0.43137255
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: topAccentCol.r
@@ -44643,35 +44643,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunHighlightCol.b
-      value: 0.41960785
+      value: 0.6603774
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunHighlightCol.g
-      value: 0.34117648
+      value: 0.6603774
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunHighlightCol.r
-      value: 0.32156864
+      value: 0.6603774
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: currentPaletteCard
       value: 
-      objectReference: {fileID: 11400000, guid: 43101f8b844c6e24caf5c56ba89adb61, type: 2}
+      objectReference: {fileID: 11400000, guid: 7c47208f1c8e1814f8784cdc58925fbc, type: 2}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightColBackground.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightColBackground.b
-      value: 0.3838194
+      value: 0.2346698
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightColBackground.g
-      value: 0.27385974
+      value: 0.2346698
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightColBackground.r
-      value: 0.5128048
+      value: 0.2346698
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightColBackground.a
@@ -44679,15 +44679,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightColBackground.b
-      value: 0.40434352
+      value: 0.37617925
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightColBackground.g
-      value: 0.28243196
+      value: 0.37617925
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightColBackground.r
-      value: 0.48350167
+      value: 0.37617925
       objectReference: {fileID: 0}
     - target: {fileID: 6170849389952702316, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: m_LocalPosition.x
