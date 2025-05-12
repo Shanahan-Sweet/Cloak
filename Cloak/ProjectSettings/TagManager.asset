@@ -17,10 +17,10 @@ TagManager:
   - largeCreature
   - Attack
   - DetailCollider
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Light
+  - BgPostPro
+  - Post Pro
   - 
   - 
   - 
