@@ -69,7 +69,7 @@ public class PlatformerPhysics : MonoBehaviour
 
     public void KeepWalkHeight()
     {
-        if (!isGrounded || !GroundHit) return;
+        if (!IsGrounded || timeFromJump > Time.time) return;//if (!isGrounded || !GroundHit) return;
 
         rigidBody.AddForce(new Vector2(0, -rigidBody.linearVelocity.y * 10));//Y drag
 

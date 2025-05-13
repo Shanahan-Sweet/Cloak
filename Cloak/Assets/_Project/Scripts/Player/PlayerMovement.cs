@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public PlayerState currentState;
 
     //variables
-    [SerializeField] float moveSpd = 25, airMoveSpd = 15, jumpHeight = 7;
+    [SerializeField] float moveSpd = 25, jumpHeight = 7;// airMoveSpd = 15, 
     [SerializeField] float slideSpd = 30;
 
 

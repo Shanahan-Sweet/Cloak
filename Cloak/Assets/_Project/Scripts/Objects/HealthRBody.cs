@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HealthRBody : MonoBehaviour, IHealthObject
+public class HealthRBody : BaseHealth
 {
     //variables
     [Header("Rigidbody")]
@@ -18,18 +18,18 @@ public class HealthRBody : MonoBehaviour, IHealthObject
 
     }
 
-    public void Damage(HitData hitData)
+    public override void Damage(HitData hitData)
     {
         print("hit");
 
         Stun(hitData);
     }
-    public void Stun(HitData hitData)
+    public override void Stun(HitData hitData)
     {
         ApplyPushForce(hitData);
     }
 
-    public void ExplosionDamage(HitData hitData)
+    public override void ExplosionDamage(HitData hitData)
     {
         ApplyPushForce(hitData);
     }

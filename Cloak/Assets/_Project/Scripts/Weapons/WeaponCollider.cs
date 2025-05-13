@@ -12,7 +12,7 @@ public class WeaponCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out IHealthObject otherHealth))
+        if (collision.TryGetComponent(out BaseHealth otherHealth))
         {
             HitData hitData = new HitData()
             {
