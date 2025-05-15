@@ -1005,6 +1005,21 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "019257e7d6514122a076a111a5f79e1c",
+    "m_Id": -433598268,
+    "m_DisplayName": "NoiseValue",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_NoiseValue",
+    "m_StageCapability": 2,
+    "m_Value": 1.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "0315ac5097c6434d8fe919e881486441",
     "m_Id": 0,
     "m_DisplayName": "Alpha",
@@ -1322,6 +1337,15 @@
             "m_Id": "0939b9fc4ee24a77a2a6c4413c0371a8"
         },
         {
+            "m_Id": "c9049695d5204c66ad07558d53d70dd6"
+        },
+        {
+            "m_Id": "019257e7d6514122a076a111a5f79e1c"
+        },
+        {
+            "m_Id": "cae1c7b5578b48018466976f1a1aea4a"
+        },
+        {
             "m_Id": "a3eb08f9ce584d1e852027c95448ae36"
         }
     ],
@@ -1336,11 +1360,17 @@
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"45f2fa1aa373b784aa77d4cbd4271242\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
         "25b9eb9c-c7c5-4eae-b29b-b614eae5d224",
-        "bbc44341-8c74-4438-bbb2-1bacd229bd1d"
+        "bbc44341-8c74-4438-bbb2-1bacd229bd1d",
+        "4c03a4a3-f5ce-497b-a9ed-ac5de31fee06",
+        "d5419572-5e24-4f9a-8059-f9371242054b",
+        "e2d5f428-1e23-4668-b903-15f7a45dc807"
     ],
     "m_PropertyIds": [
         1534284289,
-        1314542684
+        1314542684,
+        1580901159,
+        -433598268,
+        1415623702
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -5185,6 +5215,36 @@
     "m_Property": {
         "m_Id": "23db1cdbbfb846ba8317b96e89c45a57"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "c9049695d5204c66ad07558d53d70dd6",
+    "m_Id": 1580901159,
+    "m_DisplayName": "NoiseThreshold",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_NoiseThreshold",
+    "m_StageCapability": 2,
+    "m_Value": 0.20000000298023225,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "cae1c7b5578b48018466976f1a1aea4a",
+    "m_Id": 1415623702,
+    "m_DisplayName": "RedLightNoise",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_RedLightNoise",
+    "m_StageCapability": 2,
+    "m_Value": 1.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {

@@ -4,7 +4,7 @@ public class SimpleLegs : AvatarGroup
 {    //legs
     [SerializeField] Transform legTransformHolder;
     [SerializeField] Transform[] legHolder, legPos;
-    [SerializeField] float stepMagnitude;
+    [SerializeField] float stepMagnitude, legRotation = 20;
     int stepCheck = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,7 +24,7 @@ public class SimpleLegs : AvatarGroup
         Vector2[] footTargetPos = new Vector2[2];
         Vector2[] legTargetPos = new Vector2[2];
 
-        legTransformHolder.localRotation = Quaternion.Euler(0, 0, -avatarValues.lerpVelocity.x * 20);
+        legTransformHolder.localRotation = Quaternion.Euler(0, 0, -avatarValues.lerpVelocity.x * legRotation);
         //legTransformHolder.localPosition = new Vector3(-avatarValues.lerpVelocity.x * 0.05f, 0, 0);
         if (avatarValues.isGrounded)
         {
