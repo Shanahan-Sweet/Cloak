@@ -6,7 +6,7 @@ public class RobotEnemy : BaseCreature
     //Components
     PlayerMovement moveScript;
     PlatformerPhysics platformerPhysics;
-    Rigidbody2D rigidBody;
+
     [SerializeField] Weapon myWeapon;
 
     //Animation
@@ -16,11 +16,11 @@ public class RobotEnemy : BaseCreature
     //Debug
     [SerializeField] Transform directionTrans;
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         moveScript = GetComponent<PlayerMovement>();
         platformerPhysics = GetComponent<PlatformerPhysics>();
-        rigidBody = GetComponent<Rigidbody2D>();
 
         InvokeRepeating(nameof(ChangeWalkDirection), Random.value * 2, Random.Range(.5f, 3f));
     }
@@ -56,18 +56,14 @@ public class RobotEnemy : BaseCreature
 
     void MoveFixed()
     {
-        // rigidBody.AddForce(new Vector2(inputScript.MoveAxis.x * moveSpd, 0));
         rigidBody.AddForce(new Vector2(-rigidBody.linearVelocity.x * 8, 0));//X drag
 
         Vector2 moveDir = platformerPhysics.GroundHit ? Quaternion.AngleAxis(-90, Vector3.forward) * platformerPhysics.GroundNormal : Vector2.right;
         rigidBody.AddForce(moveDir * moveAxis * 25);
         directionTrans.position = (Vector2)transform.position + moveDir;
-        //add drag
-        //rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x * .85f, rigidBody.linearVelocity.y * yDrag);
 
-
-
+        //keep stand height
         platformerPhysics.KeepWalkHeight();
-        platformerPhysics.FlipUpright(Vector2.up);
+        platformerPhysics.FlipUpright(Vector2.up);//rotate rigidbody
     }
 }

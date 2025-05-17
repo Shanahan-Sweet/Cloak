@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 2072744662892661571}
   - component: {fileID: 2491089464327990522}
   - component: {fileID: 7119987854386335731}
-  - component: {fileID: 4823353112585785730}
+  - component: {fileID: 5395717003600666199}
   m_Layer: 8
   m_Name: TinyRobot
   m_TagString: Untagged
@@ -423,6 +423,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670bbee9c448c25418d09eeb4a40f042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitReactForce: {x: 10, y: 10}
+  hitUpForce: 1
   myWeapon: {fileID: 0}
   myAvatar: {fileID: 2757650805105503169}
   directionTrans: {fileID: 4325671985157593716}
@@ -439,7 +441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standHeight: 0.35
-  rotationTorque: 15
+  rotationTorque: 5
   legSeparation: 0.16
   groundRayAddGrounded: 0.3
   groundRayAddAirborne: -0.1
@@ -481,8 +483,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &4823353112585785730
-CircleCollider2D:
+--- !u!60 &5395717003600666199
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -516,7 +518,21 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.2
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 0.26}
+      - {x: -0.23, y: -0.12}
+      - {x: 0.23, y: -0.12}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1165413576670165756
 GameObject:
   m_ObjectHideFlags: 0
