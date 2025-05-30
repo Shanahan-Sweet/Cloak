@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Chunk Activate
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,8 @@ TagManager:
   - Light
   - BgPostPro
   - Post Pro
-  - 
-  - 
+  - Camera
+  - Chunk
   - 
   - 
   - 
