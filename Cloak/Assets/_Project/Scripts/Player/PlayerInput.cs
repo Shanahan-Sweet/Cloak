@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class PlayerInput : MonoBehaviour, IWeaponMaster
+public class PlayerInput : MonoBehaviour
 {
 
-    [SerializeField] InputActionReference jumpAction, moveAction, toolAction, dashAction;
+    [SerializeField] InputActionReference jumpAction, moveAction;
 
     //variables
     Vector2 rawMoveAxis, moveAxis;
@@ -13,39 +13,25 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     bool isMoving;
     public bool IsMoving { get { return isMoving; } }
 
-    float timeFromJump;
-
-    //Ground stabilization
-    [SerializeField] PhysicsMaterial2D moveMat, idleMat;
-
     //Components
     PlayerMovement moveScript;
-    PlatformerPhysics platformerPhysics;
+
     Rigidbody2D rigidBody;
-    [SerializeField] Weapon myWeapon;
 
     //Animation
-    [Header("Animation")]
-    [SerializeField] Avatar myAvatar;
+    //[Header("Animation")]
 
     void Awake()
     {
         moveScript = GetComponent<PlayerMovement>();
-        platformerPhysics = GetComponent<PlatformerPhysics>();
         rigidBody = GetComponent<Rigidbody2D>();
 
 
         //Setup input
         jumpAction.action.Enable();
         moveAction.action.Enable();
-        toolAction.action.Enable();
-        dashAction.action.Enable();
         jumpAction.action.performed += JumpAction;
         jumpAction.action.canceled += JumpCanceled;
-
-        toolAction.action.performed += ToolAction;
-
-        dashAction.action.performed += DashAction;
     }
 
     //Update
@@ -53,14 +39,7 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     {
         SetMoveAxis(moveAction.action.ReadValue<Vector2>());//get axis input
 
-        //platformerPhysics.CheckForGround();//check for ground
-        platformerPhysics.CheckGroundRaycast();//check for ground
-        platformerPhysics.CheckCelingRaycast();
-        platformerPhysics.ChangeStandHeight(moveAxis.y > 0 ? moveAxis.y * .1f : moveAxis.y * .2f);
-        if (timeFromJump > Time.time && platformerPhysics.TimeFromGrounded > Time.time) Jump();//was close to ground or has pressed jump
 
-        //animation
-        myAvatar.SetInputAxis(moveAxis);
     }
 
     //Input
@@ -73,14 +52,7 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     {
         //HoldingJump = false;
     }
-    public void ToolAction(InputAction.CallbackContext context)
-    {
-        StartAttack();
-    }
-    public void DashAction(InputAction.CallbackContext context)
-    {
-        moveScript.StartDash();
-    }
+
     void SetMoveAxis(Vector2 newAxis)
     {
         rawMoveAxis = newAxis;
@@ -92,13 +64,11 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
             isMoving = false;
             moveAxis = Vector2.zero;
 
-            rigidBody.sharedMaterial = idleMat;//stop sliding
             return;
         }
         isMoving = true;
         moveAxis = rawMoveAxis;
 
-        rigidBody.sharedMaterial = moveMat;//no friction
 
         if (moveAxis.magnitude > 1) moveAxis.Normalize();
 
@@ -110,33 +80,13 @@ public class PlayerInput : MonoBehaviour, IWeaponMaster
     {
         if (Time.timeScale != 0)
         {
-            timeFromJump = Time.time + .2f;
+
         }
     }
 
     void Jump()//reset jump input
     {
-        timeFromJump = 0;
-        moveScript.Jump();
-        //effects
-        //partJump.Play();
-    }
 
-
-    //Attacks
-    void StartAttack()
-    {
-        myWeapon.StartAttack(moveAxis);
-        moveScript.StartAttack();
-    }
-
-    public void AttackStrike(Vector2 attackDir)
-    {
-        moveScript.AttackStrike(attackDir);
-    }
-    public void AttackEnded()
-    {
-        moveScript.AttackEnded();
     }
 
 }

@@ -13,17 +13,17 @@ TagManager:
   - Water
   - UI
   - Ground
-  - SmallCreature
-  - MidCreature
-  - largeCreature
-  - Attack
-  - DetailCollider
-  - Background
-  - Light
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - BgPostPro
   - Post Pro
-  - Camera
-  - Chunk
+  - 
+  - 
   - 
   - 
   - 
@@ -42,11 +42,8 @@ TagManager:
   - name: Background
     uniqueID: 3544939339
     locked: 0
-  - name: Backwall
-    uniqueID: 3587048979
-    locked: 0
-  - name: BackDetails
-    uniqueID: 611794325
+  - name: Ground
+    uniqueID: 871546077
     locked: 0
   - name: Default
     uniqueID: 0
@@ -59,15 +56,6 @@ TagManager:
     locked: 0
   - name: Effects
     uniqueID: 473003855
-    locked: 0
-  - name: Ground
-    uniqueID: 871546077
-    locked: 0
-  - name: FrontDetails
-    uniqueID: 4168597903
-    locked: 0
-  - name: FrontWall
-    uniqueID: 3872592669
     locked: 0
   - name: Foreground
     uniqueID: 3365862669

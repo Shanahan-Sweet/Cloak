@@ -17,7 +17,7 @@ public class DistanceVolume : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerTrans = PlayerMovement.instance.transform;
+        //playerTrans = PlayerMovement.instance.transform;//get player object
         currentVolume = 0;
         audioSource.volume = currentVolume;
 
