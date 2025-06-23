@@ -78,10 +78,10 @@ public class PlayerInput : MonoBehaviour
     //Jump
     void PressJump()
     {
-        if (Time.timeScale != 0)
-        {
+        if (Time.timeScale == 0) return;
 
-        }
+        moveScript.PressJump();
+
     }
 
     void Jump()//reset jump input
