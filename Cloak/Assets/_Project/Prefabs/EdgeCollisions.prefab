@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 446847896920348402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 540215730723187287}
   - component: {fileID: 8049948340682803135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7113612315890521051}
   - component: {fileID: 4427767686470343949}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider 135
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3925797359776635688}
   - component: {fileID: 6535592618267388011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider 315
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 702504532691469538}
   - component: {fileID: 1774234869411394317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5482417602932322650}
   - component: {fileID: 9109401778526024233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2320078319600330010}
   - component: {fileID: 8883748429525634729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider 90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,7 +539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2366711501347393004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder 315
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517398363735319548}
   - component: {fileID: 346741386121994963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EdgeCollisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4784240011343601925}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder 270
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6573686203250912649}
   - component: {fileID: 8731512435551724134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider 225
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -762,7 +762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1299310362142121110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder 135
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2365744580407119307}
   - component: {fileID: 5959769239091109195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3550889998070725337}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder 225
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -913,7 +913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2926139398207930610}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ActiveHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -953,7 +953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5284625604433353527}
   - component: {fileID: 3193827475543242826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1039,7 +1039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6507406441795966978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder 45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9088058967157437974}
   - component: {fileID: 5147452428867123875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1158,7 +1158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 776173236756410715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder 180
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1191,7 +1191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4925926786376381900}
   - component: {fileID: 7173741271605579607}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1270,7 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4559298800018597688}
   - component: {fileID: 2590210283470264889}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1357,7 +1357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5955413174605591394}
   - component: {fileID: 4214699691200003685}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider 270
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1435,7 +1435,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2072979607141588779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Holder 90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4053156242590271317}
   - component: {fileID: 50262763771364908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider 180
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1547,7 +1547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4526528580068944978}
   - component: {fileID: 1450552275659952994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider 45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,7 +1626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5004800617174741311}
   - component: {fileID: 7871316544872857797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

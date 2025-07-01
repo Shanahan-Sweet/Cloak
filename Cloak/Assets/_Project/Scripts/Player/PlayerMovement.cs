@@ -62,11 +62,11 @@ public class PlayerMovement : MonoBehaviour
     void MoveFixed()
     {
         Vector2 direction = inputScript.MoveAxis;
-        //direction = platformerScript.CheckGroundedDirection(transform.position, .5f, direction);//don't walk off edges
+        direction = platformerScript.CheckGroundedDirection(transform.position, .5f, direction);//don't walk off edges
 
         rigidBody.AddForce(direction * walkSpd);
 
-        if (!isAirborne && !platformerScript.IsAboveGround(transform.position, .05f) && direction.magnitude == 0)
+        if (!isAirborne && !platformerScript.IsAboveGround(transform.position, .05f))
         {
             transform.position = Vector3.zero;
         }

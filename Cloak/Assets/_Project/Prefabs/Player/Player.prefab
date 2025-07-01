@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5733059624375691752}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DropShadowHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 6386551989357587726}
   - component: {fileID: 7623336442679127658}
   - component: {fileID: 1247212294685794183}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 809549841653026283}
   - component: {fileID: 7980839743671426215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7238860087364992746}
   - component: {fileID: 815213446058939775}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8984168837714989748}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpriteHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5967430199484635897}
   - component: {fileID: 7000270641212612860}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JumpHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
