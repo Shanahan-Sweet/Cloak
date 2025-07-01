@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
-
     public enum PlayerState
     {
         Move, Jump
@@ -23,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     Vector2 jumpDir;
     IEnumerator jumpSequence;
 
+    [Header("GroundDetection")]
+    [SerializeField] EdgeColliders edgeCollider;
     //components
     PlayerInput inputScript;
     Rigidbody2D rigidBody;
@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
     void MoveFixed()
     {
         Vector2 direction = inputScript.MoveAxis;
-        direction = platformerScript.CheckGroundedDirection(transform.position, .5f, direction);//don't walk off edges
+        //direction = platformerScript.CheckGroundedDirection(transform.position, .5f, direction);//don't walk off edges
 
         rigidBody.AddForce(direction * walkSpd);
 
@@ -72,6 +72,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //jump
+    void SetAirborne(bool value)
+    {
+        isAirborne = value;
+        edgeCollider.SetCollidersActive(!value);
+    }
     void JumpFixed()
     {
         rigidBody.AddForce(jumpDir * jumpSpd);
@@ -81,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         if (stateTimer < Time.time)//end jump state
         {
             currentState = PlayerState.Move;
+            edgeCollider.SetCollidersActive(true);
             EndJump();
             return;
         }
@@ -126,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator JumpAnim()
     {
-        isAirborne = true;
+        SetAirborne(true);
         float value = 0;
         while (value < 1)
         {
@@ -150,7 +157,7 @@ public class PlayerMovement : MonoBehaviour
             jumpHolder.localPosition = new Vector3(0, height, 0);
             yield return null;
         }
-        isAirborne = false;
+        SetAirborne(false);
         jumpAnim.SetTrigger("Land");
     }
 }
