@@ -37,9 +37,8 @@ public class PlayerInput : MonoBehaviour
     //Update
     private void Update()
     {
-        SetMoveAxis(moveAction.action.ReadValue<Vector2>());//get axis input
-
-
+        //SetMoveAxis(moveAction.action.ReadValue<Vector2>());//get axis input
+        SetMoveAxis(new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));//get axis input
     }
 
     //Input

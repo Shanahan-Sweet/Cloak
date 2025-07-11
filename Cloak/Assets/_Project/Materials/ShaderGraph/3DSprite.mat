@@ -7,19 +7,18 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DistanceFog
-  m_Shader: {fileID: -6465566751694194690, guid: 6b8f4f5fa4b6516439b3ecc4a058d130, type: 3}
+  m_Name: 3DSprite
+  m_Shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses:
-  - MOTIONVECTORS
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -40,36 +39,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _FarDistance: 7.3
-    - _QueueControl: 0
-    - _QueueOffset: 0
     - _ZWrite: 0
     m_Colors:
-    - _BaseColour: {r: 0.06378934, g: 0.032751877, b: 0.3018868, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _FogColour: {r: 0, g: 0, b: 0, a: 1}
-    - _MidColour: {r: 0.06271536, g: 0.04463333, b: 0.16037738, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TopColour: {r: 0.25558582, g: 0.23616058, b: 0.5754717, a: 1}
-    - _WallColour: {r: 0.46600103, g: 0.25663045, b: 0.6886792, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4692982971389793416
+--- !u!114 &573435862358001771
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
