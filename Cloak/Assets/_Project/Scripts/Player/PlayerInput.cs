@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 public class PlayerInput : MonoBehaviour
 {
 
-    [SerializeField] InputActionReference jumpAction, moveAction;
+    [SerializeField] InputActionReference jumpAction, moveAction, interactAction, effectAction, menuAction;
 
     //variables
     Vector2 rawMoveAxis, moveAxis;
@@ -15,7 +15,7 @@ public class PlayerInput : MonoBehaviour
 
     //Components
     PlayerMovement moveScript;
-
+    [SerializeField] PlayerInteractions playerInteractions;
     Rigidbody2D rigidBody;
 
     //Animation
@@ -30,8 +30,15 @@ public class PlayerInput : MonoBehaviour
         //Setup input
         jumpAction.action.Enable();
         moveAction.action.Enable();
+        interactAction.action.Enable();
+        effectAction.action.Enable();
+        menuAction.action.Enable();
         jumpAction.action.performed += JumpAction;
         jumpAction.action.canceled += JumpCanceled;
+
+        interactAction.action.performed += InteractAction;
+        effectAction.action.performed += EffectAction;
+        menuAction.action.performed += MenuAction;
     }
 
     //Update
@@ -88,4 +95,21 @@ public class PlayerInput : MonoBehaviour
 
     }
 
+    //Interact with objects
+    void InteractAction(InputAction.CallbackContext context)
+    {
+        playerInteractions.InteractAction();
+    }
+    //Use effect
+    void EffectAction(InputAction.CallbackContext context)
+    {
+
+    }
+
+    //open menu
+    void MenuAction(InputAction.CallbackContext context)
+    {
+
+
+    }
 }
