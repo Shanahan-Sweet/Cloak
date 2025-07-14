@@ -6,7 +6,7 @@ public class Connection : MonoBehaviour, IInteractable
     public InteractableType interactType { get { return interactType; } }
     public void PlayerInteract(PlayerInteractions playerInteractions)
     {
-        playerInteractions.Teleport(myConnection.transform.position + new Vector3(0, -1, 0));
+        playerInteractions.StartRoomTransition(myConnection.transform.position + new Vector3(0, -.75f, 0));
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

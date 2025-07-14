@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainCam : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class MainCam : MonoBehaviour
     [SerializeField] List<CamTarget> camTargets = new List<CamTarget>();
     [SerializeField] AnimationCurve targetPullCurve;
 
+
+    //room transitions
+    IEnumerator roomTransitionSequence;
+    [SerializeField] Image screenCover;
     public Camera MainCamera;
 
     //static reference
@@ -22,6 +27,7 @@ public class MainCam : MonoBehaviour
     void Awake()
     {
         instance = this;
+        screenCover.gameObject.SetActive(false);
     }
     public void AddToTargetList(CamTarget newTarget)
     {
@@ -87,4 +93,46 @@ public class MainCam : MonoBehaviour
         targetZoom = newDefault;
     }
 
+
+    public void StartRoomTransition(PlayerInteractions playerInteractions, Vector2 newPos)
+    {
+        if (roomTransitionSequence != null) StopCoroutine(roomTransitionSequence);//reset
+        roomTransitionSequence = RoomTransitionSequence(playerInteractions, newPos);
+        StartCoroutine(roomTransitionSequence);//start
+    }
+
+    IEnumerator RoomTransitionSequence(PlayerInteractions playerInteractions, Vector2 newPos)
+    {
+        float transitionSpd = 5;
+
+        screenCover.gameObject.SetActive(true);
+        float startA = screenCover.color.a;
+        float value = 0;
+        while (value < 1)//fade in
+        {
+            value += Time.deltaTime * transitionSpd;
+            screenCover.color = new Color(0, 0, 0, Mathf.Lerp(startA, 1, value));
+            yield return null;
+        }
+        yield return new WaitForSeconds(.1f);
+        //teleport
+        playerInteractions.Teleport(newPos);
+        TeleportCamera(newPos);
+        yield return new WaitForSeconds(.1f);
+        //fade out
+        value = 0;
+        while (value < 1)
+        {
+            value += Time.deltaTime * transitionSpd;
+            screenCover.color = new Color(0, 0, 0, Mathf.Lerp(1, 0, value));
+            yield return null;
+        }
+        screenCover.gameObject.SetActive(false);
+    }
+
+    void TeleportCamera(Vector2 newPos)
+    {
+        transform.position = newPos;
+        targetPos = newPos;
+    }
 }

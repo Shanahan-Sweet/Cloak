@@ -89,6 +89,10 @@ public class PlayerInteractions : MonoBehaviour
 
 
     //Connections
+    public void StartRoomTransition(Vector2 newPos)
+    {
+        MainCam.instance.StartRoomTransition(this, newPos);
+    }
     public void Teleport(Vector2 newPos)
     {
         inputScript.transform.position = newPos;
