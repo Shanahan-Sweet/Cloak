@@ -61,7 +61,7 @@ public class PlayerInput : MonoBehaviour
 
     void SetMoveAxis(Vector2 newAxis)
     {
-        rawMoveAxis = newAxis;
+        rawMoveAxis = newAxis.magnitude > .8f ? newAxis.normalized : newAxis;
 
         if (Mathf.Abs(rawMoveAxis.x) > 0.1f) lastXDir = Mathf.Sign(rawMoveAxis.x);//save last held direction
 
