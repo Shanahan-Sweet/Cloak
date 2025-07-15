@@ -89,9 +89,11 @@ public class PlayerInteractions : MonoBehaviour
 
 
     //Connections
-    public void StartRoomTransition(Vector2 newPos)
+    public void StartRoomTransition(Vector2 newPos, Room nextRoom)
     {
         MainCam.instance.StartRoomTransition(this, newPos);
+
+        AudioManager.instance.PlayMusic(nextRoom.RoomMusic, 1, false);
     }
     public void Teleport(Vector2 newPos)
     {
