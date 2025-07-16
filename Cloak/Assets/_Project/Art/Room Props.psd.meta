@@ -218,7 +218,7 @@ TextureImporter:
         width: 162
         height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,6 +227,28 @@ TextureImporter:
       bones: []
       spriteID: b0fb33ad1fc3c7549b3ab3a36de9e1ea
       internalID: -598330491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJ Kid Test
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 272
+        width: 107
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f22ce9b397de3744958185090c51a75
+      internalID: -1163599149
       vertices: []
       indices: 
       edges: []
@@ -250,6 +272,7 @@ TextureImporter:
       Door: -9052908898409519796
       Dresser: -1426298256
       Light: -598330491
+      PJ Kid Test: -1163599149
       Switch: -2005462375
   mipmapLimitGroupName: 
   pSDRemoveMatte: 1
