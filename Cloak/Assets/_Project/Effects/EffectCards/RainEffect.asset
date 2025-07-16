@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: RainEffect
   m_EditorClassIdentifier: 
   effectName: Umbrella
+  effectIcon: {fileID: -1274237707, guid: 6db6c7199cc71214dbb3c6deaae15740, type: 3}

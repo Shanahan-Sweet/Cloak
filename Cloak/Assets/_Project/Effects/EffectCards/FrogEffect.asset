@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: FrogEffect
   m_EditorClassIdentifier: 
   effectName: Frog
+  effectIcon: {fileID: 960728133, guid: 6db6c7199cc71214dbb3c6deaae15740, type: 3}
