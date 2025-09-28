@@ -12,10 +12,10 @@ TagManager:
   - Player
   - Water
   - UI
-  - Ground
+  - WallDetection
   - Wall
-  - EdgeCollider
-  - InteractionMask
+  - ClimbableSurface
+  - KillCollider
   - 
   - 
   - 

@@ -94,14 +94,14 @@ public class MainCam : MonoBehaviour
     }
 
 
-    public void StartRoomTransition(PlayerInteractions playerInteractions, Vector2 newPos)
+    public void StartRoomTransition(Vector2 newPos)//change scene
     {
         if (roomTransitionSequence != null) StopCoroutine(roomTransitionSequence);//reset
-        roomTransitionSequence = RoomTransitionSequence(playerInteractions, newPos);
+        roomTransitionSequence = RoomTransitionSequence(newPos);
         StartCoroutine(roomTransitionSequence);//start
     }
 
-    IEnumerator RoomTransitionSequence(PlayerInteractions playerInteractions, Vector2 newPos)
+    IEnumerator RoomTransitionSequence(Vector2 newPos)
     {
         float transitionSpd = 5;
 
@@ -116,7 +116,7 @@ public class MainCam : MonoBehaviour
         }
         yield return new WaitForSeconds(.1f);
         //teleport
-        playerInteractions.Teleport(newPos);
+        //playerInteractions.Teleport(newPos);
         TeleportCamera(newPos);
         yield return new WaitForSeconds(.1f);
         //fade out

@@ -5,36 +5,43 @@ public class PlayerMovement : MonoBehaviour
 {
     public enum PlayerState
     {
-        Move, Jump
+        Move,
+        Climb,
+        Boost,
+        Stun
     }
     PlayerState currentState;
     float stateTimer;
-    [Header("Variables")]
-    [SerializeField] float walkSpd = 8, jumpSpd;
 
-    //jump
-    bool isAirborne = false;
-    [SerializeField] Transform jumpHolder;
-    [SerializeField] AnimationCurve jumpCurve;
-    [SerializeField] float jumpHeight = .5f, jumpAnimSpeed = 6;
-    [SerializeField] Animator jumpAnim;
-    Vector2 jumpDir;
-    IEnumerator jumpSequence;
+    [SerializeField] float moveForce = 1, jumpSpd = 2, boostImpulseForce = 4, boostForce;
+    bool holdingJump, chargingJump = false, jumpCharged;
 
-    [Header("GroundDetection")]
-    [SerializeField] EdgeColliders edgeCollider;
+    float jumpCharge = 0;
+
+
+    [SerializeField] float climbSpd = 4;
+    float defaultDrag, defaultAngularDrag;
+    float timeFromClimb;
+    [SerializeField] WallDetection wallDetection;
+    [SerializeField] LayerMask climbSurfaceMask;
+
+    //boost
+    Vector2 boostDirection;
+    float boostT;
+
     //components
     PlayerInput inputScript;
+    PlayerAnimation animScript;
     Rigidbody2D rigidBody;
-    BasePlatformer platformerScript;
 
     void Awake()
     {
-        rigidBody = GetComponent<Rigidbody2D>();
         inputScript = GetComponent<PlayerInput>();
-        platformerScript = GetComponent<BasePlatformer>();
+        animScript = GetComponent<PlayerAnimation>();
+        rigidBody = GetComponent<Rigidbody2D>();
+        defaultDrag = rigidBody.linearDamping;
+        defaultAngularDrag = rigidBody.angularDamping;
     }
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,117 +54,252 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    //States
     void FixedUpdate()
     {
         switch (currentState)
         {
-            case PlayerState.Move: MoveFixed(); break;
-            case PlayerState.Jump: JumpFixed(); break;
-
-            default: MoveFixed(); break;
+            case PlayerState.Move: MoveFloatFixed(); break;
+            case PlayerState.Climb: MoveClimbFixed(); break;
+            case PlayerState.Boost: MoveBoostFixed(); break;
+            case PlayerState.Stun: StunFixed(); break;
         }
     }
 
-    void MoveFixed()
+    void SetMove()
     {
-        Vector2 direction = inputScript.MoveAxis;
-        //direction = platformerScript.CheckGroundedDirection(transform.position, .5f, direction);//don't walk off edges
+        currentState = PlayerState.Move;
+        animScript.SetMove();
+        rigidBody.linearDamping = defaultDrag;
+        rigidBody.angularDamping = defaultAngularDrag;
+    }
 
-        rigidBody.AddForce(direction * walkSpd);
+    void MoveFloatFixed()
+    {
+        Vector2 moveAxis = chargingJump ? Vector2.zero : inputScript.GetRawAxis;
+        rigidBody.AddForce(moveAxis * moveForce);
 
-        if (!isAirborne && !platformerScript.IsAboveGround(transform.position, .05f))
+        if (moveAxis.magnitude > .25f)
+            RotateToDirection(transform.up, moveAxis.normalized, .4f);//float rotation
+
+        //check if climbing
+        bool checkClimb = Time.time > timeFromClimb && inputScript.GetRawAxis.magnitude > .5f;//is holding direction
+        if (checkClimb && Physics2D.OverlapCircle(transform.position, .1f, climbSurfaceMask))
         {
-            transform.position = Vector3.zero;
+            SetClimb();
+            rigidBody.AddTorque(Mathf.Sign(Random.Range(-1, 1)) * .1f, ForceMode2D.Impulse);//spin when grabbing surface
+            animScript.PlayGrubParticles();
         }
+        ChargeFixedUpdate();//charge boost
+        CheckJumpShake();
     }
 
-    //jump
-    void SetAirborne(bool value)
+    void SetClimb()
     {
-        isAirborne = value;
-        edgeCollider.SetCollidersActive(!value);
+        currentState = PlayerState.Climb;
+        animScript.SetClimb();
+        rigidBody.linearDamping = 8;
+        rigidBody.angularDamping = 3;
     }
-    void JumpFixed()
+    void MoveClimbFixed()
     {
-        rigidBody.AddForce(jumpDir * jumpSpd);
-        Vector2 direction = inputScript.MoveAxis;
-        rigidBody.AddForce(direction * walkSpd);
+        Vector2 moveAxis = chargingJump ? Vector2.zero : inputScript.GetRawAxis;
+        rigidBody.AddForce(moveAxis * climbSpd);
 
-        if (stateTimer < Time.time)//end jump state
+        if (moveAxis.magnitude > .25f)
+            RotateToDirection(transform.up, moveAxis.normalized, .1f);//climb rotation
+
+        if (!Physics2D.OverlapCircle(transform.position, .1f, climbSurfaceMask))
         {
-            currentState = PlayerState.Move;
-            edgeCollider.SetCollidersActive(true);
-            EndJump();
+            timeFromClimb = Time.time + .1f;
+            SetMove();
+
+            rigidBody.AddTorque(Mathf.Sign(Random.Range(-1, 1)) * .2f, ForceMode2D.Impulse);//spin when letting go
+
+            animScript.PlaySmallGrubParticles();
+        }
+        ChargeFixedUpdate();//charge boost
+        CheckJumpShake();
+    }
+
+    void SetBoost(Vector2 dir)
+    {
+        boostT = Time.time + .75f;
+        currentState = PlayerState.Boost;
+        boostDirection = dir;
+        //animScript.SetBoost();
+        rigidBody.linearDamping = 1;//drag
+        rigidBody.angularDamping = defaultAngularDrag;
+
+        rigidBody.AddForce(inputScript.GetRawAxis * boostImpulseForce, ForceMode2D.Impulse);
+        rigidBody.AddTorque(Mathf.Sign(Random.Range(-1, 1)) * .2f, ForceMode2D.Impulse);//spin when boosting
+
+        animScript.PlaySmallGrubParticles();
+    }
+
+    void MoveBoostFixed()//Boost!
+    {
+        rigidBody.AddForce(boostDirection * boostForce);
+
+        //if (moveAxis.magnitude > .25f)
+        //RotateToDirection(transform.up, moveAxis.normalized, .4f);//float rotation
+
+        //check if climbing
+        bool checkClimb = Time.time > boostT + .15f && inputScript.GetRawAxis.magnitude > .5f;//is holding direction
+        if (checkClimb && Physics2D.OverlapCircle(transform.position, .1f, climbSurfaceMask))//cancel boost
+        {
+            SetClimb();
+            rigidBody.AddTorque(Mathf.Sign(Random.Range(-1, 1)) * .1f, ForceMode2D.Impulse);//spin when grabbing surface
+            animScript.EndBoost();
+            animScript.PlayGrubParticles();
             return;
         }
+
+        if (boostT < Time.time)//end boost
+        {
+            animScript.EndBoost();
+            SetMove();
+        }
     }
 
-    void EndJump()
-    {
-        StartlandAnim();
-    }
-
-    //Input
+    //___________________________Input
     public void PressJump()
     {
-        if (currentState == PlayerState.Jump || isAirborne) return;
-        //change state
-        currentState = PlayerState.Jump;
-        stateTimer = Time.time + .3f;
-
-
-        jumpDir = inputScript.MoveAxis;
-        rigidBody.AddForce(jumpDir * 5, ForceMode2D.Impulse);
-
-        //animation
-        jumpAnim.SetTrigger("Jump");
-        StartJumpAnim();
+        holdingJump = true;
     }
 
-    void StartJumpAnim()
+    public void ReleaseJump()
     {
-        if (jumpSequence != null) StopCoroutine(jumpSequence);
-        jumpSequence = JumpAnim();
-
-        StartCoroutine(jumpSequence);
+        holdingJump = false;
+        Jump(jumpCharged);
     }
-
-    void StartlandAnim()
+    void ChargeFixedUpdate()
     {
-        if (jumpSequence != null) StopCoroutine(jumpSequence);
-        jumpSequence = LandAnim();
-
-        StartCoroutine(jumpSequence);
-    }
-
-    IEnumerator JumpAnim()
-    {
-        SetAirborne(true);
-        float value = 0;
-        while (value < 1)
+        if (holdingJump)
         {
-            value += Time.deltaTime * jumpAnimSpeed;
-            float animValue = jumpCurve.Evaluate(value);
-            float height = Mathf.Lerp(0, jumpHeight, animValue);
-            jumpHolder.localPosition = new Vector3(0, height, 0);
+            if (chargingJump == false)
+            {
+                StartChargingJump();//start charging
+            }
 
-            yield return null;
+            jumpCharge = Mathf.Clamp01(jumpCharge += Time.fixedDeltaTime);
+            if (jumpCharge > .9f && !jumpCharged)
+            {
+                ChargedJump();
+            }
+        }
+    }
+    void StartChargingJump()
+    {
+        jumpCharged = false;
+        chargingJump = true;
+        jumpCharge = 0;
+        if (currentState == PlayerState.Move)
+        {
+            rigidBody.linearDamping = 1;
+        }
+        //effects
+        animScript.StartChargingJump();
+    }
+    public void ChargedJump()
+    {
+        jumpCharged = true;
+        //effects
+        animScript.ChargeJump();
+    }
+
+    void CancelCharge()//reset
+    {
+        jumpCharged = false;
+        chargingJump = false;
+    }
+
+    public void Jump(bool charged)
+    {
+        //effects
+
+        animScript.SetShake(false);
+
+        chargingJump = false;
+        jumpCharged = false;
+
+        if (charged && inputScript.GetRawAxis.magnitude > .25f)//floating impulse
+        {
+            animScript.ReleaseJump(true);
+            SetBoost(inputScript.GetRawAxis);
+
+            return;
+        }
+
+
+        animScript.ReleaseJump(false);//not boosting effect
+
+
+        if (currentState == PlayerState.Climb)//end climb state
+        {
+            timeFromClimb = Time.time + .4f;
+            SetMove();
+
+            Vector2 jumpDir2 = inputScript.GetRawAxis;
+            rigidBody.linearVelocity = jumpDir2 * jumpSpd;
+
+            animScript.PlayGrubParticles();
+            return;
+        }
+        rigidBody.linearDamping = defaultDrag;
+
+
+
+        //wall jump
+        if (wallDetection.CurrentCollisionCount != 0)
+        {
+            animScript.PlayGrubParticles();
+            Vector2 jumpDir = (wallDetection.JumpDir + inputScript.GetRawAxis * 1.2f).normalized;
+            rigidBody.linearVelocity = jumpDir * jumpSpd;
+
+            if (wallDetection.KickObj != null)
+            {
+                wallDetection.KickObj.Kick(-wallDetection.JumpDir);//kick physics objects away
+            }
+        }
+        //rigidBody.AddForce(jumpDir * jumpSpd, ForceMode2D.Impulse);
+    }
+
+    //Stun
+    public void SetStun(Vector2 force, float stunDuration)
+    {
+        currentState = PlayerState.Stun;
+        stateTimer = Time.time + stunDuration;
+
+        rigidBody.linearDamping = defaultDrag;
+        rigidBody.angularDamping = defaultAngularDrag;
+
+        if (force.magnitude > 1) rigidBody.linearVelocity = force;
+
+        //effects
+        animScript.SetStun();
+    }
+
+    void StunFixed()
+    {
+        if (stateTimer < Time.time)//end stun
+        {
+            SetMove();
         }
     }
 
-    IEnumerator LandAnim()
+
+
+
+    void RotateToDirection(Vector2 fromDir, Vector2 toDir, float speed)
     {
-        float value = 0;
-        while (value < 1)
-        {
-            value += Time.deltaTime * jumpAnimSpeed;
-            float animValue = jumpCurve.Evaluate(1 - value);
-            float height = Mathf.Lerp(0, jumpHeight, animValue);
-            jumpHolder.localPosition = new Vector3(0, height, 0);
-            yield return null;
-        }
-        SetAirborne(false);
-        jumpAnim.SetTrigger("Land");
+
+        rigidBody.AddTorque(Quaternion.FromToRotation(fromDir, toDir).z * speed);//rotate
+    }
+
+
+    //Effects
+    void CheckJumpShake()
+    {
+        animScript.SetShake(jumpCharged && inputScript.GetRawAxis.magnitude > .25f);
     }
 }
