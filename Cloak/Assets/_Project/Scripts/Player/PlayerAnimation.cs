@@ -111,7 +111,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         anim.SetBool("Charging", false);
         anim.SetBool("ChargedJump", true);
-        //partChargeJump.Play();
+        partChargeJump.Play();
     }
 
     public void ReleaseJump(bool boost)
@@ -119,6 +119,8 @@ public class PlayerAnimation : MonoBehaviour
         anim.SetBool("Charging", false);
         anim.SetBool("ChargedJump", false);
         anim.SetBool("Boosting", boost);
+
+        if (boost) PlayGrubParticles();
     }
     public void EndBoost()
     {
@@ -127,11 +129,11 @@ public class PlayerAnimation : MonoBehaviour
     //Particles and effects
     public void PlayGrubParticles()
     {
-        //partGrub.Play();
+        partGrub.Play();
     }
     public void PlaySmallGrubParticles()
     {
-        //partGrubSmall.Play();
+        partGrubSmall.Play();
     }
 
 
