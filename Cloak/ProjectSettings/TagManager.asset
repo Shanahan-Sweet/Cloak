@@ -17,7 +17,7 @@ TagManager:
   - ClimbableSurface
   - KillCollider
   - Background
-  - 
+  - Lighting
   - 
   - 
   - BgPostPro
