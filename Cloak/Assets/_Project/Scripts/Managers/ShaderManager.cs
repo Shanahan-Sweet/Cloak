@@ -9,7 +9,7 @@ public class ShaderManager : MonoBehaviour
     Palette currentPalette;
 
     public Color dimLightCol, sunlightCol, darkCol;
-    [HideInInspector]
+    //[HideInInspector]
     public Color sunHighlightCol, accentCol, topAccentCol, noiseCol, fogCol, sunFogCol, dimLightColBackground, sunlightColBackground;
 
     //_______________________________________________
