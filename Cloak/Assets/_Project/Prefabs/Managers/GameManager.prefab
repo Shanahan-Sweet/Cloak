@@ -61,6 +61,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6170849389952702316}
+  - component: {fileID: 1740336315009718448}
   - component: {fileID: 4999243778993953296}
   m_Layer: 0
   m_Name: GameManager
@@ -85,6 +86,19 @@ Transform:
   - {fileID: 6749624249353911433}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1740336315009718448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3329896353649785372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeddcbeb8d68c6f42b0f6290a3ad6720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shaderManager: {fileID: 4999243778993953296}
 --- !u!114 &4999243778993953296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,15 +112,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentPaletteCard: {fileID: 11400000, guid: 921b6b8ebf80e7248ba8b91ae4e38bbc, type: 2}
-  dimLightCol: {r: 1, g: 0, b: 0.09262037, a: 1}
-  sunlightCol: {r: 0, g: 0, b: 0, a: 1}
-  darkCol: {r: 0, g: 0, b: 0, a: 1}
-  accentCol: {r: 0, g: 0, b: 0, a: 0}
-  topAccentCol: {r: 0, g: 0, b: 0, a: 0}
-  noiseCol: {r: 0, g: 0, b: 0, a: 0}
-  fogCol: {r: 1, g: 1, b: 1, a: 1}
-  dimLightColBackground: {r: 0, g: 0, b: 0, a: 0}
-  sunlightColBackground: {r: 0, g: 0, b: 0, a: 0}
+  dimLightCol: {r: 0.049187623, g: 0.03613386, b: 0.26415092, a: 1}
+  sunlightCol: {r: 0.764151, g: 0.56669724, b: 0.35684407, a: 1}
+  backWallCol: {r: 0.019607844, g: 0, b: 0.14901961, a: 1}
+  darkCol: {r: 0.019607844, g: 0, b: 0.14901961, a: 1}
+  sunHighlightCol: {r: 1, g: 0.9424352, b: 0.5990566, a: 1}
+  accentCol: {r: 1, g: 0, b: 0.7254902, a: 1}
+  topAccentCol: {r: 1, g: 0.5330524, b: 0.27058828, a: 1}
+  noiseCol: {r: 0.28627452, g: 0.18431373, b: 1, a: 1}
+  fogCol: {r: 0.40334642, g: 0.59286237, b: 0.8301887, a: 1}
+  sunFogCol: {r: 1, g: 0.9267364, b: 0.6650944, a: 1}
+  dimLightColBackground: {r: 0.17829971, g: 0.24039032, b: 0.46202368, a: 1}
+  sunlightColBackground: {r: 0.5357814, g: 0.505672, b: 0.5083703, a: 1}
   colourCurve:
     serializedVersion: 2
     m_Curve:

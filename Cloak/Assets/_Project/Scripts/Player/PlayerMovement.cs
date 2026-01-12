@@ -195,7 +195,7 @@ public class PlayerMovement : MonoBehaviour
         jumpCharge = 0;
         if (currentState == PlayerState.Move)
         {
-            rigidBody.linearDamping = 1;
+            rigidBody.linearDamping = 1.5f;//charging drag
         }
         //effects
         animScript.StartChargingJump();

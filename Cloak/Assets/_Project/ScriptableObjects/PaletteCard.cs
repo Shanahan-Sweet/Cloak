@@ -9,12 +9,12 @@ public class PaletteCard : ScriptableObject
 [System.Serializable]
 public class Palette
 {
-    [Header("Linked Colours")]
+
     public Color dimLightCol;
     public Color sunlightCol;
     public Color sunHighlightCol;
     public Color darkCol;
-    [Header("Unlinked Colours")]
+    public Color backWallCol;
     public Color fogCol;
     public Color sunFogCol;
     public Color topAccentCol, accentCol;

@@ -8,7 +8,7 @@ public class ShaderManager : MonoBehaviour
     [SerializeField] PaletteCard currentPaletteCard;
     Palette currentPalette;
 
-    public Color dimLightCol, sunlightCol, darkCol;
+    public Color dimLightCol, sunlightCol, backWallCol, darkCol;
     //[HideInInspector]
     public Color sunHighlightCol, accentCol, topAccentCol, noiseCol, fogCol, sunFogCol, dimLightColBackground, sunlightColBackground;
 
@@ -48,7 +48,7 @@ public class ShaderManager : MonoBehaviour
         sunlightCol = currentPalette.sunlightCol;
         sunHighlightCol = currentPalette.sunHighlightCol;
         darkCol = currentPalette.darkCol;
-        accentCol = currentPalette.accentCol;
+        backWallCol = currentPalette.backWallCol;
         topAccentCol = currentPalette.topAccentCol;
         noiseCol = currentPalette.noiseCol;
 
@@ -85,7 +85,7 @@ public class ShaderManager : MonoBehaviour
         Color startSun = sunlightCol;
         Color startHighlight = sunHighlightCol;
         Color startDark = darkCol;
-        Color startAccent = accentCol;
+        Color startBackWall = backWallCol;
         Color startTopAccent = topAccentCol;
         Color startNoise = noiseCol;
         Color startFog = fogCol;
@@ -96,7 +96,7 @@ public class ShaderManager : MonoBehaviour
         Color sunlightTarget = currentPalette.sunlightCol;
         Color highlightTarget = currentPalette.sunHighlightCol;
         Color darkColTarget = currentPalette.darkCol;
-        Color accentTarget = currentPalette.accentCol;
+        Color backWallTarget = currentPalette.backWallCol;
         Color topAccentTarget = currentPalette.topAccentCol;
         Color noiseTarget = currentPalette.noiseCol;
         Color fogColTarget = currentPalette.fogCol;
@@ -108,7 +108,7 @@ public class ShaderManager : MonoBehaviour
             sunlightCol = Color.Lerp(startSun, sunlightTarget, t);
             sunHighlightCol = Color.Lerp(startHighlight, highlightTarget, t);
             darkCol = Color.Lerp(startDark, darkColTarget, t);
-            accentCol = Color.Lerp(startAccent, accentTarget, t);
+            backWallCol = Color.Lerp(startBackWall, backWallTarget, t);
             topAccentCol = Color.Lerp(startTopAccent, topAccentTarget, t);
             noiseCol = Color.Lerp(startNoise, noiseTarget, t);
             fogCol = Color.Lerp(startFog, fogColTarget, t);
@@ -135,7 +135,7 @@ public class ShaderManager : MonoBehaviour
         Shader.SetGlobalColor("_SunlightCol", EvaluateColour(sunlightCol));
         Shader.SetGlobalColor("_Highlight", EvaluateColour(sunHighlightCol));
         Shader.SetGlobalColor("_DarkCol", EvaluateColour(darkCol));
-        Shader.SetGlobalColor("_AccentCol", EvaluateColour(accentCol));
+        Shader.SetGlobalColor("_BackWallCol", EvaluateColour(backWallCol));
         Shader.SetGlobalColor("_TopAccentCol", EvaluateColour(topAccentCol));
         Shader.SetGlobalColor("_NoiseCol", EvaluateColour(noiseCol));
 
