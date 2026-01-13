@@ -13,13 +13,9 @@ MonoBehaviour:
   m_Name: PaletteCard
   m_EditorClassIdentifier: 
   palette:
-    dimLightCol: {r: 0.049187623, g: 0.03613386, b: 0.26415092, a: 1}
-    sunlightCol: {r: 0.764151, g: 0.56669724, b: 0.35684407, a: 1}
+    sunlightCol: {r: 0.11952651, g: 0.13659489, b: 0.3207547, a: 1}
     sunHighlightCol: {r: 1, g: 0.9424352, b: 0.5990566, a: 1}
     darkCol: {r: 0.019607844, g: 0, b: 0.14901961, a: 1}
-    backWallCol: {r: 0.019607844, g: 0, b: 0.14901961, a: 1}
-    fogCol: {r: 0.40334642, g: 0.59286237, b: 0.8301887, a: 1}
-    sunFogCol: {r: 1, g: 0.9267364, b: 0.6650944, a: 1}
-    topAccentCol: {r: 1, g: 0.5330524, b: 0.27058828, a: 1}
-    accentCol: {r: 1, g: 0, b: 0.7254902, a: 1}
+    backWallCol: {r: 0.17697582, g: 0.21208379, b: 0.38679248, a: 1}
+    fogCol: {r: 0.6462264, g: 0.8020167, b: 1, a: 1}
     noiseCol: {r: 0.28627452, g: 0.18431373, b: 1, a: 1}

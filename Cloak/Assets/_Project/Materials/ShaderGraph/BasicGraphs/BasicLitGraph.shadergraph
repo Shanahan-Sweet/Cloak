@@ -10,6 +10,9 @@
             "m_Id": "3b1ab7bad1d24010a7d3e44fbfd429b0"
         },
         {
+            "m_Id": "db3484f66eca41e78c92b77510f7f18c"
+        },
+        {
             "m_Id": "86cdcb5f79dc4e12bf84042331bd5e49"
         }
     ],
@@ -575,6 +578,9 @@
         },
         {
             "m_Id": "86cdcb5f79dc4e12bf84042331bd5e49"
+        },
+        {
+            "m_Id": "db3484f66eca41e78c92b77510f7f18c"
         }
     ]
 }
@@ -2154,6 +2160,36 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "db3484f66eca41e78c92b77510f7f18c",
+    "m_Guid": {
+        "m_GuidSerialized": "07b45599-2fd7-49ff-b6d2-b292c6184721"
+    },
+    "m_Name": "_SunlightCol",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "_SunlightCol",
+    "m_DefaultReferenceName": "_SunlightCol",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.07697270810604096,
+        "g": 0.034709855914115909,
+        "b": 0.11320751905441284,
+        "a": 1.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {

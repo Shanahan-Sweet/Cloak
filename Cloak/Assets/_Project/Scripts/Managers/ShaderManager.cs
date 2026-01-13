@@ -8,9 +8,9 @@ public class ShaderManager : MonoBehaviour
     [SerializeField] PaletteCard currentPaletteCard;
     Palette currentPalette;
 
-    public Color dimLightCol, sunlightCol, backWallCol, darkCol;
+    public Color darkCol, sunlightCol, backWallCol;
     //[HideInInspector]
-    public Color sunHighlightCol, accentCol, topAccentCol, noiseCol, fogCol, sunFogCol, dimLightColBackground, sunlightColBackground;
+    public Color sunHighlightCol, noiseCol, fogCol;
 
     //_______________________________________________
     [SerializeField] AnimationCurve colourCurve;
@@ -44,16 +44,13 @@ public class ShaderManager : MonoBehaviour
     {
         currentPalette = currentPaletteCard.palette;
 
-        dimLightCol = currentPalette.dimLightCol;
         sunlightCol = currentPalette.sunlightCol;
         sunHighlightCol = currentPalette.sunHighlightCol;
         darkCol = currentPalette.darkCol;
         backWallCol = currentPalette.backWallCol;
-        topAccentCol = currentPalette.topAccentCol;
         noiseCol = currentPalette.noiseCol;
 
         fogCol = currentPalette.fogCol;
-        sunFogCol = currentPalette.sunFogCol;
         CalcBackgroundCol();
 
         SetShaderColours();//set shader colours
@@ -81,38 +78,29 @@ public class ShaderManager : MonoBehaviour
 
     IEnumerator PaletteSequence()
     {
-        Color startLight = dimLightCol;
         Color startSun = sunlightCol;
         Color startHighlight = sunHighlightCol;
         Color startDark = darkCol;
         Color startBackWall = backWallCol;
-        Color startTopAccent = topAccentCol;
         Color startNoise = noiseCol;
         Color startFog = fogCol;
-        Color startSunFog = sunFogCol;
 
         //Get Target Colours
-        Color dimLightColTarget = currentPalette.dimLightCol;
         Color sunlightTarget = currentPalette.sunlightCol;
         Color highlightTarget = currentPalette.sunHighlightCol;
         Color darkColTarget = currentPalette.darkCol;
         Color backWallTarget = currentPalette.backWallCol;
-        Color topAccentTarget = currentPalette.topAccentCol;
         Color noiseTarget = currentPalette.noiseCol;
         Color fogColTarget = currentPalette.fogCol;
-        Color sunFogTarget = currentPalette.sunFogCol;
         float t = 0;
         while (t < 1)
         {
-            dimLightCol = Color.Lerp(startLight, dimLightColTarget, t);
             sunlightCol = Color.Lerp(startSun, sunlightTarget, t);
             sunHighlightCol = Color.Lerp(startHighlight, highlightTarget, t);
             darkCol = Color.Lerp(startDark, darkColTarget, t);
             backWallCol = Color.Lerp(startBackWall, backWallTarget, t);
-            topAccentCol = Color.Lerp(startTopAccent, topAccentTarget, t);
             noiseCol = Color.Lerp(startNoise, noiseTarget, t);
             fogCol = Color.Lerp(startFog, fogColTarget, t);
-            sunFogCol = Color.Lerp(startSunFog, sunFogTarget, t);
             CalcBackgroundCol();
 
 
@@ -124,26 +112,19 @@ public class ShaderManager : MonoBehaviour
     void CalcBackgroundCol()
     {
         Color backgroundCol = Color.Lerp(darkCol, fogCol, .75f);
-        dimLightColBackground = Color.Lerp(backgroundCol, dimLightCol, .5f);
-        sunlightColBackground = Color.Lerp(backgroundCol, sunlightCol, .5f);
 
         //sunFogCol = Color.Lerp(fogCol, sunHighlightCol, .5f);
     }
     void SetShaderColours()
     {
-        Shader.SetGlobalColor("_DimLightCol", EvaluateColour(dimLightCol));
         Shader.SetGlobalColor("_SunlightCol", EvaluateColour(sunlightCol));
         Shader.SetGlobalColor("_Highlight", EvaluateColour(sunHighlightCol));
         Shader.SetGlobalColor("_DarkCol", EvaluateColour(darkCol));
-        Shader.SetGlobalColor("_BackWallCol", EvaluateColour(backWallCol));
-        Shader.SetGlobalColor("_TopAccentCol", EvaluateColour(topAccentCol));
         Shader.SetGlobalColor("_NoiseCol", EvaluateColour(noiseCol));
 
         //background colours
+        Shader.SetGlobalColor("_BackWallCol", EvaluateColour(backWallCol));
         Shader.SetGlobalColor("_FogCol", EvaluateColour(fogCol));
-        Shader.SetGlobalColor("_SunFogCol", EvaluateColour(sunFogCol));
-        Shader.SetGlobalColor("_BackgroundDimLight", EvaluateColour(dimLightColBackground));
-        Shader.SetGlobalColor("_BackgroundSun", EvaluateColour(sunlightColBackground));
 
         //if (MainCam.instance) MainCam.instance.mainCam.backgroundColor = fogCol;
     }

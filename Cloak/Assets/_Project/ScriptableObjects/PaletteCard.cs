@@ -10,14 +10,10 @@ public class PaletteCard : ScriptableObject
 public class Palette
 {
 
-    public Color dimLightCol;
     public Color sunlightCol;
     public Color sunHighlightCol;
     public Color darkCol;
     public Color backWallCol;
     public Color fogCol;
-    public Color sunFogCol;
-    public Color topAccentCol, accentCol;
     public Color noiseCol;
-    //public Color bloodCol;
 }
