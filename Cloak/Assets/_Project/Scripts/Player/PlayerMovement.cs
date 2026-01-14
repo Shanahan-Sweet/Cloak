@@ -13,16 +13,20 @@ public class PlayerMovement : MonoBehaviour
     PlayerState currentState;
     float stateTimer;
 
-    [SerializeField] float moveForce = 1, jumpSpd = 2, boostImpulseForce = 4, boostForce;
-    bool holdingJump, chargingJump = false, jumpCharged;
+    bool wallMovement = false;
 
+    [SerializeField] float moveForce = 1, jumpSpd = 2, boostImpulseForce = 4, boostForce;// smallImpulseForce = .5f, 
+    bool holdingJump, chargingJump = false, jumpCharged;
+    float chargeDrag = 1.5f;
     float jumpCharge = 0;
 
 
     [SerializeField] float climbSpd = 4;
     float defaultDrag, defaultAngularDrag;
+    [SerializeField] float wallDrag, wallMoveForce;
     float timeFromClimb;
     [SerializeField] WallDetection wallDetection;
+    bool wallDetected = false;
     [SerializeField] LayerMask climbSurfaceMask;
 
     //boost
@@ -69,15 +73,25 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = PlayerState.Move;
         animScript.SetMove();
-        rigidBody.linearDamping = defaultDrag;
+        rigidBody.linearDamping = wallDetected ? wallDrag : defaultDrag;
         rigidBody.angularDamping = defaultAngularDrag;
     }
 
     void MoveFloatFixed()
     {
         Vector2 moveAxis = chargingJump ? Vector2.zero : inputScript.GetRawAxis;
-        rigidBody.AddForce(moveAxis * moveForce);
 
+
+        UpdateMoveState();
+        if (wallMovement)
+        {
+            rigidBody.AddForce(moveAxis * wallMoveForce);//wall movement force
+            rigidBody.AddForce(-wallDetection.JumpDir * .5f);//wall force
+        }
+        else
+        {
+            rigidBody.AddForce(moveAxis * moveForce);//float force
+        }
         if (moveAxis.magnitude > .25f)
             RotateToDirection(transform.up, moveAxis.normalized, .4f);//float rotation
 
@@ -91,6 +105,31 @@ public class PlayerMovement : MonoBehaviour
         }
         ChargeFixedUpdate();//charge boost
         CheckJumpShake();
+    }
+
+    public void UpdateWallDetection(bool isColliding)
+    {
+        wallDetected = isColliding;
+    }
+
+    void UpdateMoveState()
+    {
+        if (wallMovement)//current state = wall movement
+        {
+            if (chargingJump || !wallDetected || inputScript.GetRawAxis.magnitude <= .25f)
+            {
+                wallMovement = false;
+                rigidBody.linearDamping = chargingJump ? chargeDrag : defaultDrag;
+            }
+        }
+        else//check wall movement
+        {
+            if (!chargingJump && wallDetected && inputScript.GetRawAxis.magnitude > .25f)
+            {
+                wallMovement = true;
+                rigidBody.linearDamping = wallDrag;
+            }
+        }
     }
 
     void SetClimb()
@@ -134,6 +173,9 @@ public class PlayerMovement : MonoBehaviour
         rigidBody.AddTorque(Mathf.Sign(Random.Range(-1, 1)) * .2f, ForceMode2D.Impulse);//spin when boosting
 
         animScript.PlaySmallGrubParticles();
+
+        //screen shake
+        MainCam.instance.Shake(.2f, .03f);
     }
 
     void MoveBoostFixed()//Boost!
@@ -144,7 +186,7 @@ public class PlayerMovement : MonoBehaviour
         //RotateToDirection(transform.up, moveAxis.normalized, .4f);//float rotation
 
         //check if climbing
-        bool checkClimb = Time.time > boostT + .15f && inputScript.GetRawAxis.magnitude > .5f;//is holding direction
+        bool checkClimb = Time.time > boostT - .3f && inputScript.GetRawAxis.magnitude > .5f;//is holding direction
         if (checkClimb && Physics2D.OverlapCircle(transform.position, .1f, climbSurfaceMask))//cancel boost
         {
             SetClimb();
@@ -154,7 +196,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        if (boostT < Time.time)//end boost
+        if (boostT < Time.time + (holdingJump ? .5f : 0))//end boost
         {
             animScript.EndBoost();
             SetMove();
@@ -195,7 +237,7 @@ public class PlayerMovement : MonoBehaviour
         jumpCharge = 0;
         if (currentState == PlayerState.Move)
         {
-            rigidBody.linearDamping = 1.5f;//charging drag
+            rigidBody.linearDamping = chargeDrag;//charging drag
         }
         //effects
         animScript.StartChargingJump();
@@ -205,6 +247,9 @@ public class PlayerMovement : MonoBehaviour
         jumpCharged = true;
         //effects
         animScript.ChargeJump();
+
+        //screen shake
+        MainCam.instance.Shake(.1f, .01f);
     }
 
     void CancelCharge()//reset
@@ -222,7 +267,7 @@ public class PlayerMovement : MonoBehaviour
         chargingJump = false;
         jumpCharged = false;
 
-        if (charged && inputScript.GetRawAxis.magnitude > .25f)//floating impulse
+        if (charged && inputScript.GetRawAxis.magnitude > .25f)//charged boost
         {
             animScript.ReleaseJump(true);
             SetBoost(inputScript.GetRawAxis);
@@ -247,10 +292,14 @@ public class PlayerMovement : MonoBehaviour
         }
         rigidBody.linearDamping = defaultDrag;
 
-
+        /*if (inputScript.GetRawAxis.magnitude > .25f)//floating impulse
+        {
+            rigidBody.AddForce(inputScript.GetRawAxis * smallImpulseForce, ForceMode2D.Impulse);
+            animScript.PlayGrubParticles();
+        }*/
 
         //wall jump
-        if (wallDetection.CurrentCollisionCount != 0)
+        /*if (wallDetection.CurrentCollisionCount != 0)
         {
             animScript.PlayGrubParticles();
             Vector2 jumpDir = (wallDetection.JumpDir + inputScript.GetRawAxis * 1.2f).normalized;
@@ -260,7 +309,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 wallDetection.KickObj.Kick(-wallDetection.JumpDir);//kick physics objects away
             }
-        }
+        }*/
         //rigidBody.AddForce(jumpDir * jumpSpd, ForceMode2D.Impulse);
     }
 

@@ -2,11 +2,13 @@ using UnityEngine;
 using System.Collections.Generic;
 public class WallDetection : MonoBehaviour
 {
+    [SerializeField] PlayerMovement playerMovement;
     [SerializeField] GameObject detectionVisualHolder;
     [SerializeField] Transform closestPointTrans, jumpDirectionTrans;
 
 
 
+    bool isColliding = false;
     int currentCollisionCount;
     public int CurrentCollisionCount { get { return currentCollisionCount; } }
     public Vector2 JumpDir { get { return (transform.position - closestPointTrans.position).normalized; } }
@@ -66,6 +68,7 @@ public class WallDetection : MonoBehaviour
     {
         collisions.Add(collision);
         currentCollisionCount++;
+        ChangeCollisionCount();
     }
 
 
@@ -73,5 +76,20 @@ public class WallDetection : MonoBehaviour
     {
         collisions.Remove(collision);
         currentCollisionCount--;
+        ChangeCollisionCount();
+    }
+
+    void ChangeCollisionCount()
+    {
+        if (isColliding && currentCollisionCount == 0)
+        {
+            isColliding = false;
+            playerMovement.UpdateWallDetection(isColliding);
+        }
+        else if (!isColliding && currentCollisionCount != 0)
+        {
+            isColliding = true;
+            playerMovement.UpdateWallDetection(isColliding);
+        }
     }
 }
