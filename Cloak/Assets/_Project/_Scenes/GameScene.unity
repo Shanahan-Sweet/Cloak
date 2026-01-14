@@ -129669,7 +129669,7 @@ Transform:
   m_GameObject: {fileID: 1111725791}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 1.34, z: 0}
+  m_LocalPosition: {x: -0.07, y: 1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -129861,19 +129861,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: fogCol.b
-      value: 0.7019608
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: fogCol.g
-      value: 0.41176474
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: fogCol.r
-      value: 0.44705886
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: darkCol.b
-      value: 0.03773582
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: darkCol.g
@@ -129881,19 +129881,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: darkCol.r
-      value: 0.007843138
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: noiseCol.b
-      value: 0.19292343
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: noiseCol.g
-      value: 0.12188502
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: noiseCol.r
-      value: 0.31132078
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunFogCol.b
@@ -129913,15 +129913,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: backWallCol.b
-      value: 0.4156863
+      value: 0.22745098
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: backWallCol.g
-      value: 0.22352943
+      value: 0.22745098
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: backWallCol.r
-      value: 0.24705884
+      value: 0.22745098
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightCol.b
@@ -129937,15 +129937,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightCol.b
-      value: 0.18867922
+      value: 0.122641504
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightCol.g
-      value: 0.09344961
+      value: 0.122641504
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunlightCol.r
-      value: 0.13577385
+      value: 0.122641504
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: topAccentCol.b
@@ -129961,20 +129961,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunHighlightCol.b
-      value: 0.3018868
+      value: 0.5377358
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunHighlightCol.g
-      value: 0.16660734
+      value: 0.5377358
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: sunHighlightCol.r
-      value: 0.24638754
+      value: 0.5377358
       objectReference: {fileID: 0}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: currentPaletteCard
       value: 
-      objectReference: {fileID: 11400000, guid: 47b10a71886574b4797512ceb2a0ad87, type: 2}
+      objectReference: {fileID: 11400000, guid: 7c47208f1c8e1814f8784cdc58925fbc, type: 2}
     - target: {fileID: 4999243778993953296, guid: 95adaf528e288734d8a3c7894bf3e047, type: 3}
       propertyPath: dimLightColBackground.b
       value: 0.2346698

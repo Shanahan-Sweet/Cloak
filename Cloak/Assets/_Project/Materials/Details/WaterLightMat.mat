@@ -67,8 +67,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _WaveScale: 0.109
-    - _WaveSpeed: 0.94
+    - _NoiseScale: 3.48
+    - _WaveScale: 0.091
+    - _WaveSpeed: 1.81
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
