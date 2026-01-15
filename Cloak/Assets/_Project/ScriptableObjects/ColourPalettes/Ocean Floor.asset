@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Ocean Floor
   m_EditorClassIdentifier: 
   palette:
+    darkCol: {r: 0.045834813, g: 0.09433961, b: 0.07670151, a: 1}
+    ambientLightCol: {r: 0.20392157, g: 0.21960784, b: 0.29411766, a: 1}
+    highlightCol: {r: 0.7058824, g: 0.6039216, b: 0.48235294, a: 1}
     sunlightCol: {r: 0.20554467, g: 0.21774963, b: 0.2924528, a: 1}
     sunHighlightCol: {r: 0.7075472, g: 0.60520524, b: 0.48393556, a: 1}
-    darkCol: {r: 0.045834813, g: 0.09433961, b: 0.07670151, a: 1}
     backWallCol: {r: 0.20905265, g: 0.2, b: 0.2627451, a: 1}
     fogCol: {r: 1, g: 0.43137255, b: 0.6627451, a: 1}
     noiseCol: {r: 0.3773585, g: 0.28074768, b: 0.21537913, a: 1}

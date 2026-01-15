@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Palette 3
   m_EditorClassIdentifier: 
   palette:
+    darkCol: {r: 0.007843138, g: 0, b: 0.03773582, a: 1}
+    ambientLightCol: {r: 0.13725491, g: 0.09411765, b: 0.1882353, a: 1}
+    highlightCol: {r: 0.24705882, g: 0.16470589, b: 0.3019608, a: 1}
     sunlightCol: {r: 0.13577385, g: 0.09344961, b: 0.18867922, a: 1}
     sunHighlightCol: {r: 0.24638754, g: 0.16660734, b: 0.3018868, a: 1}
-    darkCol: {r: 0.007843138, g: 0, b: 0.03773582, a: 1}
     backWallCol: {r: 0.24705884, g: 0.22352943, b: 0.4156863, a: 1}
     fogCol: {r: 0.44705886, g: 0.41176474, b: 0.7019608, a: 1}
     noiseCol: {r: 0.31132078, g: 0.12188502, b: 0.19292343, a: 1}

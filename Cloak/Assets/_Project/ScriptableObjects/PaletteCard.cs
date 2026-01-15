@@ -9,10 +9,13 @@ public class PaletteCard : ScriptableObject
 [System.Serializable]
 public class Palette
 {
-
-    public Color sunlightCol;
-    public Color sunHighlightCol;
+    [Tooltip("UnlitShadow")]
     public Color darkCol;
+    [Tooltip("Dark part of the sprite")]
+    public Color ambientLightCol;
+    [Tooltip("Light part of the sprite")]
+    public Color highlightCol;
+
     public Color backWallCol;
     public Color fogCol;
     public Color noiseCol;
