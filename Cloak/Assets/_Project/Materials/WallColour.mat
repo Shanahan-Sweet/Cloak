@@ -69,6 +69,7 @@ Material:
     - _ColourStrength: 0.5
     - _EnableExternalAlpha: 0
     - _FarPlane: -3
+    - _Glow: 0
     - _NearPlane: 0
     - _ZWrite: 0
     m_Colors:
