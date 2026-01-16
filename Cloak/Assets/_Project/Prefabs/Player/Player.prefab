@@ -10616,7 +10616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2436b6996269f93449ff33e93057378a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 0.4
+  moveForce: 0.5
   jumpSpd: 4
   boostImpulseForce: 8
   boostForce: 3
@@ -10716,7 +10716,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0.1
+  m_LinearDamping: 0.12
   m_AngularDamping: 2
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 14153bfbd369ae24c8faf7d4a9995387, type: 2}
@@ -10728,7 +10728,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!1 &5296396132123472562
 GameObject:
