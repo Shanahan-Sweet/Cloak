@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
         Move,
         Climb,
         Boost,
-        Stun
+        Stun,
+        PowerSocket
     }
     PlayerState currentState;
     float stateTimer;
@@ -32,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
     //boost
     Vector2 boostDirection;
     float boostT;
+
+    //Power Socket
+    Transform socketTrans;
+    PowerSocket powerSocket;
 
     //components
     PlayerInput inputScript;
@@ -66,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
             case PlayerState.Climb: MoveClimbFixed(); break;
             case PlayerState.Boost: MoveBoostFixed(); break;
             case PlayerState.Stun: StunFixed(); break;
+            case PlayerState.PowerSocket: PowerSocketFixed(); break;
         }
     }
 
@@ -75,6 +81,8 @@ public class PlayerMovement : MonoBehaviour
         animScript.SetMove();
         rigidBody.linearDamping = wallDetected ? wallDrag : defaultDrag;
         rigidBody.angularDamping = defaultAngularDrag;
+
+        EndPoweredState();
     }
 
     void MoveFloatFixed()
@@ -138,6 +146,8 @@ public class PlayerMovement : MonoBehaviour
         animScript.SetClimb();
         rigidBody.linearDamping = 8;
         rigidBody.angularDamping = 3;
+
+        EndPoweredState();
     }
     void MoveClimbFixed()
     {
@@ -164,6 +174,7 @@ public class PlayerMovement : MonoBehaviour
     {
         boostT = Time.time + .75f;
         currentState = PlayerState.Boost;
+        EndPoweredState();
         boostDirection = dir;
         //animScript.SetBoost();
         rigidBody.linearDamping = 1;//drag
@@ -281,6 +292,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentState == PlayerState.Climb)//end climb state
         {
+
             timeFromClimb = Time.time + .4f;
             SetMove();
 
@@ -318,6 +330,7 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = PlayerState.Stun;
         stateTimer = Time.time + stunDuration;
+        EndPoweredState();
 
         rigidBody.linearDamping = defaultDrag;
         rigidBody.angularDamping = defaultAngularDrag;
@@ -335,6 +348,60 @@ public class PlayerMovement : MonoBehaviour
             SetMove();
         }
     }
+
+    //owerSocket
+    public void SocketCollision(PowerSocket newSocket, Transform newSocketTrans)
+    {
+        if (currentState != PlayerState.PowerSocket)
+        {
+            SetPowerSocket(newSocket, newSocketTrans);
+        }
+
+    }
+    void SetPowerSocket(PowerSocket newSocket, Transform newSocketTrans)
+    {
+        currentState = PlayerState.PowerSocket;
+        socketTrans = newSocketTrans;
+        powerSocket = newSocket;
+        powerSocket.SetPowered();
+
+        rigidBody.linearDamping = 4;
+        rigidBody.angularDamping = defaultAngularDrag;
+
+
+        //effects
+        animScript.SetMove();
+        animScript.EndBoost();
+    }
+
+    void PowerSocketFixed()
+    {
+        if (socketTrans == null)//end state
+        {
+
+            SetMove();
+            return;
+        }
+        Vector2 dir = socketTrans.position - transform.position;
+        float moveStrength = Mathf.InverseLerp(0, .2f, dir.magnitude);
+        rigidBody.AddForce(dir.normalized * 20 * moveStrength);
+
+        Vector2 moveAxis = chargingJump ? Vector2.zero : inputScript.GetRawAxis;
+
+        RotateToDirection(transform.up, moveAxis.normalized, .2f);//rotation
+
+        ChargeFixedUpdate();//charge boost
+        CheckJumpShake();
+    }
+
+
+    void EndPoweredState()
+    {
+        if (powerSocket == null) return;
+        powerSocket.PowerDown();
+        powerSocket = null;
+    }
+
 
 
 
