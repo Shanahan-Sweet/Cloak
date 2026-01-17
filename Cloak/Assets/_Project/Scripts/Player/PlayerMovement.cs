@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] float moveForce = 1, jumpSpd = 2, boostImpulseForce = 4, boostForce;// smallImpulseForce = .5f, 
     bool holdingJump, chargingJump = false, jumpCharged;
-    float chargeDrag = 1.5f;
+    float chargeDrag = 1.8f;
     float jumpCharge = 0;
 
 
@@ -79,7 +79,8 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = PlayerState.Move;
         animScript.SetMove();
-        rigidBody.linearDamping = wallDetected ? wallDrag : defaultDrag;
+        wallMovement = false;
+        rigidBody.linearDamping = defaultDrag; //wallDetected ? wallDrag : defaultDrag;
         rigidBody.angularDamping = defaultAngularDrag;
 
         EndPoweredState();
@@ -98,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            rigidBody.AddForce(moveAxis * moveForce);//float force
+            if (Mathf.Abs(rigidBody.angularVelocity) > 100) rigidBody.AddForce(moveAxis * moveForce);//float force
         }
         if (moveAxis.magnitude > .25f)
             RotateToDirection(transform.up, moveAxis.normalized, .4f);//float rotation
@@ -234,7 +235,7 @@ public class PlayerMovement : MonoBehaviour
                 StartChargingJump();//start charging
             }
 
-            jumpCharge = Mathf.Clamp01(jumpCharge += Time.fixedDeltaTime);
+            jumpCharge = Mathf.Clamp01(jumpCharge += Time.fixedDeltaTime * 1.1f);
             if (jumpCharge > .9f && !jumpCharged)
             {
                 ChargedJump();
@@ -290,7 +291,7 @@ public class PlayerMovement : MonoBehaviour
         animScript.ReleaseJump(false);//not boosting effect
 
 
-        if (currentState == PlayerState.Climb)//end climb state
+        if (currentState == PlayerState.Climb || currentState == PlayerState.PowerSocket)//end climb state
         {
 
             timeFromClimb = Time.time + .4f;
@@ -365,7 +366,7 @@ public class PlayerMovement : MonoBehaviour
         powerSocket = newSocket;
         powerSocket.SetPowered();
 
-        rigidBody.linearDamping = 4;
+        rigidBody.linearDamping = 6;
         rigidBody.angularDamping = defaultAngularDrag;
 
 
@@ -382,9 +383,11 @@ public class PlayerMovement : MonoBehaviour
             SetMove();
             return;
         }
+        powerSocket.SetPlayerInput(inputScript.GetRawAxis);
+
         Vector2 dir = socketTrans.position - transform.position;
         float moveStrength = Mathf.InverseLerp(0, .2f, dir.magnitude);
-        rigidBody.AddForce(dir.normalized * 20 * moveStrength);
+        rigidBody.AddForce(dir.normalized * 40 * moveStrength);
 
         Vector2 moveAxis = chargingJump ? Vector2.zero : inputScript.GetRawAxis;
 
