@@ -11,4 +11,9 @@ public class IPowerObject : MonoBehaviour
     {
 
     }
+
+    public virtual void UpdatePowerLevel(float powerLevel)
+    {
+
+    }
 }

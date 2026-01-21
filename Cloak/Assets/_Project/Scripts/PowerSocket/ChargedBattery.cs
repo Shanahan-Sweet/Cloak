@@ -5,7 +5,7 @@ public class ChargedBattery : IPowerObject
 {
 
     [SerializeField] List<IPowerObject> powerObjects = new List<IPowerObject>();
-
+    [SerializeField] List<PowerLevelDisplay> powerLevelDisplay = new List<PowerLevelDisplay>();
     int currentCharge = 0;
     [SerializeField] int maxCharge = 5;
 
@@ -30,19 +30,32 @@ public class ChargedBattery : IPowerObject
         {
             powerObject.SetPowerState(true);
         }
+
+        foreach (PowerLevelDisplay powerDisplay in powerLevelDisplay)//update power level displays
+        {
+            powerDisplay.UpdatePowerLevel(1);
+
+        }
     }
 
 
     void StartLosingPower()//start counting down
     {
-        InvokeRepeating(nameof(LosePower), 5, 5);
+        InvokeRepeating(nameof(LosePower), 1, 1);
     }
     void LosePower()//count down
     {
         currentCharge--;
+        float powerPercent = (float)currentCharge / maxCharge;
+        print(powerPercent);
+        foreach (PowerLevelDisplay powerDisplay in powerLevelDisplay)//update power level displays
+        {
+            powerDisplay.UpdatePowerLevel(powerPercent);
+        }
+
         if (currentCharge <= 0)
         {
-            CancelInvoke(nameof(StartLosingPower));
+            CancelInvoke(nameof(LosePower));
             PowerDown();
         }
     }
