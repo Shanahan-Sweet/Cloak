@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -33,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
     //boost
     Vector2 boostDirection;
     float boostT;
+
+    //water currents
+    [SerializeField] CurrentDetection currentDetection;
 
     //Power Socket
     Transform socketTrans;
@@ -83,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBody.linearDamping = defaultDrag; //wallDetected ? wallDrag : defaultDrag;
         rigidBody.angularDamping = defaultAngularDrag;
 
-        EndPoweredState();
+        ChangeState(true, true);
     }
 
     void MoveFloatFixed()
@@ -148,7 +152,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBody.linearDamping = 8;
         rigidBody.angularDamping = 3;
 
-        EndPoweredState();
+        ChangeState(true, false);
     }
     void MoveClimbFixed()
     {
@@ -175,7 +179,7 @@ public class PlayerMovement : MonoBehaviour
     {
         boostT = Time.time + .75f;
         currentState = PlayerState.Boost;
-        EndPoweredState();
+        ChangeState(true, true);
         boostDirection = dir;
         //animScript.SetBoost();
         rigidBody.linearDamping = 1;//drag
@@ -331,8 +335,8 @@ public class PlayerMovement : MonoBehaviour
     {
         currentState = PlayerState.Stun;
         stateTimer = Time.time + stunDuration;
-        EndPoweredState();
-
+        //EndPoweredState();
+        ChangeState(true, true);
         rigidBody.linearDamping = defaultDrag;
         rigidBody.angularDamping = defaultAngularDrag;
 
@@ -362,6 +366,7 @@ public class PlayerMovement : MonoBehaviour
     void SetPowerSocket(PowerSocket newSocket, Transform newSocketTrans)
     {
         currentState = PlayerState.PowerSocket;
+        ChangeState(false, true);
         socketTrans = newSocketTrans;
         powerSocket = newSocket;
         powerSocket.SetPowered();
@@ -405,6 +410,12 @@ public class PlayerMovement : MonoBehaviour
         powerSocket = null;
     }
 
+    void ChangeState(bool endPower, bool currentCollision)
+    {
+        if (endPower) EndPoweredState();
+
+        //currentDetection.ChangeCollisionState(currentCollision);//collision with water currents
+    }
 
 
 
