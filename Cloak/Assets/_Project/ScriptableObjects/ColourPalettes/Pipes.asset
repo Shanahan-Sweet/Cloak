@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfb77976e2a7eb418de411a3852f723, type: 3}
+  m_Name: Pipes
+  m_EditorClassIdentifier: 
+  palette:
+    darkCol: {r: 0.007843138, g: 0, b: 0.03773582, a: 1}
+    ambientLightCol: {r: 0.1030244, g: 0.06760976, b: 0.132, a: 1}
+    highlightCol: {r: 0.2053481, g: 0.14127272, b: 0.259, a: 1}
+    backWallCol: {r: 0.1305408, g: 0.093576476, b: 0.16078432, a: 1}
+    fogCol: {r: 0.39084783, g: 0.3758152, b: 0.461, a: 1}
+    noiseCol: {r: 0.31132078, g: 0.12188502, b: 0.19292343, a: 1}
