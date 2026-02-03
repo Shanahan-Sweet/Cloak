@@ -35,9 +35,6 @@ public class PlayerMovement : MonoBehaviour
     Vector2 boostDirection;
     float boostT;
 
-    //water currents
-    [SerializeField] CurrentDetection currentDetection;
-
     //Power Socket
     Transform socketTrans;
     PowerSocket powerSocket;
@@ -47,11 +44,14 @@ public class PlayerMovement : MonoBehaviour
     PlayerAnimation animScript;
     Rigidbody2D rigidBody;
 
+    CurrentDetection currentDetection;
+
     void Awake()
     {
         inputScript = GetComponent<PlayerInput>();
         animScript = GetComponent<PlayerAnimation>();
         rigidBody = GetComponent<Rigidbody2D>();
+        currentDetection = GetComponent<CurrentDetection>();
         defaultDrag = rigidBody.linearDamping;
         defaultAngularDrag = rigidBody.angularDamping;
     }
@@ -414,7 +414,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (endPower) EndPoweredState();
 
-        //currentDetection.ChangeCollisionState(currentCollision);//collision with water currents
+        currentDetection.ChangeCollisionState(currentCollision);//collision with water currents
     }
 
 

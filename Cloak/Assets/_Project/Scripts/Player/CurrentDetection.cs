@@ -3,20 +3,42 @@ using UnityEngine;
 
 public class CurrentDetection : MonoBehaviour
 {
-    [SerializeField] Collider2D myCollider;
-    List<Collider2D> waterCurrents = new List<Collider2D>();
+    List<WaterCurrent> waterCurrents = new List<WaterCurrent>();
 
     bool collideWithCurrents = true;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
 
+    float currentForceMultiplier = 1;
+
+    Rigidbody2D rigidBody;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Awake()
+    {
+        rigidBody = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    // Fixed Update
+    void FixedUpdate()
     {
+        if (currentForceMultiplier == 0) return;
 
+        Vector2 forceDir = Vector2.zero;
+        float maxForce = 0;
+        foreach (WaterCurrent col in waterCurrents)
+        {
+            forceDir += col.CurrentVelocity;
+            maxForce = Mathf.Max(maxForce, col.CurrentVelocity.magnitude);
+        }
+
+        if (forceDir.magnitude > maxForce)
+        {
+            forceDir.Normalize();
+            forceDir *= maxForce;
+        }
+
+        if (forceDir.magnitude == 0) return;//no force
+
+        rigidBody.AddForce(forceDir * currentForceMultiplier);//add current force
     }
 
     public void ChangeCollisionState(bool allowCollisions)
@@ -24,41 +46,22 @@ public class CurrentDetection : MonoBehaviour
         if (collideWithCurrents == allowCollisions) return;//no change
         collideWithCurrents = allowCollisions;
 
-        print("waterCurrents:" + waterCurrents.Count);
-
-        if (collideWithCurrents)//enable collisions
-        {
-            foreach (Collider2D col in waterCurrents)
-            {
-                Physics2D.IgnoreCollision(col, myCollider, false);
-            }
-            return;
-        }
-
-        //ignore collisions
-        foreach (Collider2D col in waterCurrents)
-        {
-            Physics2D.IgnoreCollision(col, myCollider, true);
-        }
+        currentForceMultiplier = allowCollisions ? 1 : 0;
     }
 
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        waterCurrents.Add(collision);
-        if (!collideWithCurrents)
-        {
-            Physics2D.IgnoreCollision(collision, myCollider, true);
-        }
+        if (!collision.TryGetComponent(out WaterCurrent current)) return;
+        waterCurrents.Add(current);
+
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        waterCurrents.Remove(collision);
+        if (!collision.TryGetComponent(out WaterCurrent current)) return;
+        waterCurrents.Remove(current);
 
-        if (!collideWithCurrents)
-        {
-            Physics2D.IgnoreCollision(collision, myCollider, false);
-        }
     }
 }
