@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] float moveForce = 1, jumpSpd = 2, boostImpulseForce = 4, boostForce;// smallImpulseForce = .5f, 
     bool holdingJump, chargingJump = false, jumpCharged;
-    float chargeDrag = 1.8f;
+    float chargeDrag = 2.2f;//1.8f;
     float jumpCharge = 0;
 
 
@@ -182,7 +182,7 @@ public class PlayerMovement : MonoBehaviour
         ChangeState(true, true);
         boostDirection = dir;
         //animScript.SetBoost();
-        rigidBody.linearDamping = 1;//drag
+        rigidBody.linearDamping = 1.5f;//drag
         rigidBody.angularDamping = defaultAngularDrag;
 
         rigidBody.AddForce(inputScript.GetRawAxis * boostImpulseForce, ForceMode2D.Impulse);

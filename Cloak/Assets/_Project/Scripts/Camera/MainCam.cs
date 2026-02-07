@@ -21,6 +21,22 @@ public class MainCam : MonoBehaviour
     [SerializeField] Image screenCover;
     public Camera MainCamera;
 
+
+    //level manager
+    LevelManager lManager;
+    LevelManager LevelManagerInst
+    {
+        get
+        {
+            if (lManager == null)
+            {
+                lManager = LevelManager.instance;
+            }
+
+            return lManager;
+        }
+    }
+
     //static reference
     public static MainCam instance;
 
@@ -55,6 +71,12 @@ public class MainCam : MonoBehaviour
             }
 
             targetPos = meanPos / count;//get mean position
+        }
+
+        if (LevelManagerInst != null)
+        {
+            targetPos = new Vector2(Mathf.Clamp(targetPos.x, LevelManagerInst.LevelWidth.x, LevelManagerInst.LevelWidth.y),
+            Mathf.Clamp(targetPos.y, LevelManagerInst.LevelHeight.y, LevelManagerInst.LevelHeight.x));
         }
 
         //if (!isPaused)
