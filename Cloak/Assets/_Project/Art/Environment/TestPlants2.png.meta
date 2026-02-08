@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: ce4b8d2aa5ac5f944a35e82fee01858b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8096817247703312271
+    second: TestPlants2_0
+  - first:
+      213: -2575034410231477431
+    second: TestPlants2_1
+  - first:
+      213: -4920978258740967045
+    second: TestPlants2_2
+  - first:
+      213: 718765117159576420
+    second: TestPlants2_3
+  - first:
+      213: -6427756809481706611
+    second: TestPlants2_4
+  - first:
+      213: 8954849621151378243
+    second: TestPlants2_5
+  - first:
+      213: -6730931643197501309
+    second: TestPlants2_6
+  - first:
+      213: -5796479656590367347
+    second: TestPlants2_7
+  - first:
+      213: 1998120327453388784
+    second: TestPlants2_8
+  - first:
+      213: -6947941554583092693
+    second: TestPlants2_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TestPlants2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 402
+        width: 258
+        height: 295
+      alignment: 9
+      pivot: {x: 0.48271903, y: 0.040550206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178536bac9352af80800000000000000
+      internalID: -8096817247703312271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 413
+        width: 72
+        height: 239
+      alignment: 9
+      pivot: {x: 0.43807685, y: 0.022439359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bceb5d8d3a34cd0800000000000000
+      internalID: -2575034410231477431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 415
+        width: 71
+        height: 271
+      alignment: 9
+      pivot: {x: 0.93956786, y: 0.02947435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79035c985c25bbb0800000000000000
+      internalID: -4920978258740967045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_3
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 418
+        width: 63
+        height: 257
+      alignment: 9
+      pivot: {x: 0.16030641, y: 0.031599704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4631d3dd01199f900800000000000000
+      internalID: 718765117159576420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 416
+        width: 48
+        height: 244
+      alignment: 9
+      pivot: {x: 0.48142242, y: 0.021261998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83ae3ccc350cc6a0800000000000000
+      internalID: -6427756809481706611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 410
+        width: 102
+        height: 239
+      alignment: 9
+      pivot: {x: 0.036667768, y: 0.022439359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34be4cd1944064c70800000000000000
+      internalID: 8954849621151378243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_6
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 423
+        width: 33
+        height: 256
+      alignment: 9
+      pivot: {x: 0.22978811, y: 0.029770017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380d6cf155de692a0800000000000000
+      internalID: -6730931643197501309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_7
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 420
+        width: 41
+        height: 264
+      alignment: 9
+      pivot: {x: 0.10852349, y: 0.016998291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d852721a674ce8fa0800000000000000
+      internalID: -5796479656590367347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_8
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 424
+        width: 159
+        height: 263
+      alignment: 9
+      pivot: {x: 0.10742955, y: 0.035504706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffa850f9dfbabb10800000000000000
+      internalID: 1998120327453388784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_9
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 417
+        width: 134
+        height: 264
+      alignment: 9
+      pivot: {x: 0.36691058, y: 0.033886533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2246e6c7f3f39f90800000000000000
+      internalID: -6947941554583092693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f24837e35942eff438357d5a88f6627a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TestPlants2_0: -8096817247703312271
+      TestPlants2_1: -2575034410231477431
+      TestPlants2_2: -4920978258740967045
+      TestPlants2_3: 718765117159576420
+      TestPlants2_4: -6427756809481706611
+      TestPlants2_5: 8954849621151378243
+      TestPlants2_6: -6730931643197501309
+      TestPlants2_7: -5796479656590367347
+      TestPlants2_8: 1998120327453388784
+      TestPlants2_9: -6947941554583092693
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
