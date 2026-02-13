@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,7 @@ TextureImporter:
         width: 793
         height: 605
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -117,6 +117,94 @@ TextureImporter:
       bones: []
       spriteID: 3bbaf48faedc89b30800000000000000
       internalID: 4294408653769780147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Test Art 1_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 511
+        width: 161
+        height: 456
+      alignment: 9
+      pivot: {x: 0.46577084, y: 0.9411146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37834f0c90670414cb0618c65ecf3285
+      internalID: 1532603095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Test Art 1_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 652
+        width: 92
+        height: 221
+      alignment: 9
+      pivot: {x: 0.63477755, y: 0.05738216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92b15089c8f503488255608f5b17ee2
+      internalID: 1184458762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Test Art 1_3
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 745
+        width: 129
+        height: 265
+      alignment: 9
+      pivot: {x: 0.47864053, y: 0.9471118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913d104de0ac25c48ad4c3fef34fc034
+      internalID: 611537796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Test Art 1_4
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 815
+        width: 95
+        height: 176
+      alignment: 9
+      pivot: {x: 0.64502466, y: 0.08511699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5b6004b046ba24ab5c391412f007fc
+      internalID: 1112606177
       vertices: []
       indices: 
       edges: []
@@ -136,6 +224,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Test Art 1_0: 4294408653769780147
+      Test Art 1_1: 1532603095
+      Test Art 1_2: 1184458762
+      Test Art 1_3: 611537796
+      Test Art 1_4: 1112606177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 1
   userData: 
