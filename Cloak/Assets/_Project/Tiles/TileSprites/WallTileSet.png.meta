@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 250
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,12 +103,12 @@ TextureImporter:
       name: WallTileSet_0
       rect:
         serializedVersion: 2
-        x: 13
+        x: 7
         y: 1986
-        width: 132
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 138
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.47482017}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -128,9 +128,9 @@ TextureImporter:
         x: 167
         y: 1986
         width: 131
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 139
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.47482017}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,9 +150,9 @@ TextureImporter:
         x: 318
         y: 1986
         width: 131
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5038168, y: 0.47482017}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,10 +171,10 @@ TextureImporter:
         serializedVersion: 2
         x: 471
         y: 1986
-        width: 132
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 138
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.47482017}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: WallTileSet_4
       rect:
         serializedVersion: 2
-        x: 13
+        x: 7
         y: 1835
-        width: 132
+        width: 138
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,7 +218,7 @@ TextureImporter:
         width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,7 +240,7 @@ TextureImporter:
         width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,10 +259,10 @@ TextureImporter:
         serializedVersion: 2
         x: 471
         y: 1835
-        width: 132
+        width: 138
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,12 +279,12 @@ TextureImporter:
       name: WallTileSet_8
       rect:
         serializedVersion: 2
-        x: 13
+        x: 7
         y: 1683
-        width: 132
+        width: 138
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,7 +306,7 @@ TextureImporter:
         width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,7 +328,7 @@ TextureImporter:
         width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,10 +347,10 @@ TextureImporter:
         serializedVersion: 2
         x: 471
         y: 1683
-        width: 132
+        width: 138
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,12 +367,12 @@ TextureImporter:
       name: WallTileSet_12
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1529
-        width: 132
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 1523
+        width: 138
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.5289855}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,11 +390,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 167
-        y: 1529
+        y: 1523
         width: 131
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.5289855}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,11 +412,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 318
-        y: 1529
+        y: 1523
         width: 131
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5038168, y: 0.5289855}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,11 +434,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 471
-        y: 1529
-        width: 132
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1523
+        width: 138
+        height: 138
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.5289855}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,8 +459,8 @@ TextureImporter:
         y: 1371
         width: 138
         height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -482,7 +482,7 @@ TextureImporter:
         width: 130
         height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -504,7 +504,7 @@ TextureImporter:
         width: 130
         height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -525,8 +525,8 @@ TextureImporter:
         y: 1371
         width: 138
         height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -547,8 +547,8 @@ TextureImporter:
         y: 1227
         width: 146
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4710145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -570,7 +570,7 @@ TextureImporter:
         width: 146
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -592,7 +592,7 @@ TextureImporter:
         width: 146
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -613,8 +613,8 @@ TextureImporter:
         y: 1219
         width: 146
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5289855}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -632,11 +632,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 1067
+        y: 1066
         width: 130
-        height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5323741}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -655,10 +655,10 @@ TextureImporter:
         serializedVersion: 2
         x: 167
         y: 1075
-        width: 130
+        width: 131
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.4710145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -675,12 +675,12 @@ TextureImporter:
       name: WallTileSet_26
       rect:
         serializedVersion: 2
-        x: 319
+        x: 318
         y: 1075
-        width: 138
+        width: 139
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.47482017, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -701,8 +701,8 @@ TextureImporter:
         y: 1075
         width: 138
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -724,7 +724,7 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -743,10 +743,10 @@ TextureImporter:
         serializedVersion: 2
         x: 167
         y: 923
-        width: 130
+        width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -763,12 +763,12 @@ TextureImporter:
       name: WallTileSet_30
       rect:
         serializedVersion: 2
-        x: 319
+        x: 318
         y: 923
-        width: 130
+        width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -790,7 +790,7 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -810,9 +810,9 @@ TextureImporter:
         x: 15
         y: 771
         width: 130
-        height: 130
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -831,10 +831,10 @@ TextureImporter:
         serializedVersion: 2
         x: 167
         y: 771
-        width: 130
-        height: 130
+        width: 131
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -851,12 +851,12 @@ TextureImporter:
       name: WallTileSet_34
       rect:
         serializedVersion: 2
-        x: 319
+        x: 318
         y: 771
-        width: 130
-        height: 130
+        width: 131
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -876,9 +876,9 @@ TextureImporter:
         x: 471
         y: 771
         width: 130
-        height: 130
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -900,7 +900,7 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -919,10 +919,10 @@ TextureImporter:
         serializedVersion: 2
         x: 167
         y: 619
-        width: 130
+        width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -939,12 +939,12 @@ TextureImporter:
       name: WallTileSet_38
       rect:
         serializedVersion: 2
-        x: 316
-        y: 617
-        width: 135
-        height: 134
+        x: 311
+        y: 611
+        width: 146
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -966,7 +966,7 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -987,8 +987,8 @@ TextureImporter:
         y: 467
         width: 138
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.4710145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1009,8 +1009,8 @@ TextureImporter:
         y: 467
         width: 138
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.4710145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1027,12 +1027,12 @@ TextureImporter:
       name: WallTileSet_42
       rect:
         serializedVersion: 2
-        x: 319
+        x: 318
         y: 458
-        width: 138
+        width: 139
         height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.47482017, y: 0.5323741}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1053,8 +1053,8 @@ TextureImporter:
         y: 458
         width: 138
         height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.5323741}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1075,8 +1075,8 @@ TextureImporter:
         y: 307
         width: 130
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5289855}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1095,10 +1095,10 @@ TextureImporter:
         serializedVersion: 2
         x: 167
         y: 315
-        width: 130
+        width: 131
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.4710145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1115,12 +1115,12 @@ TextureImporter:
       name: WallTileSet_46
       rect:
         serializedVersion: 2
-        x: 319
+        x: 318
         y: 315
-        width: 138
+        width: 139
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.47482017, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1141,8 +1141,8 @@ TextureImporter:
         y: 315
         width: 138
         height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1163,8 +1163,8 @@ TextureImporter:
         y: 155
         width: 130
         height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52517986}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1183,10 +1183,10 @@ TextureImporter:
         serializedVersion: 2
         x: 167
         y: 163
-        width: 130
+        width: 131
         height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.4710145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1203,12 +1203,12 @@ TextureImporter:
       name: WallTileSet_50
       rect:
         serializedVersion: 2
-        x: 319
+        x: 318
         y: 163
-        width: 138
+        width: 139
         height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.47482017, y: 0.49618322}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1229,8 +1229,8 @@ TextureImporter:
         y: 163
         width: 138
         height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.49618322}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1252,7 +1252,7 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1271,10 +1271,10 @@ TextureImporter:
         serializedVersion: 2
         x: 167
         y: 11
-        width: 130
+        width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1291,12 +1291,12 @@ TextureImporter:
       name: WallTileSet_54
       rect:
         serializedVersion: 2
-        x: 319
+        x: 318
         y: 11
-        width: 130
+        width: 131
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1318,7 +1318,7 @@ TextureImporter:
         width: 130
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
