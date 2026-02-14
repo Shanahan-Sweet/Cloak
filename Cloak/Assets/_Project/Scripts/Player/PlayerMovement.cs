@@ -43,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
     PlayerInput inputScript;
     PlayerAnimation animScript;
     Rigidbody2D rigidBody;
+    CapsuleCollider2D capCollider;
+    Vector2 colliderScale;
 
     CurrentDetection currentDetection;
 
@@ -54,6 +56,9 @@ public class PlayerMovement : MonoBehaviour
         currentDetection = GetComponent<CurrentDetection>();
         defaultDrag = rigidBody.linearDamping;
         defaultAngularDrag = rigidBody.angularDamping;
+
+        capCollider = GetComponent<CapsuleCollider2D>();
+        colliderScale = capCollider.size;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -181,6 +186,7 @@ public class PlayerMovement : MonoBehaviour
         currentState = PlayerState.Boost;
         ChangeState(true, true);
         boostDirection = dir;
+
         //animScript.SetBoost();
         rigidBody.linearDamping = 1.5f;//drag
         rigidBody.angularDamping = defaultAngularDrag;
@@ -205,6 +211,7 @@ public class PlayerMovement : MonoBehaviour
         bool checkClimb = Time.time > boostT - .3f && inputScript.GetRawAxis.magnitude > .5f;//is holding direction
         if (checkClimb && Physics2D.OverlapCircle(transform.position, .1f, climbSurfaceMask))//cancel boost
         {
+            capCollider.size = colliderScale;//reset collider size
             SetClimb();
             rigidBody.AddTorque(Mathf.Sign(Random.Range(-1, 1)) * .1f, ForceMode2D.Impulse);//spin when grabbing surface
             animScript.EndBoost();
@@ -214,6 +221,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (boostT < Time.time + (holdingJump ? .5f : 0))//end boost
         {
+            capCollider.size = colliderScale;//reset collider size
             animScript.EndBoost();
             SetMove();
         }
@@ -261,6 +269,7 @@ public class PlayerMovement : MonoBehaviour
     public void ChargedJump()
     {
         jumpCharged = true;
+        capCollider.size = new Vector2(.4f, .4f);
         //effects
         animScript.ChargeJump();
 
@@ -272,6 +281,7 @@ public class PlayerMovement : MonoBehaviour
     {
         jumpCharged = false;
         chargingJump = false;
+        capCollider.size = colliderScale;//reset collider size
     }
 
     public void Jump(bool charged)
@@ -299,6 +309,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             timeFromClimb = Time.time + .4f;
+            CancelCharge();
             SetMove();
 
             Vector2 jumpDir2 = inputScript.GetRawAxis;
@@ -336,6 +347,8 @@ public class PlayerMovement : MonoBehaviour
         currentState = PlayerState.Stun;
         stateTimer = Time.time + stunDuration;
         //EndPoweredState();
+
+        CancelCharge();//reset
         ChangeState(true, true);
         rigidBody.linearDamping = defaultDrag;
         rigidBody.angularDamping = defaultAngularDrag;
