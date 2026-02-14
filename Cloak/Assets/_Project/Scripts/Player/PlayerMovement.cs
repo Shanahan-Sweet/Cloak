@@ -269,7 +269,7 @@ public class PlayerMovement : MonoBehaviour
     public void ChargedJump()
     {
         jumpCharged = true;
-        capCollider.size = new Vector2(.4f, .4f);
+        capCollider.size = new Vector2(.3f, .3f);
         //effects
         animScript.ChargeJump();
 
