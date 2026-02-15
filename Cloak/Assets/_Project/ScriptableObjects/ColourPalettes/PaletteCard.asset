@@ -14,10 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   palette:
     darkCol: {r: 0.019607844, g: 0, b: 0.14901961, a: 1}
-    ambientLightCol: {r: 0.11764706, g: 0.13725491, b: 0.32156864, a: 1}
-    highlightCol: {r: 1, g: 0.9411765, b: 0.6, a: 1}
-    sunlightCol: {r: 0.11952651, g: 0.13659489, b: 0.3207547, a: 1}
-    sunHighlightCol: {r: 1, g: 0.9424352, b: 0.5990566, a: 1}
+    outlineCol: {r: 0.029280886, g: 0.03916497, b: 0.13207549, a: 1}
+    wallCol: {r: 0.11764706, g: 0.13725491, b: 0.32156864, a: 1}
     backWallCol: {r: 0.17697582, g: 0.21208379, b: 0.38679248, a: 1}
     fogCol: {r: 0.6462264, g: 0.8020167, b: 1, a: 1}
     noiseCol: {r: 0.28627452, g: 0.18431373, b: 1, a: 1}

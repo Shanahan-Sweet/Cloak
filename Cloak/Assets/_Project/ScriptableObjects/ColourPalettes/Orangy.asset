@@ -15,9 +15,9 @@ MonoBehaviour:
   palette:
     darkCol: {r: 0.105882354, g: 0, b: 0.050980393, a: 1}
     ambientLightCol: {r: 0.39607844, g: 0.16078432, b: 0.14117648, a: 1}
+    outlineCol: {r: 0.2830189, g: 0.081434675, b: 0.09551945, a: 1}
     highlightCol: {r: 1, g: 0.49803922, b: 0.3647059, a: 1}
-    sunlightCol: {r: 0.3962264, g: 0.16181263, b: 0.14017443, a: 1}
-    sunHighlightCol: {r: 1, g: 0.4961782, b: 0.36320752, a: 1}
+    wallCol: {r: 0.39607844, g: 0.16078432, b: 0.14117648, a: 1}
     backWallCol: {r: 0.6313726, g: 0.2509804, b: 0.21960784, a: 1}
     fogCol: {r: 1, g: 0.37012166, b: 0.25, a: 1}
     noiseCol: {r: 1, g: 0.84079635, b: 0.5707547, a: 1}

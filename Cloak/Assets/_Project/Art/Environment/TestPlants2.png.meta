@@ -214,6 +214,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: TestPlants2_4
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 9
+        width: 176
+        height: 247
+      alignment: 9
+      pivot: {x: 0.48986712, y: 0.07039772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19334a3eb73a6be4aaa5e8403fa51f61
+      internalID: -6427756809481706611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestPlants2_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 217
+        height: 322
+      alignment: 9
+      pivot: {x: 0.4465804, y: 0.048613857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7b0f14fab717e408de35930b42a753
+      internalID: 8954849621151378243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
