@@ -14,6 +14,7 @@ public class LevelManager : MonoBehaviour
 
 
     [Header("Editor")]
+    [SerializeField] bool hideGlobalLight = true;
     [SerializeField] GameObject editorLight;
 
 
@@ -28,7 +29,7 @@ public class LevelManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (editorLight != null) Destroy(editorLight);
+        if (hideGlobalLight && editorLight != null) Destroy(editorLight);
     }
 
     // Update is called once per frame
