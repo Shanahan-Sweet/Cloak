@@ -42,6 +42,9 @@ TagManager:
   - name: Background
     uniqueID: 3544939339
     locked: 0
+  - name: LowerDetails
+    uniqueID: 306571267
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -56,6 +59,9 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 871546077
+    locked: 0
+  - name: TopDetails
+    uniqueID: 2533038173
     locked: 0
   - name: Effects
     uniqueID: 473003855
